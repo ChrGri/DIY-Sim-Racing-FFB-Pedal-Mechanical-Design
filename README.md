@@ -2,7 +2,8 @@
 
 
 # Overview
-![DiyFfbPedalAssembly v40](https://github.com/user-attachments/assets/1ae5f71a-5aaa-4afb-881e-3f1bc7ac7ce3)
+![DiyFfbPedalAssembly v41](https://github.com/user-attachments/assets/d86af59c-53b5-48bd-a27d-0b5fcc468f95)
+
 
 
 # BOM
