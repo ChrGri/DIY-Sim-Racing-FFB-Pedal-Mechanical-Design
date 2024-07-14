@@ -48,3 +48,16 @@ Mount iSV57 to linear guide:<br>
 
 # List of printed parts
 
+# Used design files
+Linear guide <br>
+https://grabcad.com/library/sgx-linear-module-1
+
+608zz
+
+iSV57
+
+SK08
+
+
+
+
