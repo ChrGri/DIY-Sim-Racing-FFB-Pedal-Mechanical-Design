@@ -32,6 +32,17 @@ Mount 608zz adapter to 2080 profile: <br>
 2x printed "608zzHolder" <br>
 2x 608zz bearing <br>
 M8x100 rod <br>
+4x M5x10mm
+
+
+Mount SK08 to linear guide:<br>
+4x M4x20mm<br>
+2x SK08<br>
+
+Mount iSV57 to linear guide:<br>
+4x M4x15mm
+
+
 
 
 # List of printed parts
