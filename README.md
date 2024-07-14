@@ -9,9 +9,12 @@
 # BOM
 4x SK08
 
-Linear guide with SFU1610
+Linear guide with SFU1610, 100mm stroke <br>
+https://a.aliexpress.com/_EJWoX55
 
-iSV57 130W
+iSV57T-130S (shorter version is prefered, if the longer version is cheaper, buy this and cut wig metal handsaw) <br>
+
+https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s
 
 2x 608ZZ bearing
 
