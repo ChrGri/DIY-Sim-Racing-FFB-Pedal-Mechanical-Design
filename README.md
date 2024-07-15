@@ -2,7 +2,7 @@
 
 
 # Motivation
-Originally, I built my DIY FFB pedal from metal parts. After using it some time, I wanted to know, whether I can come up with a mechanical design that can be mostly 3d printed and is still rigid enough to withstand the heavy loads accuring in simracing. This repo documents the journey of doing that 
+Originally, I built my DIY FFB pedal from metal parts. After using it some time, I wanted to know, whether I can come up with a mechanical design that can be mostly 3d printed and is still rigid enough to withstand the heavy loads accuring in simracing. Furthermore, I wanted to reduce the weight of the components, hopefully seeing a positive impact in the pedal response time. This repo documents the journey of doing that 
 
 # Problem
 Usually metal is much stronger than plastic and FDM 3d printed parts are weaker than injection molded counterparts. 
