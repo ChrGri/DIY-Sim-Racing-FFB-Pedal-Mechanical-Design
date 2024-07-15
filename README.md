@@ -59,11 +59,15 @@ Mount iSV57 to linear guide:<br>
 Linear guide <br>
 https://grabcad.com/library/sgx-linear-module-1
 
-608zz
+608zz <br>
+https://grabcad.com/library/608-skate-board-bearing-1
 
-iSV57
+iSV57 <br>
+https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s
 
 SK08
+
+2080
 
 
 
