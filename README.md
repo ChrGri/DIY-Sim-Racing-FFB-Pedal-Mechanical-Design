@@ -36,7 +36,11 @@ As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the ca
 
 
 # BOM
-4x SK08
+4x SK12 <br>
+https://amzn.eu/d/074hrmhx
+
+2x 608zz bearing <br>
+https://amzn.eu/d/03ZWQDCX
 
 Linear guide with SFU1610, 100mm stroke <br>
 https://a.aliexpress.com/_EJWoX55
@@ -47,6 +51,22 @@ https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-
 
 2080 x 400mm profile <br>
 https://amzn.eu/d/08zlueLh
+
+200kg loadcell <br>
+https://amzn.eu/d/0eKiuk71
+
+2x M12 ball rod<br>
+https://amzn.eu/d/02ZegheX
+
+M8 threades bar (ca. 100mm length)
+
+M12 (two pieces a ca 40mm + two pieces a ca 80mm)
+
+2x M8 self locking nut
+
+4x M12 nut (regular, non locking)
+
+FDM filament 
 
 Screws/bolds, see assembly instructions
 
