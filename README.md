@@ -70,6 +70,10 @@ FDM filament
 
 Screws/bolds, see assembly instructions
 
+8x M5 T-nut <br>
+https://amzn.eu/d/0e2KYTZu
+
+
 # Assembly instructions
 
 Mount CNC guide to 2080 profile with:<br>
