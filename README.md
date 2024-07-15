@@ -102,12 +102,13 @@ Mount iSV57 to linear guide:<br>
 
 # List of printed parts
 
-
-
 2080 profile cap <br>
 https://makerworld.com/models/209499
 
-# Used design files
+# Print settings
+I printed with 5 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature.
+
+# CAD resources
 Linear guide <br>
 https://grabcad.com/library/sgx-linear-module-1
 
