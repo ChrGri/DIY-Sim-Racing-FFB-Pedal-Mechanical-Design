@@ -128,10 +128,14 @@ To reduce any play in the system, I wrapped some layers of [teflon wrap](https:/
 To test the mechanical design, following test were conducted:
 
 ## Strength test
-To be done! Perhaps FEM analysis
+To be done! 
+
+Perhaps FEM analysis
 
 ## Control loop test
 To be done!
+
+Compared to the stainless steel pedal plate, the pedal feels more responsive. Need to verify that by e.g. plotting the closed loop step response here.
 
 
 
