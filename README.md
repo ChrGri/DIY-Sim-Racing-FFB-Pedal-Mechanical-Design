@@ -141,6 +141,9 @@ https://grabcad.com/library/sk08-shaft-support-1
 2080 <br>
 https://grabcad.com/library/2080-aluminium-extrusion-european-standard-t6-1
 
+M12 female rod end <br>
+https://grabcad.com/library/female-rod-end-m12-1
+
 
 
 
