@@ -37,8 +37,6 @@ As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the ca
 
 # BOM
 
-
-
 | Part  | Info | Quantity | Link |
 | ------------- | ------------- | ------------- | ------------- |
 | SK12  | | 4 pieces  | https://amzn.eu/d/074hrmhx |
@@ -58,12 +56,39 @@ As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the ca
 Srews/bolds:
 
 | Size  | Info | Quantity | Link |
+| ------------- | ------------- | ------------- | ------------- |
 | M4x10mm  | | 8 pieces  |  |
 | M4x15mm  | | 8 pieces  |  |
 | M4x20mm  | | 8 pieces  |  |
 | M4x25mm  | | 4 pieces  |  |
 | M4x30mm  | | 8 pieces  |  |
 
+
+
+# List of printed parts
+
+The print orientation was choosen manually. Support was activated only for the part PedalArmLowerBar.stl.
+
+
+| Part  | Quantity | Required |
+| ------------- | ------------- | ------------- |
+| [608zzHolder](STL/608zzHolder.stl)  | 2  | yes |
+| [CncModuleHolder](STL/CncModuleHolder.stl)  | 2  | yes |
+| [CncModuleHolderLeft](STL/CncModuleHolderLeft.stl)  | 2  | yes |
+| [Faceplate](STL/Faceplate.stl)  | 1  | yes |
+| [PedalArmLeft](STL/PedalArmLeft.stl)  | 1  | yes |
+| [PedalArmRight](STL/PedalArmRight.stl)  | 1  | yes |
+| [PedalArmLowerBar](STL/PedalArmLowerBar.stl)  | 1  | yes |
+| [PedalArmUpperAdapter](STL/PedalArmUpperAdapter.stl)  | 1  | yes |
+| [PedalSideGuard](STL/PedalSideGuard.stl)  | 1  | no |
+
+
+To close the 2080 extrusion front/back, the following part was printed twice: <br>
+[2080 profile cap](https://makerworld.com/models/209499) 
+
+
+# Print settings
+I printed with 5 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature.
 
 
 # Assembly instructions
@@ -95,33 +120,10 @@ Mount iSV57 to linear guide:<br>
 
 
 
-
-# List of printed parts
-
-The print orientation was choosen manually. Support was activated only for the part PedalArmLowerBar.stl.
-
-
-| Part  | Quantity | Required |
-| ------------- | ------------- | ------------- |
-| [608zzHolder](STL/608zzHolder.stl)  | 2  | yes |
-| [CncModuleHolder](STL/CncModuleHolder.stl)  | 2  | yes |
-| [CncModuleHolderLeft](STL/CncModuleHolderLeft.stl)  | 2  | yes |
-| [Faceplate](STL/Faceplate.stl)  | 1  | yes |
-| [PedalArmLeft](STL/PedalArmLeft.stl)  | 1  | yes |
-| [PedalArmRight](STL/PedalArmRight.stl)  | 1  | yes |
-| [PedalArmLowerBar](STL/PedalArmLowerBar.stl)  | 1  | yes |
-| [PedalArmUpperAdapter](STL/PedalArmUpperAdapter.stl)  | 1  | yes |
-| [PedalSideGuard](STL/PedalSideGuard.stl)  | 1  | no |
-
-
-To close the 2080 extrusion front/back, the following part was printed twice: <br>
-[2080 profile cap](https://makerworld.com/models/209499) 
-
-# Print settings
-I printed with 5 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature.
-
 # Tips
 To reduce any play in the system, I wrapped some layers of [teflon wrap](https://amzn.eu/d/0cYW6pJp) around the threaded rods and pushed the 608zz bearings and ball rods over it.
+
+
 
 # CAD resources
 Linear guide <br>
