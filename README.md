@@ -137,6 +137,10 @@ To be done!
 
 Compared to the stainless steel pedal plate, the pedal feels more responsive. Need to verify that by e.g. plotting the closed loop step response here.
 
+Todo:  <br>
+1) Weight the parts/pedals.
+2) Draw dimensions
+3) Capture step respose
 
 
 
