@@ -36,42 +36,34 @@ As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the ca
 
 
 # BOM
-4x SK12 <br>
-https://amzn.eu/d/074hrmhx
 
-2x 608zz bearing <br>
-https://amzn.eu/d/03ZWQDCX
 
-Linear guide with SFU1610, 100mm stroke <br>
-https://a.aliexpress.com/_EJWoX55
 
-iSV57T-130S (shorter version is prefered, if the longer version is cheaper, buy this and cut wig metal handsaw) <br>
+| Part  | Info | Quantity | Link |
+| ------------- | ------------- | ------------- | ------------- |
+| SK12  | | 4 pieces  | https://amzn.eu/d/074hrmhx |
+| 608zz bearing  | | 2 pieces  | https://amzn.eu/d/074hrmhx |
+| Linear guide  | SFU1610, 100mm stroke | 1 piece  | https://a.aliexpress.com/_EJWoX55 |
+| iSV57T-130S  | shorter version is prefered, if the longer version is cheaper, buy this and cut wig metal handsaw | 1 piece  | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s |
+| 2080 profile  | 400mm lemngth | 1 piece  | https://amzn.eu/d/08zlueLh |
+| Loadcell  | 200kg | 1 piece  | https://amzn.eu/d/0eKiuk71 |
+| M12 ball end  |  | 2 piece  | https://amzn.eu/d/02ZegheX |
+| M8 threades bar  |  |  one piece ca. 100mm length | local hardware store |
+| M12 threades bar  |  | two pieces a ca 40mm + two pieces a ca 80mm  | local hardware store |
+| M8 self locking nut  |  | 2 pieces  | local hardware store |
+| M5 t-nut  |  | 8 pieces  | https://amzn.eu/d/0e2KYTZu |
+| FDM filament  |  | ca. 300g  | local hardware store |
 
-https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s
 
-2080 x 400mm profile <br>
-https://amzn.eu/d/08zlueLh
+Srews/bolds:
 
-200kg loadcell <br>
-https://amzn.eu/d/0eKiuk71
+| Size  | Info | Quantity | Link |
+| M4x10mm  | | 8 pieces  |  |
+| M4x15mm  | | 8 pieces  |  |
+| M4x20mm  | | 8 pieces  |  |
+| M4x25mm  | | 4 pieces  |  |
+| M4x30mm  | | 8 pieces  |  |
 
-2x M12 ball rod<br>
-https://amzn.eu/d/02ZegheX
-
-M8 threades bar (ca. 100mm length)
-
-M12 (two pieces a ca 40mm + two pieces a ca 80mm)
-
-2x M8 self locking nut
-
-4x M12 nut (regular, non locking)
-
-FDM filament 
-
-Screws/bolds, see assembly instructions
-
-8x M5 T-nut <br>
-https://amzn.eu/d/0e2KYTZu
 
 
 # Assembly instructions
@@ -105,6 +97,9 @@ Mount iSV57 to linear guide:<br>
 
 
 # List of printed parts
+
+The print orientation was choosen manually. Support was activated only for the part PedalArmLowerBar.stl.
+
 
 | Part  | Quantity | Required |
 | ------------- | ------------- | ------------- |
