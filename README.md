@@ -106,8 +106,21 @@ Mount iSV57 to linear guide:<br>
 
 # List of printed parts
 
-2080 profile cap <br>
-https://makerworld.com/models/209499
+| Part  | Quantity | Required |
+| ------------- | ------------- | ------------- |
+| [608zzHolder](STL/608zzHolder.stl)  | 2  | yes |
+| [CncModuleHolder](STL/CncModuleHolder.stl)  | 2  | yes |
+| [CncModuleHolderLeft](STL/CncModuleHolderLeft.stl)  | 2  | yes |
+| [Faceplate](STL/Faceplate.stl)  | 1  | yes |
+| [PedalArmLeft](STL/PedalArmLeft.stl)  | 1  | yes |
+| [PedalArmRight](STL/PedalArmRight.stl)  | 1  | yes |
+| [PedalArmLowerBar](STL/PedalArmLowerBar.stl)  | 1  | yes |
+| [PedalArmUpperAdapter](STL/PedalArmUpperAdapter.stl)  | 1  | yes |
+| [PedalSideGuard](STL/PedalSideGuard.stl)  | 1  | no |
+
+
+To close the 2080 extrusion front/back, the following part was printed twice: <br>
+[2080 profile cap](https://makerworld.com/models/209499) 
 
 # Print settings
 I printed with 5 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature.
