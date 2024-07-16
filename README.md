@@ -28,8 +28,7 @@ As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the ca
 
 
 # Overview
-
-![DiyFfbPedalAssembly v54](https://github.com/user-attachments/assets/7e1d3fea-c27f-4723-a1e8-4d20dbfe8602)
+![DiyFfbPedalAssembly v61](https://github.com/user-attachments/assets/ff3d5a59-00e8-488b-b15c-57f9eda3aeae)
 
 
 
