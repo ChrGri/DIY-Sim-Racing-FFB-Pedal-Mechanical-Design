@@ -27,10 +27,9 @@ As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the ca
 
 
 
+
 # Overview
-![DiyFfbPedalAssembly v61](https://github.com/user-attachments/assets/ff3d5a59-00e8-488b-b15c-57f9eda3aeae)
-
-
+![DiyFfbPedalAssembly v61](https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7)
 
 
 
@@ -44,7 +43,7 @@ As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the ca
 | iSV57T-130S  | shorter version is prefered, if the longer version is cheaper, buy this and cut wig metal handsaw | 1 piece  | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s |
 | 2080 profile  | 400mm lemngth | 1 piece  | https://amzn.eu/d/08zlueLh |
 | Loadcell  | 200kg | 1 piece  | https://amzn.eu/d/0eKiuk71 |
-| M12 ball end  |  | 2 piece  | https://amzn.eu/d/02ZegheX |
+| M12 ball joint  |  | 2 piece  | https://amzn.eu/d/02ZegheX |
 | M8 threades bar  |  |  one piece ca. 100mm length | local hardware store |
 | M12 threades bar  |  | two pieces a ca 40mm + two pieces a ca 80mm  | local hardware store |
 | M8 self locking nut  |  | 2 pieces  | local hardware store |
@@ -124,6 +123,29 @@ To reduce any play in the system, I wrapped some layers of [teflon wrap](https:/
 
 
 
+
+# Analysis results
+To test the mechanical design, following test were conducted:
+
+## Strength test
+To be done! 
+
+Perhaps FEM analysis
+
+## Control loop test
+To be done!
+
+Compared to the stainless steel pedal plate, the pedal feels more responsive. Need to verify that by e.g. plotting the closed loop step response here.
+
+Todo:  <br>
+1) Weight the parts/pedals.
+2) Draw dimensions
+3) Capture step respose
+
+
+
+
+
 # CAD resources
 Linear guide <br>
 https://grabcad.com/library/sgx-linear-module-1
@@ -142,6 +164,9 @@ https://grabcad.com/library/2080-aluminium-extrusion-european-standard-t6-1
 
 M12 female rod end <br>
 https://grabcad.com/library/female-rod-end-m12-1
+
+Loadcell  <br>
+https://grabcad.com/library/m12-threaded-s-type-tension-compression-load-cell-1000kg-1
 
 
 
