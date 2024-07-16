@@ -44,7 +44,7 @@ As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the ca
 | iSV57T-130S  | shorter version is prefered, if the longer version is cheaper, buy this and cut wig metal handsaw | 1 piece  | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s |
 | 2080 profile  | 400mm lemngth | 1 piece  | https://amzn.eu/d/08zlueLh |
 | Loadcell  | 200kg | 1 piece  | https://amzn.eu/d/0eKiuk71 |
-| M12 ball end  |  | 2 piece  | https://amzn.eu/d/02ZegheX |
+| M12 ball joint  |  | 2 piece  | https://amzn.eu/d/02ZegheX |
 | M8 threades bar  |  |  one piece ca. 100mm length | local hardware store |
 | M12 threades bar  |  | two pieces a ca 40mm + two pieces a ca 80mm  | local hardware store |
 | M8 self locking nut  |  | 2 pieces  | local hardware store |
@@ -142,6 +142,9 @@ https://grabcad.com/library/2080-aluminium-extrusion-european-standard-t6-1
 
 M12 female rod end <br>
 https://grabcad.com/library/female-rod-end-m12-1
+
+Loadcell  <br>
+https://grabcad.com/library/m12-threaded-s-type-tension-compression-load-cell-1000kg-1
 
 
 
