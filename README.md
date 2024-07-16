@@ -2,13 +2,13 @@
 
 
 # Motivation
-Originally, I built my DIY FFB pedal from metal parts. After using it some time, I wanted to know, whether I can come up with a mechanical design that can be mostly 3d printed and is still rigid enough to withstand the heavy loads accuring in simracing. Furthermore, I wanted to reduce the weight of the components, hopefully seeing a positive impact in the pedal response time. This repo documents the journey of doing that 
+Originally, I built my DIY FFB pedal from metal parts. After using it some time, I got curious whether I can come up with a mechanical design that can be mostly 3d printed and is still rigid enough to withstand the heavy loads accuring in simracing. Furthermore, I wanted to reduce the weight of the components, hopefully seeing a positive impact in the pedal response time. This repo documents the journey of doing that.
 
 # Problem
 Usually metal is much stronger than plastic and FDM 3d printed parts are weaker than injection molded counterparts. 
 
 # Solution
-Create a mechanical design, which takes into account the weaknesses of using FDM 3d printed pedal parts. 
+Create a mechanical design, which takes into account the weaknesses of using FDM 3d printed pedal parts and make them strong at weak spots.
 
 Here is a description of the design choices:
 
@@ -22,7 +22,7 @@ The loadcell joints are from off-the-shelf SK12 shaft supports. They are easy to
 
 The pedal arms have a certain width to it, to reduce flex, when pedal force is applied off-centre.
 
-As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the carbon fibre particales make the parts supper stiff and the PETG gives good layer bonding while having a better heat resistance than PLA.
+As a FDM material I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the carbon fibre particales make the parts supper stiff and the PETG gives good layer bonding while having a better heat resistance than PLA.
 
 
 
@@ -40,7 +40,7 @@ As a FDM material, I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the ca
 | SK12  | | 4 pieces  | https://amzn.eu/d/074hrmhx |
 | 608zz bearing  | | 2 pieces  | https://amzn.eu/d/074hrmhx |
 | Linear guide  | SFU1610, 100mm stroke | 1 piece  | https://a.aliexpress.com/_EJWoX55 |
-| iSV57T-130S  | shorter version is prefered, if the longer version is cheaper, buy this and cut wig metal handsaw | 1 piece  | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s |
+| iSV57T-130S  | shorter version is prefered. If the longer version is cheaper, buy this and cut with metal handsaw. | 1 piece  | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s |
 | 2080 profile  | 400mm lemngth | 1 piece  | https://amzn.eu/d/08zlueLh |
 | Loadcell  | 200kg | 1 piece  | https://amzn.eu/d/0eKiuk71 |
 | M12 ball joint  |  | 2 piece  | https://amzn.eu/d/02ZegheX |
