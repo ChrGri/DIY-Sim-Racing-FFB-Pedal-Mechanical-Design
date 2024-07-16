@@ -123,6 +123,21 @@ To reduce any play in the system, I wrapped some layers of [teflon wrap](https:/
 
 
 
+
+# Analysis results
+To test the mechanical design, following test were conducted:
+
+## Strength test
+To be done! Perhaps FEM analysis
+
+## Control loop test
+To be done!
+
+
+
+
+
+
 # CAD resources
 Linear guide <br>
 https://grabcad.com/library/sgx-linear-module-1
