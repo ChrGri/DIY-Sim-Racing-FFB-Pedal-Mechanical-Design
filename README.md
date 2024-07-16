@@ -22,6 +22,10 @@ The loadcell joints are from off-the-shelf SK12 shaft supports. They are easy to
 
 The pedal arms have a certain width to it, to reduce flex, when pedal force is applied off-centre.
 
+
+As a base-plate a 2080 aluminium was chooses as it allows easy screw on of attachments as well as easy and flexible attachment to the simrig.
+
+
 As a FDM material I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the carbon fibre particales make the parts supper stiff and the PETG gives good layer bonding while having a better heat resistance than PLA.
 
 
