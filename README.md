@@ -20,6 +20,7 @@ The linked linear guide was selected, since it has 30mm M4 bold pattern, which w
 
 The loadcell joints are from off-the-shelf SK12 shaft supports. They are easy to source, reasonably cheap and therefore a good buyout option. Since they are made from matel, they are likely stronger than your bones.
 
+The beefy loadcell was choosen, as it has a M12 thread, which allows easy connection with the M12 ball joint. [These](https://a.aliexpress.com/_Ez2kYuf) loadcells are nice too, but would require adapters or redesign of the loadcell arm.
 
 
 The pedal arms have a certain width to it, to reduce flex, when pedal force is applied off-centre.
