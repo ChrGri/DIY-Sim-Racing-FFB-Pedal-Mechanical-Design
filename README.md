@@ -55,7 +55,7 @@ As a FDM material I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the car
 | M12 threades bar  |  | two pieces a ca 40mm + two pieces a ca 80mm  | local hardware store |
 | M8 self locking nut  |  | 2 pieces  | local hardware store |
 | M5 t-nut  |  | 8 pieces  | https://amzn.eu/d/0e2KYTZu |
-| FDM filament  |  | ca. 300g  | local hardware store |
+| FDM filament  |  | ca. 300g  | https://amzn.eu/d/00g90wIk |
 
 
 Srews/bolds:
