@@ -45,7 +45,7 @@ As a FDM material I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the car
 | Part  | Info | Quantity | Link |
 | ------------- | ------------- | ------------- | ------------- |
 | SK12  | | 4 pieces  | https://amzn.eu/d/074hrmhx |
-| 608zz bearing  | | 2 pieces  | https://amzn.eu/d/074hrmhx |
+| 608zz bearing  | | 2 pieces  | https://amzn.eu/d/0j1mJTMV |
 | Linear guide  | SFU1610, 100mm stroke | 1 piece  | https://a.aliexpress.com/_EJWoX55 |
 | iSV57T-130S  | shorter version is prefered. If the longer version is cheaper, buy this and cut with metal handsaw. | 1 piece  | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s |
 | 2080 profile  | 400mm length | 1 piece  | https://amzn.eu/d/08zlueLh |
