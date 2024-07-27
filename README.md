@@ -1,5 +1,7 @@
 # DIY-Sim-Racing-FFB-Pedal-Mechanical-Design
 
+# Disclaimer
+This is a DIY project. Eveything at your own risk!
 
 # Motivation
 Originally, I built my DIY FFB pedal from metal parts. After using it some time, I got curious whether I can come up with a mechanical design that can be mostly 3d printed and is still rigid enough to withstand the heavy loads accuring in simracing. Furthermore, I wanted to reduce the weight of the components, hopefully seeing a positive impact in the pedal response time. This repo documents the journey of doing that.
