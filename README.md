@@ -43,34 +43,36 @@ As a FDM material I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the car
 
 
 # BOM
-Given prices are just indicators.
+Given prices are just indicators. Sellers regularly offer discounted prices, e.g. I paid for the iSV57 60€, for the linear rail 46€.
+
+
 
 
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| SK12  | | 4 pieces  | | https://amzn.eu/d/074hrmhx | https://a.aliexpress.com/_EHTevax |
-| 608zz bearing  | | 2 pieces  | | https://amzn.eu/d/0j1mJTMV | https://a.aliexpress.com/_Eyd05UR|
-| Linear guide  | SFU1610, 100mm stroke | 1 piece  | | |https://a.aliexpress.com/_EJWoX55 |
-| iSV57T-130S  | shorter version is prefered. If the longer version is cheaper, buy this and cut with metal handsaw. | 1 piece  | | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s | |
-| 2080 profile  | 400mm length | 1 piece  | | https://amzn.eu/d/08zlueLh | https://a.aliexpress.com/_EwWe0in |
-| Loadcell  | 200kg | 1 piece  | | https://amzn.eu/d/0erHqGqH | https://a.aliexpress.com/_EJwp9Ht |
-| M12 ball joint  |  | 2 piece  | | https://amzn.eu/d/02ZegheX | |
-| M8 threades bar  |  |  one piece ca. 100mm length | | local hardware store | |
-| M12 threades bar  |  | two pieces a ca 40mm + two pieces a ca 80mm  | | local hardware store | |
-| M8 self locking nut  |  | 2 pieces  | | local hardware store | |
-| M5 t-nut  |  | 8 pieces  | | https://amzn.eu/d/0e2KYTZu | https://a.aliexpress.com/_EyKq6Mx |
-| FDM filament  |  | ca. 300g  | | https://amzn.eu/d/00g90wIk | |
+| SK12  | | 4 pieces  | 4,50€ | https://amzn.eu/d/074hrmhx | https://a.aliexpress.com/_EHTevax |
+| 608zz bearing  | | 2 pieces  | 5€ | https://amzn.eu/d/0j1mJTMV | https://a.aliexpress.com/_Eyd05UR|
+| Linear guide  | SFU1610, 100mm stroke | 1 piece  | 60€ | |https://a.aliexpress.com/_EJWoX55 |
+| iSV57T-130S  | shorter version is prefered. If the longer version is cheaper, buy this and cut with metal handsaw. | 1 piece  | 90€ | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s | |
+| 2080 profile  | 400mm length | 1 piece  | 15€ | https://amzn.eu/d/08zlueLh | https://a.aliexpress.com/_EwWe0in |
+| Loadcell  | 200kg | 1 piece  | 20€ | https://amzn.eu/d/0erHqGqH | https://a.aliexpress.com/_EJwp9Ht |
+| M12 ball joint  |  | 2 piece  | 11€ | https://amzn.eu/d/02ZegheX | |
+| M8 threades bar  |  |  one piece ca. 100mm length | 2€ | local hardware store | |
+| M12 threades bar  |  | two pieces a ca 40mm + two pieces a ca 80mm  | 2€ | local hardware store | |
+| M8 self locking nut  |  | 2 pieces  | 0,50€ | local hardware store | |
+| M5 t-nut  |  | 8 pieces  | 3€ | https://amzn.eu/d/0e2KYTZu | https://a.aliexpress.com/_EyKq6Mx |
+| FDM filament  |  | ca. 300g  | 25€ | https://amzn.eu/d/00g90wIk | |
 
 
 Srews/bolds:
 
-| Size  | Info | Quantity | Link |
-| ------------- | ------------- | ------------- | ------------- |
-| M4x10mm  | | 8 pieces  |  |
-| M4x15mm  | | 8 pieces  |  |
-| M4x20mm  | | 8 pieces  |  |
-| M4x25mm  | | 4 pieces  |  |
-| M4x30mm  | | 8 pieces  |  |
+| Size  | Info | Quantity | Price | Link |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| M4x10mm  | | 8 pieces  | 0,50€ |
+| M4x15mm  | | 8 pieces  | 0,50€  |
+| M4x20mm  | | 8 pieces  | 0,50€ |
+| M4x25mm  | | 4 pieces  | 0,50€ |
+| M4x30mm  | | 8 pieces  | 0,50€ |
 
 
 
