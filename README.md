@@ -52,11 +52,11 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 | SK12  | | 4 pieces  | 4,50€ | https://amzn.eu/d/074hrmhx | https://a.aliexpress.com/_EHTevax |
 | 608zz bearing  | | 2 pieces  | 5€ | https://amzn.eu/d/0j1mJTMV | https://a.aliexpress.com/_Eyd05UR|
 | Linear guide  | SFU1610, 100mm stroke | 1 piece  | 60€ | |https://a.aliexpress.com/_EJWoX55 |
-| iSV57T-130S  | shorter version is prefered. If the longer version is cheaper, buy this and cut with metal handsaw. | 1 piece  | 90€ | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s | |
+| iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut with metal handsaw. | 1 piece  | 90€ | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s | |
 PSU | 1 PSU can power multiple pedals | 1 piece | 25€ |https://www.omc-stepperonline.com/de/lrs-350-36-mean-well-350w-36vdc-9-7a-115-230vac-geschlossenes-schaltnetzteil-lrs-350-36 | |
 | 2080 profile  | 400mm length | 1 piece  | 15€ | https://amzn.eu/d/08zlueLh | https://a.aliexpress.com/_EwWe0in |
 | Loadcell  | 200kg | 1 piece  | 20€ | https://amzn.eu/d/0erHqGqH | https://a.aliexpress.com/_EJwp9Ht |
-| M12 ball joint  |  | 2 piece  | 11€ | https://amzn.eu/d/02ZegheX | |
+| M12 ball joint  | All right handed thread | 2 piece  | 11€ | https://amzn.eu/d/02ZegheX | |
 | M8 threades bar  |  |  one piece ca. 100mm length | 2€ | local hardware store | |
 | M12 threades bar  |  | two pieces a ca 40mm + two pieces a ca 80mm  | 2€ | local hardware store | |
 | M8 self locking nut  |  | 2 pieces  | 0,50€ | local hardware store | |
