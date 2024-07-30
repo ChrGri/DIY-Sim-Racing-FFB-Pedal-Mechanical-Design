@@ -70,9 +70,10 @@ Srews/bolds:
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | M4x10mm  | | 8 pieces  | 0,50€ |
 | M4x15mm  | | 8 pieces  | 0,50€  |
-| M4x20mm  | | 8 pieces  | 0,50€ |
-| M4x25mm  | | 4 pieces  | 0,50€ |
-| M4x30mm  | | 8 pieces  | 0,50€ |
+| M5x10mm  | | 4 pieces  | 0,50€ |
+| M5x25mm  | | 4 pieces  | 0,50€ |
+| M5x30mm  | | 10 pieces  | 0,50€ |
+| M4 washer  | | 4 pieces  | 0,50€ |
 
 
 
@@ -111,8 +112,7 @@ Mount CNC guide to 2080 profile with:<br>
 2x printed "CncModuleHolderLeft" <br>
 
 Mount pedal plate to pedal arms: <br>
-4x M5x30mm <br>
-4x M5x30mm <br>
+8x M5x30mm <br>
 2x SK08 <br>
 
 Mount 608zz adapter to 2080 profile: <br>
@@ -123,7 +123,8 @@ M8x100 rod <br>
 
 
 Mount SK08 to linear guide:<br>
-4x M4x20mm<br>
+4x M4x15mm<br>
+4x M4 washer<br>
 2x SK08<br>
 
 Mount iSV57 to linear guide:<br>
