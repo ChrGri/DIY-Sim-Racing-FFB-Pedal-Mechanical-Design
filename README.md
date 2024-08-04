@@ -57,9 +57,9 @@ PSU | 1 PSU can power multiple pedals | 1 piece | 25€ |https://www.omc-stepper
 | 2080 profile  | 400mm length | 1 piece  | 15€ | https://amzn.eu/d/08zlueLh | https://a.aliexpress.com/_EwWe0in |
 | Loadcell  | 200kg | 1 piece  | 20€ | https://amzn.eu/d/0erHqGqH | https://a.aliexpress.com/_EJwp9Ht |
 | M12 ball joint  | All right handed thread | 2 piece  | 11€ | https://amzn.eu/d/02ZegheX | |
-| M8 threades bar  |  |  one piece ca. 100mm length | 2€ | local hardware store | |
-| M12 threades bar  |  | two pieces a ca 40mm + two pieces a ca 80mm  | 2€ | local hardware store | |
-| M8 self locking nut  |  | 2 pieces  | 0,50€ | local hardware store | |
+| M8 threades bar  |  |  one piece ca. 110mm length | 2€ | local hardware store | https://a.aliexpress.com/_EHIOY4T |
+| M12 threades bar  |  | two pieces a 45mm + two pieces a 55mm  | 2€ | local hardware store | https://a.aliexpress.com/_EvmkpLN |
+| M8 self locking nut  |  | 2 pieces  | 0,50€ | local hardware store |  |
 | M5 t-nut  |  | 8 pieces  | 3€ | https://amzn.eu/d/0e2KYTZu | https://a.aliexpress.com/_EyKq6Mx |
 | FDM filament  |  | ca. 300g  | 25€ | https://amzn.eu/d/00g90wIk | |
 
@@ -130,6 +130,13 @@ Mount SK08 to linear guide:<br>
 Mount iSV57 to linear guide:<br>
 4x M4x15mm
 
+
+Loadcell: <br>
+2x M12x55mm threaded rod
+2x M12 nut
+
+Loadcell to SK12: <br>
+2x M12x45mm threaded rod
 
 
 # Tips
