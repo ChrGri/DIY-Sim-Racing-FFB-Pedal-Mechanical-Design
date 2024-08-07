@@ -99,6 +99,11 @@ To close the 2080 extrusion front/back, the following part was printed twice: <b
 [2080 profile cap](https://makerworld.com/models/209499) 
 
 
+To cover the PSU channels, thr following thing was used: <br>
+https://www.thingiverse.com/thing:5158578
+
+
+
 # Print settings
 I printed with 5 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature.
 
