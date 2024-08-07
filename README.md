@@ -206,6 +206,6 @@ Its currently beeing tested, whether that is issue is solved by switching the th
 
 Updates on this issue will be posted here and almost daily on [youtube](https://youtube.com/@cuttingcorny?si=7AVNgqsLwYK21lRO).
 
-A big thank you to CuttingCorny for reporting the issue and helping to track the issue down.
+A big thank you to Cuttingcorny for reporting the issue and helping to track the issue down.
 
 
