@@ -86,7 +86,7 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 ### Control PCB: <br>
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Bell wire | to connect the  |  | 5€ | local hardware store | |
+| Bell wire | to connect the control electronics |  | 5€ | local hardware store | |
 | ADS1256 |  | 1 unit per pedal | 17€ | https://www.amazon.de/DollaTek-ADS1256-8channel-Hochpr%C3%A4zise-Erfassungsdaten/dp/B07DK5GC9H/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3IMTK3BD1INKG&dib=eyJ2IjoiMSJ9.0XcPpbD68w9-qv4_XvkKfSEDVbaFo-FAqVOFUhoX_VM297QTE3OvKVKVJAnub8Kqp605MBjeVHv4ROlxDvomwFd3noH9IXHY2OJEqiGO7vL8JuqmIwOup9c3Z-YMXLtGoo8gKOUM89hVIb_FUZX_9aAQM0bcohMdnl2XF7NA8ZoaVmZE-J-g45piaUHkAiSgDe7eaatEd0bzxo7G42qfRYfPeQPHDssIi5GdiyuQPllMAF1u56WyOvL3Sn_lkRfGpzpzJZDt5pImiX9QFxvH7I6pqCmJflgQ_h9PJbMBFdw.ZSi_dZr3_x8M3hxphOrjP2tR8wX0da2bRuMiUFNte_k&dib_tag=se&keywords=ads1256&qid=1723186683&s=industrial&sprefix=ads1256%2Cindustrial%2C90&sr=1-1 | |
 | ESP32 |  | 1 unit per pedal | 21€ | https://www.amazon.de/diymore-Entwicklungsplatine-NodeMCU-Module-Bluetooth/dp/B09Z6RLS7R/ref=sr_1_3?keywords=esp32&qid=1691818759&sr=8-3 | |
 | Level shifter |  | 1 unit per pedal | 7€ | https://www.amazon.de/gp/product/B082F6BSB5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 | |
