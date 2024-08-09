@@ -52,10 +52,7 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 | SK12  | | 4 pieces  | 4,50€ | https://amzn.eu/d/074hrmhx | https://a.aliexpress.com/_EHTevax |
 | 608zz bearing  | | 2 pieces  | 5€ | https://amzn.eu/d/0j1mJTMV | https://a.aliexpress.com/_Eyd05UR|
 | Linear guide  | SFU1610, 100mm stroke | 1 piece  | 60€ | |https://a.aliexpress.com/_EJWoX55 |
-| iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut the motor shaft to appropriate length with a metal handsaw. | 1 piece  | 90€ | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s | |
-PSU | 1 PSU can power multiple pedals | 1 piece | 25€ |https://www.omc-stepperonline.com/de/lrs-350-36-mean-well-350w-36vdc-9-7a-115-230vac-geschlossenes-schaltnetzteil-lrs-350-36 | |
 | 2080 profile  | 400mm length | 1 piece  | 15€ | https://amzn.eu/d/08zlueLh | https://a.aliexpress.com/_EwWe0in |
-| Loadcell  | 200kg | 1 piece  | 20€ | https://amzn.eu/d/0erHqGqH | https://a.aliexpress.com/_EJwp9Ht |
 | M12 ball joint  | All right handed thread | 2 piece  | 11€ | https://amzn.eu/d/02ZegheX | |
 | M8 threades rod  |  |  one piece ca. 110mm length | 2€ | local hardware store | https://a.aliexpress.com/_EHIOY4T |
 | M12 threades rod  |  | two pieces a 45mm + two pieces a 55mm  | 2€ | local hardware store | https://a.aliexpress.com/_EvmkpLN |
@@ -74,6 +71,43 @@ Srews/bolds:
 | M5x25mm  | | 4 pieces  | 0,50€ |
 | M5x30mm  | | 10 pieces  | 0,50€ |
 | M4 washer  | | 4 pieces  | 0,50€ |
+
+
+Electronics:
+| iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut the motor shaft to appropriate length with a metal handsaw. | 1 piece  | 90€ | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s | |
+| PSU | 1 PSU can power multiple pedals | 1 piece | 25€ |https://www.omc-stepperonline.com/de/lrs-350-36-mean-well-350w-36vdc-9-7a-115-230vac-geschlossenes-schaltnetzteil-lrs-350-36 | |
+| Loadcell  | 200kg | 1 piece  | 20€ | https://amzn.eu/d/0erHqGqH | https://a.aliexpress.com/_EJwp9Ht |
+| Servo debug port connector  | Female, 5P | 1 piece  | 1€ | https://pt.aliexpress.com/item/1005005418641238.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60746685474&aff_fcid=1d45d6e48d444964bd22a0f42d53f3c8-1723186511849-07071-_EJ2en8z&tt=MG&aff_fsk=_EJ2en8z&aff_platform=default&sk=_EJ2en8z&aff_trace_key=1d45d6e48d444964bd22a0f42d53f3c8-1723186511849-07071-_EJ2en8z&shareId=60746685474&businessType=ProductDetail&platform=AE&terminal_id=e96ca77e674742f88e254e5a68e4e328&afSmartRedirect=y |  |
+
+Control PCB: <br>
+| Bell wire | to connect the  |  | 5€ | local hardware store | |
+| ADS1256 |  | 1 unit per pedal | 19.5€ | https://www.amazon.de/gp/product/B0B7799V8W/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 | |
+| ESP32 |  | 1 unit per pedal | 21€ | https://www.amazon.de/diymore-Entwicklungsplatine-NodeMCU-Module-Bluetooth/dp/B09Z6RLS7R/ref=sr_1_3?keywords=esp32&qid=1691818759&sr=8-3 | |
+| Level shifter |  | 1 unit per pedal | 10€ | https://www.amazon.de/gp/product/B082F6BSB5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 | |
+| JST connector box |  |  | 8€ | https://www.amazon.de/YIXISI-Stecker-Weiblich-Adapter-M%C3%A4nnlich/dp/B082ZLYRRN/ref=sr_1_5?crid=254ZPUWLFHGL6&dib=eyJ2IjoiMSJ9.l39XnEYEV6Ryx1pfoR2sNktKIEQX4EXCXe4ZIRUU3c9TmBn8o_FsiZqQeO49AtcP5eKMo84mj8w2164M9E9YsOqqjtblQWaRYOs0jjAckkvwwZX8sFITdnAvPF2CRgS_wIf4bfagSC1VDW41wNbjtz8H5rm5ehFT53HpMR_EU3DjoL-MqLbQWU9TOo1W1MUmwkpJRhhbCZ4CIX15wu_y9i9Pg_ZTtu9_PJ4M-S3HXa6BqxfyTvmPNLUdGDk-rOdfY6wdY0G_rZKW1zobu9UQzbKL7udM7SEqOUvRwfmqQ_k.XaYzAodgy0_8csPGMh_dJjSo_PNRFgG4959KTJIOZjc&dib_tag=se&keywords=jst+stecker&qid=1723186313&sprefix=jst+%2Caps%2C72&sr=8-5 | |
+| Control PCB | Ordered from JLCPCB | 1 unit per pedal | 5€ | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/blob/develop/Wiring/Esp32_V3/Gerber_PCB_V3.zip | |
+
+Power PCB: <br>
+| Power PCB | Ordered from JLCPCB | 1 unit per pedal | 5€ | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/blob/develop/Wiring/PowerPcb/V2/PowerPCB_Gerber.zip | |
+| SR5100 Schottky diode |  |  | 5€ | https://www.amazon.de/Packung-20-SR5100-Schottky-Barriere-Gleichrichterdioden-DO-201AD/dp/B079KK7QL5/ref=sr_1_3?keywords=sr+5100+diode&qid=1691820234&sr=8-3 | |
+| 80V 1mF capacitor |  |  | 5€ | https://www.ebay.de/itm/175539012948?var=475312604661&widget_ver=artemis&media=COPY | |
+| power wire |  | 1m | 2€ | local hardware store | |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
