@@ -48,6 +48,7 @@ The mechanical design is depicted below <br>
 
 ## Electronics
 
+
 ### Control PCB
 The embedded code of this DIY FFB pedal runs on an ESP32 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a level shifter, and connectors. Currently, version 3 of this PCB design is used which introduced sensorless homing of the servo. The PCB design and pinout diagram can be found [here](Wiring/Esp32_V3). If you use Simucube wheelbase, you can use the D15 accessory port for input, detail was list [here](Wiring/PCB_analog_output)
 
@@ -58,29 +59,28 @@ Here is an image of the assembled PCB:
 ![](Wiring/Esp32_V3/PCB_assembled.jpg)
 
 
-### Power PCB
-Depending on the load direction, the servo will act as a generator. It will produce an additional current flow from the servo to the PSU which could trigger the over-voltage protection from the PSU and the servo. To prevent the reverse current flow to the PSU and thus prevent over-voltage protection from the PSU, a Schottky diode was added to the power line. To prevent the trigger of the over-voltage protection from the servo a large capacitor was added in the power-line. 
+### Optional but recommended: Power PCB
+Depending on the load direction, the servo will act as a generator. It will produce an additional (reverse) current flow from the servo to the PSU which could trigger the over-voltage protection of the PSU and the servo. The iSV57 has a "bleeding/braking resistor" method to dissipate the current flow as heat and thus reduce voltage spikes causing overvoltage protection trigger. The method will be activated when a predefined bus voltage is exceeded (currently 40V). A plot of the voltage fluctuations can be found below:
+<img src="Wiring/PowerPcb/V2/voltageFluctuations.png" height="200">
 
-A deeper analysis of the reverse current flow and investigation of smaller power circuits can be found [here](https://github.com/tcfshcrw/Brake_resistor_Control_Circuit).
+The trigger voltage was varied in the test (blue: 62V; red: 42V; green: 40V). The horizontal axis shows the time, the vertical axis shows the bus voltage. The pedal was activated a few times, resultig in voltage spikes due to EMF. It can be seen, that the height of the voltage spikes correlate with the trigger voltage. Since the trigger voltage is set to 40V, it is strongly recommended to use a PSU with less than 40V output, otherwise the method will be always active, resulting in an overheating servo. 
+
+Although the iSV57s internal braking resistor method is reliably and mostly sufficient, a power PCB was developed to prevent reverse current flow to the PSU and thus prevent triggering the over-voltage protection of the PSU, by adding a Schottky diode to the power line. To prevent the trigger of the over/under-voltage protection of the servo, a small capacitor was added in the power-line. 
 
 | Component           |  Link |
 :------------------------- | :-------------------------
 | SR5100 Schottky diode | [Amazon.de](https://www.amazon.de/Packung-20-SR5100-Schottky-Barriere-Gleichrichterdioden-DO-201AD/dp/B079KK7QL5/ref=sr_1_3?keywords=sr+5100+diode&qid=1691820234&sr=8-3) |
-| 100V 10kF capacitor| [Amazon.de](https://www.amazon.de/dp/B07QWTMKWZ?ref_=cm_sw_r_apan_dp_ANE55Z4BEQEJHQBQSDVM&language=de-DE) |
+| 80V 1mF capacitor| [Ebay.de](https://www.ebay.de/itm/175539012948?var=475312604661&widget_ver=artemis&media=COPY) |
+| XT30 connectors | [Amazon.de](https://www.amazon.de/gp/product/B0B2K1DJCN/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&th=1) |
 
-To hold the components, a [power PCB](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/tree/main/Wiring/PowerPcb) was developed, which also featured a port to hold XT30 connectors. The 
+To hold the components in a small package, a [power PCB](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/tree/main/Wiring/PowerPcb/V2) was developed, which also featured a port to hold XT30 connectors. 
 
-Here is an image of the plain PCB:
-![](Wiring/PowerPcb/front.svg)
+A rendering of the assembled PCB, a photo of the assembled PCB and front view of the PCB are depicted below: <br>
+<img src="Wiring/PowerPcb/V2/3dRendering.png" height="200"> <img src="https://github.com/user-attachments/assets/23d70e8c-c55e-47c4-8d92-048bcab7b6b3" height="200"> <img src="Wiring/PowerPcb/V2/front.svg" height="200">
 
-Here is an image of the assembled PCB:
-![](Wiring/PowerPcb/PCB_assembled.jpg)
+A deeper analysis of the reverse current flow and investigation of brake circuits can be found [here](https://github.com/tcfshcrw/Brake_resistor_Control_Circuit).
 
 
-A graph of the voltage fluctuations introduced by generative current flow from the servo can be seen here:
-<img src="Images/servo_voltage_fluctuation.png" height="200">
-
-Without the capacitor these fluctuations would be much higher eventually triggering the servos overvoltage protection.
 
 
 ### Wiring
