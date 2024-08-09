@@ -74,8 +74,8 @@ Given prices are just indicators. Sellers regularly offer discounted prices, e.g
 
 ## Electronics:
 
-Apart from the mechanical parts, more electronical parts have to be ordered. Please conduct the [software/electronics](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal) repo and the discord for help. 
-### Gneric parts:
+Apart from the mechanical parts, more electronical parts have to be ordered. Please conduct the [software/electronics](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal) repo and the discord for help first, to see if electronic parts are still up to date. 
+### Generic parts:
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut the motor shaft to appropriate length with a metal handsaw. | 1 piece  | 90€ | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s | |
