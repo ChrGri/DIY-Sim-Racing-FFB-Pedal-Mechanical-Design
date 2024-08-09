@@ -50,7 +50,7 @@ The mechanical design is depicted below <br>
 
 
 ### Control PCB
-The embedded code of this DIY FFB pedal runs on an ESP32 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a level shifter, and connectors. Currently, version 3 of this PCB design is used which introduced sensorless homing of the servo. The PCB design and pinout diagram can be found [here](Wiring/Esp32_V3). If you use Simucube wheelbase, you can use the D15 accessory port for input, detail was list [here](Wiring/PCB_analog_output)
+The embedded code of this DIY FFB pedal runs on an ESP32 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a level shifter, and connectors. Currently, version 3 of this PCB design is used which introduced sensorless homing of the servo. The PCB design and pinout diagram can be found [here](Wiring/Esp32_V3). When a Simucube wheelbase is used, the D15 accessory port can be used for input. For details see [here](Wiring/PCB_analog_output)
 
 Here is an image of the plain PCB:
 ![](Wiring/Esp32_V3/PCB_empty.jpeg)
