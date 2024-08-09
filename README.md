@@ -190,6 +190,10 @@ Loadcell to SK12: <br>
 To reduce any play in the system, I wrapped some layers of [teflon wrap](https://amzn.eu/d/0cYW6pJp) around the threaded rods and pushed the 608zz bearings and ball rods over it.
 
 
+# Wiring 
+<img width="727" alt="Bildschirmfoto 2024-08-09 um 19 54 52" src="https://github.com/user-attachments/assets/d1e8d65d-9900-4462-9285-a1c96dd7018e">
+
+
 
 
 # Analysis results
