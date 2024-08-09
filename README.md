@@ -292,7 +292,7 @@ https://grabcad.com/library/m12-threaded-s-type-tension-compression-load-cell-10
 ## Issue 1: servo slips away
 It was observed, that the servo slipped away under braking, see [video](https://www.youtube.com/live/HW_phDLIBcU?si=4mNCj0IyTrodPuNm&t=2854).
 
-A different [PSU](https://amzn.eu/d/3srstaF) was used as the one linked in the BOM. It is assumed that due to heavy braking the PSU wasn't able to deliver the necessary power output and the servo went into undervoltage protection, this alipping away. 
+A different [PSU](https://amzn.eu/d/3srstaF) was used as the one linked in the BOM. It is assumed that due to heavy braking the PSU wasn't able to deliver the necessary power output and the servo went into undervoltage protection, this slipping away. 
 Its currently beeing tested, whether that is issue is solved by switching the the PSU from the BOM and what software chnages can mitigate the symptoms in the future.
 
 Updates on this issue will be posted here and almost daily on [youtube](https://youtube.com/@cuttingcorny?si=7AVNgqsLwYK21lRO).
