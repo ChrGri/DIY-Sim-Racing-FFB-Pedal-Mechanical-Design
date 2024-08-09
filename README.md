@@ -38,7 +38,54 @@ As a FDM material I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the car
 
 
 # Overview
+
+## Mechanical design
+The mechanical design is depicted below <br>
 ![DiyFfbPedalAssembly v61](https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7)
+
+
+
+
+## Electronics
+
+### Control PCB
+The embedded code of this DIY FFB pedal runs on an ESP32 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a level shifter, and connectors. Currently, version 3 of this PCB design is used which introduced sensorless homing of the servo. The PCB design and pinout diagram can be found [here](Wiring/Esp32_V3). If you use Simucube wheelbase, you can use the D15 accessory port for input, detail was list [here](Wiring/PCB_analog_output)
+
+Here is an image of the plain PCB:
+![](Wiring/Esp32_V3/PCB_empty.jpeg)
+
+Here is an image of the assembled PCB:
+![](Wiring/Esp32_V3/PCB_assembled.jpg)
+
+
+### Power PCB
+Depending on the load direction, the servo will act as a generator. It will produce an additional current flow from the servo to the PSU which could trigger the over-voltage protection from the PSU and the servo. To prevent the reverse current flow to the PSU and thus prevent over-voltage protection from the PSU, a Schottky diode was added to the power line. To prevent the trigger of the over-voltage protection from the servo a large capacitor was added in the power-line. 
+
+A deeper analysis of the reverse current flow and investigation of smaller power circuits can be found [here](https://github.com/tcfshcrw/Brake_resistor_Control_Circuit).
+
+| Component           |  Link |
+:------------------------- | :-------------------------
+| SR5100 Schottky diode | [Amazon.de](https://www.amazon.de/Packung-20-SR5100-Schottky-Barriere-Gleichrichterdioden-DO-201AD/dp/B079KK7QL5/ref=sr_1_3?keywords=sr+5100+diode&qid=1691820234&sr=8-3) |
+| 100V 10kF capacitor| [Amazon.de](https://www.amazon.de/dp/B07QWTMKWZ?ref_=cm_sw_r_apan_dp_ANE55Z4BEQEJHQBQSDVM&language=de-DE) |
+
+To hold the components, a [power PCB](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/tree/main/Wiring/PowerPcb) was developed, which also featured a port to hold XT30 connectors. The 
+
+Here is an image of the plain PCB:
+![](Wiring/PowerPcb/front.svg)
+
+Here is an image of the assembled PCB:
+![](Wiring/PowerPcb/PCB_assembled.jpg)
+
+
+A graph of the voltage fluctuations introduced by generative current flow from the servo can be seen here:
+<img src="Images/servo_voltage_fluctuation.png" height="200">
+
+Without the capacitor these fluctuations would be much higher eventually triggering the servos overvoltage protection.
+
+
+### Wiring
+The wiring is depicted in the image below <br>
+<img width="807" alt="Bildschirmfoto 2024-08-09 um 20 30 58" src="https://github.com/user-attachments/assets/59ea4e29-2830-43e7-bfda-0fe547541f0e">
 
 
 
@@ -190,9 +237,6 @@ Loadcell to SK12: <br>
 To reduce any play in the system, I wrapped some layers of [teflon wrap](https://amzn.eu/d/0cYW6pJp) around the threaded rods and pushed the 608zz bearings and ball rods over it.
 
 
-# Wiring 
-The wiring is depicted in the image below <br>
-<img width="807" alt="Bildschirmfoto 2024-08-09 um 20 30 58" src="https://github.com/user-attachments/assets/59ea4e29-2830-43e7-bfda-0fe547541f0e">
 
 
 
