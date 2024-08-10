@@ -51,6 +51,7 @@ As a FDM material I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the car
 The mechanical design is depicted below <br>
 ![DiyFfbPedalAssembly v61](https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7)
 
+![image](https://github.com/user-attachments/assets/be6eea49-dc3b-4902-b109-a31bb7455d06)
 
 
 
