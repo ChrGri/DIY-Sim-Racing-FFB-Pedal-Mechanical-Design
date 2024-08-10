@@ -68,7 +68,7 @@ Here is an image of the assembled PCB:
 
 
 ### Optional but recommended: Power PCB
-<span style="color:red"> *A revised version of the power PCB (V3) is currently and work and will be released soon!*</span>
+<span style="color:red"> *A revised version of the power PCB (V3) is currently in work and will be released soon!*</span>
 
 
 
