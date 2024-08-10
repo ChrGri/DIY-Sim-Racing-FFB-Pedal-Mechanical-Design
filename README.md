@@ -68,6 +68,10 @@ Here is an image of the assembled PCB:
 
 
 ### Optional but recommended: Power PCB
+<span style="color:red"> *A revised version of the power PCB (V3) is currently and work and will be released soon!*</span>
+
+
+
 Depending on the load direction, the servo will act as a generator. It will produce an additional (reverse) current flow from the servo to the PSU which could trigger the over-voltage protection of the PSU and the servo. The iSV57 has a "bleeding/braking resistor" method to dissipate the current flow as heat and thus reduce voltage spikes causing overvoltage protection trigger. The method will be activated when a predefined bus voltage is exceeded (currently 40V). A plot of the voltage fluctuations can be found below:
 <img src="Wiring/PowerPcb/V2/voltageFluctuations.png" height="200">
 
