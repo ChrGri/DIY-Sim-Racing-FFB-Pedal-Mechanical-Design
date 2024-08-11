@@ -213,9 +213,13 @@ To cover the PSU channels, thr following thing was used: <br>
 https://www.thingiverse.com/thing:5158578
 
 An adapter to mount the PSU to 4040/4080 aluminium extrusions can be found here: <br>
-[STL](STL/PSU/LRS_Holder v2.stl) <br>
-[CAD](CAD/PSU/LRS_Holder v2.f3d)
+[STL](STL/PSU/LRS_Holder.stl) <br>
+[CAD](CAD/PSU/LRS_Holder.f3d)
 
+It requires the following screws: <br>
+4x M4x8mm <br>
+2x M5x15mm <br> 
+2x M5 t-nut for 4040 profile <br>
 
 
 # Print settings
