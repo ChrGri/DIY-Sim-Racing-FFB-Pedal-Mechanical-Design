@@ -98,7 +98,7 @@ A deeper analysis of the reverse current flow and investigation of brake circuit
 
 ### Wiring
 The wiring is depicted in the image below <br>
-<img width="807" alt="Bildschirmfoto 2024-08-09 um 20 30 58" src="https://github.com/user-attachments/assets/59ea4e29-2830-43e7-bfda-0fe547541f0e">
+<img width="824" alt="Wiring" src="https://github.com/user-attachments/assets/4acac8ed-c9c9-4b0d-9047-3788c891cf8c">
 
 
 
