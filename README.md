@@ -143,8 +143,14 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 | Loadcell  | 200kg | 1 piece  | 20€ | https://amzn.eu/d/0erHqGqH | https://a.aliexpress.com/_EJwp9Ht |
 | Servo debug port connector  | Female, 5P | 1 piece  | 1€ | https://pt.aliexpress.com/item/1005005418641238.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60746685474&aff_fcid=1d45d6e48d444964bd22a0f42d53f3c8-1723186511849-07071-_EJ2en8z&tt=MG&aff_fsk=_EJ2en8z&aff_platform=default&sk=_EJ2en8z&aff_trace_key=1d45d6e48d444964bd22a0f42d53f3c8-1723186511849-07071-_EJ2en8z&shareId=60746685474&businessType=ProductDetail&platform=AE&terminal_id=e96ca77e674742f88e254e5a68e4e328&afSmartRedirect=y |  |
 
+
+
+
+
+
 ### Control PCB: <br>
-Different connectors are lusted below (see option #1 & #2) you'll only need one. The screw terminals are prefered, as they don't require a crimped connection.
+Different connectors are listed below (see option #1 & #2) you'll only need one. The screw terminals are prefered, as (a) they don't require a crimped wire connection and (b) aren't as sensitive to force appied on the wires as JST connectors.
+
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Bell wire | to connect the control electronics |  | 5€ | local hardware store | |
