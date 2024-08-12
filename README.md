@@ -236,7 +236,7 @@ Mount CNC guide to 2080 profile with:<br>
 
 Mount pedal plate to pedal arms: <br>
 8x M5x30mm <br>
-2x SK08 <br>
+2x SK12 <br>
 
 Mount 608zz adapter to 2080 profile: <br>
 2x printed "608zzHolder" <br>
@@ -245,10 +245,10 @@ M8x100 rod <br>
 4x M5x10mm
 
 
-Mount SK08 to linear guide:<br>
+Mount SK12 to linear guide:<br>
 4x M4x15mm<br>
 4x M4 washer<br>
-2x SK08<br>
+2x SK12<br>
 
 Mount iSV57 to linear guide:<br>
 4x M4x15mm
@@ -302,7 +302,7 @@ https://grabcad.com/library/608-skate-board-bearing-1
 iSV57 <br>
 https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s
 
-SK08 <br>
+SK12 <br>
 https://grabcad.com/library/sk08-shaft-support-1
 
 2080 <br>
