@@ -153,7 +153,7 @@ Different connectors are listed below (see option #1 & #2) you'll only need one.
 
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Bell wire | to connect the control electronics |  | 5€ | local hardware store | |
+| Wire (AWG 18 - 26)  | to connect the control electronics |  | 5€ | local hardware store | |
 | ADS1256 |  | 1 unit per pedal | 17€ | https://www.amazon.de/DollaTek-ADS1256-8channel-Hochpr%C3%A4zise-Erfassungsdaten/dp/B07DK5GC9H/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3IMTK3BD1INKG&dib=eyJ2IjoiMSJ9.0XcPpbD68w9-qv4_XvkKfSEDVbaFo-FAqVOFUhoX_VM297QTE3OvKVKVJAnub8Kqp605MBjeVHv4ROlxDvomwFd3noH9IXHY2OJEqiGO7vL8JuqmIwOup9c3Z-YMXLtGoo8gKOUM89hVIb_FUZX_9aAQM0bcohMdnl2XF7NA8ZoaVmZE-J-g45piaUHkAiSgDe7eaatEd0bzxo7G42qfRYfPeQPHDssIi5GdiyuQPllMAF1u56WyOvL3Sn_lkRfGpzpzJZDt5pImiX9QFxvH7I6pqCmJflgQ_h9PJbMBFdw.ZSi_dZr3_x8M3hxphOrjP2tR8wX0da2bRuMiUFNte_k&dib_tag=se&keywords=ads1256&qid=1723186683&s=industrial&sprefix=ads1256%2Cindustrial%2C90&sr=1-1 | |
 | ESP32 |  | 1 unit per pedal | 21€ | https://www.amazon.de/diymore-Entwicklungsplatine-NodeMCU-Module-Bluetooth/dp/B09Z6RLS7R/ref=sr_1_3?keywords=esp32&qid=1691818759&sr=8-3 | |
 | Level shifter |  | 1 unit per pedal | 7€ | https://www.amazon.de/gp/product/B082F6BSB5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 | |
@@ -167,7 +167,7 @@ Different connectors are listed below (see option #1 & #2) you'll only need one.
 | Power PCB | Ordered from JLCPCB | 1 unit per pedal | 5€ | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/blob/develop/Wiring/PowerPcb/V2/PowerPCB_Gerber.zip | |
 | SR5100 Schottky diode |  |  | 5€ | https://www.amazon.de/Packung-20-SR5100-Schottky-Barriere-Gleichrichterdioden-DO-201AD/dp/B079KK7QL5/ref=sr_1_3?keywords=sr+5100+diode&qid=1691820234&sr=8-3 | |
 | 80V 1mF capacitor |  |  | 5€ | https://www.ebay.de/itm/175539012948?var=475312604661&widget_ver=artemis&media=COPY | |
-| power wire | used to connect PSU to power PCB and power PCB to servo | 1m | 2€ | local hardware store | |
+| Wire (AWG 18) | used to connect PSU to power PCB and power PCB to servo | 1m | 2€ | local hardware store | |
 
 
 
