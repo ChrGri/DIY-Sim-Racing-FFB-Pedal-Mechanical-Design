@@ -209,7 +209,7 @@ To close the 2080 extrusion front/back, the following part was printed twice: <b
 [2080 profile cap](https://makerworld.com/models/209499) 
 
 
-To cover the PSU channels, thr following thing was used: <br>
+To cover the PSU channels, thr following thing was used (recommended to print at 101% scale, since it was designed with 0% tolerance): <br>
 https://www.thingiverse.com/thing:5158578
 
 An adapter to mount the PSU to 4040/4080 aluminium extrusions can be found here: <br>
