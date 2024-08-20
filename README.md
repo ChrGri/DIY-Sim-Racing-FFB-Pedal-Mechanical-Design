@@ -69,8 +69,6 @@ Here is an image of the assembled PCB:
 
 
 ### Optional but recommended: Power PCB
-<span style="color:red"> *A revised version of the power PCB (V3) is currently in work and will be released soon! It was observed, that the capacitor could lose itself from the V2 PCB, when mechanical force is applied to the cap. V3 will solve this issue.*</span>
-
 
 
 Depending on the load direction, the servo will act as a generator. It will produce an additional (reverse) current flow from the servo to the PSU which could trigger the over-voltage protection of the PSU and the servo. The iSV57 has a "bleeding/braking resistor" method to dissipate the current flow as heat and thus reduce voltage spikes causing overvoltage protection trigger. The method will be activated when a predefined bus voltage is exceeded (currently 40V). A plot of the voltage fluctuations can be found below:
@@ -84,9 +82,9 @@ Although the iSV57s internal braking resistor method is reliably and mostly suff
 :------------------------- | :-------------------------
 | SR5100 Schottky diode | [Amazon.de](https://www.amazon.de/Packung-20-SR5100-Schottky-Barriere-Gleichrichterdioden-DO-201AD/dp/B079KK7QL5/ref=sr_1_3?keywords=sr+5100+diode&qid=1691820234&sr=8-3) |
 | 80V 1mF capacitor| [Ebay.de](https://www.ebay.de/itm/175539012948?var=475312604661&widget_ver=artemis&media=COPY) |
-| XT30 connectors | [Amazon.de](https://www.amazon.de/gp/product/B0B2K1DJCN/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&th=1) |
+| XT30 connectors | [Aliexpress](https://a.aliexpress.com/_Ewjp1u1)|
 
-To hold the components in a small package, a [power PCB](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/tree/main/Wiring/PowerPcb/V2) was developed, which also featured a port to hold XT30 connectors. 
+To hold the components in a small package, a [power PCB](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/tree/main/Wiring/PowerPcb/V3) was developed, which also featured a port to hold XT30 connectors. 
 
 A rendering of the assembled PCB, a photo of the assembled PCB and front view of the PCB are depicted below: <br>
 <img src="Wiring/PowerPcb/V2/3dRendering.png" height="200"> <img src="https://github.com/user-attachments/assets/23d70e8c-c55e-47c4-8d92-048bcab7b6b3" height="200"> <img src="Wiring/PowerPcb/V2/front.svg" height="200">
