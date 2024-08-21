@@ -78,17 +78,11 @@ The trigger voltage was varied in the test (blue: 62V; red: 42V; green: 40V). Th
 
 Although the iSV57s internal braking resistor method is reliably and mostly sufficient, a power PCB was developed to prevent reverse current flow to the PSU and thus prevent triggering the over-voltage protection of the PSU, by adding a Schottky diode to the power line. To prevent the trigger of the over/under-voltage protection of the servo, a small capacitor was added in the power-line. 
 
-| Component           |  Link |
-:------------------------- | :-------------------------
-| SR5100 Schottky diode | [Aliexpress](https://de.aliexpress.com/item/1005006761992465.html?spm=a2g0o.order_list.order_list_main.16.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
-| 80V 1mF capacitor| [Aliexpress](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
-| XT30 connectors | [Aliexpress](https://de.aliexpress.com/item/32919173824.html?spm=a2g0o.order_list.order_list_main.4.67a25c5fWiYucW&gatewayAdapt=glo2deu)|
-| 1mm2 cable | local hardware store |
 
 To hold the components in a small package, a [power PCB](Wiring/PowerPcb/V3) was developed, which also featured a port to hold XT30 connectors. 
 
 A rendering of the PCB and photos of the assembled PCB are depicted below: <br>
-<img src="Wiring/PowerPcb/V2/front.svg" height="200">
+<img src="Wiring/PowerPcb/V3/front.svg" height="200">
 <img src="Wiring/PowerPcb/V3/assem_front.jpg" height="200"> 
 <img src="Wiring/PowerPcb/V3/assem_back.jpg" height="200"> 
 
@@ -167,14 +161,13 @@ Different connectors are listed below (see option #1 & #2) you'll only need one.
 
 
 ### Power PCB: <br>
-| Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Power PCB | Ordered from JLCPCB | 1 unit per pedal | 5€ | [Gerber file](Wiring/PowerPcb/V3/PowerPCB_Gerber.zip) | |
-| SR5100 Schottky diode |  |  | 5€ | https://www.amazon.de/Packung-20-SR5100-Schottky-Barriere-Gleichrichterdioden-DO-201AD/dp/B079KK7QL5/ref=sr_1_3?keywords=sr+5100+diode&qid=1691820234&sr=8-3 | |
-| 80V 1mF capacitor |  |  | 5€ | https://www.ebay.de/itm/175539012948?var=475312604661&widget_ver=artemis&media=COPY | |
-| Wire (AWG 18) | used to connect PSU to power PCB and power PCB to servo | 1m | 2€ | local hardware store | |
 
-
+| Component           |  Link |
+:------------------------- | :-------------------------
+| SR5100 Schottky diode | [Aliexpress](https://de.aliexpress.com/item/1005006761992465.html?spm=a2g0o.order_list.order_list_main.16.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| 80V 1mF capacitor| [Aliexpress](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| XT30 connectors | [Aliexpress](https://de.aliexpress.com/item/32919173824.html?spm=a2g0o.order_list.order_list_main.4.67a25c5fWiYucW&gatewayAdapt=glo2deu)|
+| 1mm2 cable | local hardware store |
 
 
 
