@@ -162,11 +162,11 @@ Different connectors are listed below (see option #1 & #2) you'll only need one.
 
 ### Power PCB: <br>
 
-| Component           |  Link |
-:------------------------- | :-------------------------
-| SR5100 Schottky diode | [Aliexpress](https://de.aliexpress.com/item/1005006761992465.html?spm=a2g0o.order_list.order_list_main.16.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
-| 80V 1mF capacitor| [Aliexpress](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
-| XT30 connectors | [Aliexpress](https://de.aliexpress.com/item/32919173824.html?spm=a2g0o.order_list.order_list_main.4.67a25c5fWiYucW&gatewayAdapt=glo2deu)|
+| Component | Info |  Link |
+:-------------------------| :---- | :-------------------------
+| SR5100 Schottky diode | 1 diode per pesal | [Aliexpress](https://de.aliexpress.com/item/1005006761992465.html?spm=a2g0o.order_list.order_list_main.16.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| 80V 1mF capacitor| 1 cap per pedal | [Aliexpress](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| XT30 connectors | 1 connector per pedal | [Aliexpress](https://de.aliexpress.com/item/32919173824.html?spm=a2g0o.order_list.order_list_main.4.67a25c5fWiYucW&gatewayAdapt=glo2deu)|
 | 1mm2 cable | local hardware store |
 
 
