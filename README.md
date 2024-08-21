@@ -81,10 +81,10 @@ Although the iSV57s internal braking resistor method is reliably and mostly suff
 
 To hold the components in a small package, a [power PCB](Wiring/PowerPcb/V3) was developed, which also featured a port to hold XT30 connectors. 
 
-A rendering of the PCB and photos of the assembled PCB are depicted below: <br>
-<img src="Wiring/PowerPcb/V3/front.svg" height="200">
+Photos of the assembled PCB are depicted below: <br>
 <img src="Wiring/PowerPcb/V3/assem_front.jpg" height="200"> 
 <img src="Wiring/PowerPcb/V3/assem_back.jpg" height="200"> 
+<img src="Wiring/PowerPcb/V3/assem_attached.jpg" height="200">
 
 A deeper analysis of the reverse current flow and investigation of brake circuits can be found [here](https://github.com/tcfshcrw/Brake_resistor_Control_Circuit).
 
