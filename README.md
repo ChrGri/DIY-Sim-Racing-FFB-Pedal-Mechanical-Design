@@ -80,14 +80,17 @@ Although the iSV57s internal braking resistor method is reliably and mostly suff
 
 | Component           |  Link |
 :------------------------- | :-------------------------
-| SR5100 Schottky diode | [Amazon.de](https://www.amazon.de/Packung-20-SR5100-Schottky-Barriere-Gleichrichterdioden-DO-201AD/dp/B079KK7QL5/ref=sr_1_3?keywords=sr+5100+diode&qid=1691820234&sr=8-3) |
-| 80V 1mF capacitor| [Ebay.de](https://www.ebay.de/itm/175539012948?var=475312604661&widget_ver=artemis&media=COPY) |
-| XT30 connectors | [Aliexpress](https://a.aliexpress.com/_Ewjp1u1)|
+| SR5100 Schottky diode | [Aliexpress](https://de.aliexpress.com/item/1005006761992465.html?spm=a2g0o.order_list.order_list_main.16.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| 80V 1mF capacitor| [Aliexpress](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| XT30 connectors | [Aliexpress](https://de.aliexpress.com/item/32919173824.html?spm=a2g0o.order_list.order_list_main.4.67a25c5fWiYucW&gatewayAdapt=glo2deu)|
+| 1mm2 cable | local hardware store |
 
-To hold the components in a small package, a [power PCB](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/tree/main/Wiring/PowerPcb/V3) was developed, which also featured a port to hold XT30 connectors. 
+To hold the components in a small package, a [power PCB](Wiring/PowerPcb/V3) was developed, which also featured a port to hold XT30 connectors. 
 
-A rendering of the assembled PCB, a photo of the assembled PCB and front view of the PCB are depicted below: <br>
-<img src="Wiring/PowerPcb/V2/3dRendering.png" height="200"> <img src="https://github.com/user-attachments/assets/23d70e8c-c55e-47c4-8d92-048bcab7b6b3" height="200"> <img src="Wiring/PowerPcb/V2/front.svg" height="200">
+A rendering of the PCB and photos of the assembled PCB are depicted below: <br>
+<img src="Wiring/PowerPcb/V2/front.svg" height="200">
+<img src="Wiring/PowerPcb/V3/assem_front.jpg" height="200"> 
+<img src="Wiring/PowerPcb/V3/assem_back.jpg" height="200"> 
 
 A deeper analysis of the reverse current flow and investigation of brake circuits can be found [here](https://github.com/tcfshcrw/Brake_resistor_Control_Circuit).
 
@@ -159,10 +162,14 @@ Different connectors are listed below (see option #1 & #2) you'll only need one.
 | Option #2: JST connector box |  |  | 8€ | https://www.amazon.de/YIXISI-Stecker-Weiblich-Adapter-M%C3%A4nnlich/dp/B082ZLYRRN/ref=sr_1_5?crid=254ZPUWLFHGL6&dib=eyJ2IjoiMSJ9.l39XnEYEV6Ryx1pfoR2sNktKIEQX4EXCXe4ZIRUU3c9TmBn8o_FsiZqQeO49AtcP5eKMo84mj8w2164M9E9YsOqqjtblQWaRYOs0jjAckkvwwZX8sFITdnAvPF2CRgS_wIf4bfagSC1VDW41wNbjtz8H5rm5ehFT53HpMR_EU3DjoL-MqLbQWU9TOo1W1MUmwkpJRhhbCZ4CIX15wu_y9i9Pg_ZTtu9_PJ4M-S3HXa6BqxfyTvmPNLUdGDk-rOdfY6wdY0G_rZKW1zobu9UQzbKL7udM7SEqOUvRwfmqQ_k.XaYzAodgy0_8csPGMh_dJjSo_PNRFgG4959KTJIOZjc&dib_tag=se&keywords=jst+stecker&qid=1723186313&sprefix=jst+%2Caps%2C72&sr=8-5 | |
 | Control PCB | Ordered from JLCPCB | 1 unit per pedal | 5€ | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/blob/develop/Wiring/Esp32_V3/Gerber_PCB_V3.zip | |
 
+
+
+
+
 ### Power PCB: <br>
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Power PCB | Ordered from JLCPCB | 1 unit per pedal | 5€ | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/blob/develop/Wiring/PowerPcb/V2/PowerPCB_Gerber.zip | |
+| Power PCB | Ordered from JLCPCB | 1 unit per pedal | 5€ | [Gerber file](Wiring/PowerPcb/V3/PowerPCB_Gerber.zip) | |
 | SR5100 Schottky diode |  |  | 5€ | https://www.amazon.de/Packung-20-SR5100-Schottky-Barriere-Gleichrichterdioden-DO-201AD/dp/B079KK7QL5/ref=sr_1_3?keywords=sr+5100+diode&qid=1691820234&sr=8-3 | |
 | 80V 1mF capacitor |  |  | 5€ | https://www.ebay.de/itm/175539012948?var=475312604661&widget_ver=artemis&media=COPY | |
 | Wire (AWG 18) | used to connect PSU to power PCB and power PCB to servo | 1m | 2€ | local hardware store | |
