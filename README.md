@@ -68,6 +68,10 @@ Here is an image of the assembled PCB:
 ![](Wiring/Esp32_V3/PCB_assembled.jpg)
 
 
+HINT:
+The proposed PCB is easy to source, but requires manual soldering. The awesome user [gilphilbert](https://github.com/gilphilbert) designed a PCB assembly of the control board which can be found [here](https://github.com/gilphilbert/DIY-Sim-Racing-FFB-Pedal-PCBs). It's currently beeing tested. The current status is published on the discord channel.
+
+
 ### Optional but recommended: Power PCB
 
 
