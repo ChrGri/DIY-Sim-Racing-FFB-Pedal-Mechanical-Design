@@ -68,6 +68,10 @@ Here is an image of the assembled PCB:
 ![](Wiring/Esp32_V3/PCB_assembled.jpg)
 
 
+HINT:
+The proposed PCB is easy to source, but requires manual soldering. The awesome user [gilphilbert](https://github.com/gilphilbert) designed a PCB assembly of the control board which can be found [here](https://github.com/gilphilbert/DIY-Sim-Racing-FFB-Pedal-PCBs). It's currently beeing tested. The current status is published on the discord channel.
+
+
 ### Optional but recommended: Power PCB
 
 
@@ -162,12 +166,13 @@ Different connectors are listed below (see option #1 & #2) you'll only need one.
 
 ### Power PCB: <br>
 
-| Component           |  Link |
-:------------------------- | :-------------------------
-| SR5100 Schottky diode | [Aliexpress](https://de.aliexpress.com/item/1005006761992465.html?spm=a2g0o.order_list.order_list_main.16.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
-| 80V 1mF capacitor| [Aliexpress](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
-| XT30 connectors | [Aliexpress](https://de.aliexpress.com/item/32919173824.html?spm=a2g0o.order_list.order_list_main.4.67a25c5fWiYucW&gatewayAdapt=glo2deu)|
-| 1mm2 cable | local hardware store |
+| Component | Info |  Link |
+:-------------------------| :---- | :-------------------------
+| SR5100 Schottky diode | 1 diode per pesal | [Aliexpress](https://de.aliexpress.com/item/1005006761992465.html?spm=a2g0o.order_list.order_list_main.16.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| 80V 1mF capacitor| 1 cap per pedal | [Aliexpress](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| XT30 connector angled | 1 male connector per pedal | [Aliexpress](https://de.aliexpress.com/item/32919173824.html?spm=a2g0o.order_list.order_list_main.4.67a25c5fWiYucW&gatewayAdapt=glo2deu)|
+|XT30 connector straight| For PSU wire, xt30, female |[Aliexpress](https://a.aliexpress.com/_EzlkTFf)|
+| 1mm2 cable  | 1m | local hardware store |
 
 
 
