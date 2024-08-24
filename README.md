@@ -94,8 +94,6 @@ A 3d printable housing for the power PCB be found [here](STL/PowerPcbV3Guard.stl
 
 <img src="https://github.com/user-attachments/assets/ad277cf1-be3f-4023-b66b-a0515bda9734" height="200">
 
-![image]()
-
 
 A deeper analysis of the reverse current flow and investigation of brake circuits can be found [here](https://github.com/tcfshcrw/Brake_resistor_Control_Circuit).
 
