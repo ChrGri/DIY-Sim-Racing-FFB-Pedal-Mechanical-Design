@@ -90,6 +90,13 @@ Photos of the assembled PCB are depicted below: <br>
 <img src="Wiring/PowerPcb/V3/assem_back.jpg" height="200"> 
 <img src="Wiring/PowerPcb/V3/assem_attached.jpg" height="200">
 
+A 3d printable housing for the power PCB be found [here](STL/PowerPcbV3Guard.stl). It's depicted in the image below. <br>
+
+<img src="https://github.com/user-attachments/assets/ad277cf1-be3f-4023-b66b-a0515bda9734" height="200">
+
+![image]()
+
+
 A deeper analysis of the reverse current flow and investigation of brake circuits can be found [here](https://github.com/tcfshcrw/Brake_resistor_Control_Circuit).
 
 
