@@ -337,3 +337,12 @@ Updates on this issue will be posted here and almost daily on [youtube](https://
 A big thank you to Cuttingcorny for reporting the issue and helping to track the issue down.
 
 
+# Order PCB
+1. Download a PCB, e.g. [control PCB V3](Wiring/Esp32_V3/Gerber_PCB_V3.zip)
+2. Navigate to https://jlcpcb.com/
+3. Upload the gerber file
+4. Leave the standard settings (2 layers, FR-4, 1.6..), check which delivery options <br>
+![image](https://github.com/user-attachments/assets/f06bf91e-a104-4cd2-86a2-3e808cb25434)
+5. Oder the PCB
+
+
