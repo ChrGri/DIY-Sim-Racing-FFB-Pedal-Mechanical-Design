@@ -347,5 +347,6 @@ A big thank you to Cuttingcorny for reporting the issue and helping to track the
 ![image](https://github.com/user-attachments/assets/f06bf91e-a104-4cd2-86a2-3e808cb25434)
 5. Oder the PCB
 6. Wait for the delivery. Typically 10 days to europe.
+7. Solder the electrical compontens onto the PCBs. Refer to the assembled PCB images from above. A good soldering iron makes your life easier. I like [TS80](https://a.aliexpress.com/_EJJYk9f) and [TS101](https://a.aliexpress.com/_EjxNjCp) soldering irons. 
 
 
