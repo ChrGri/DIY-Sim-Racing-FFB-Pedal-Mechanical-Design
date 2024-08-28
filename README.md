@@ -67,6 +67,8 @@ Here is an image of the plain PCB:
 Here is an image of the assembled PCB:
 ![](Wiring/Esp32_V3/PCB_assembled.jpg)
 
+To order the PCB, follow the [instructions](README.md#order-pcb).
+
 
 HINT:
 The proposed PCB is easy to source, but requires manual soldering. The awesome user [gilphilbert](https://github.com/gilphilbert) designed a PCB assembly of the control board which can be found [here](https://github.com/gilphilbert/DIY-Sim-Racing-FFB-Pedal-PCBs). It's currently beeing tested. The current status is published on the discord channel.
@@ -338,11 +340,12 @@ A big thank you to Cuttingcorny for reporting the issue and helping to track the
 
 
 # Order PCB
-1. Download a PCB, e.g. [control PCB V3](Wiring/Esp32_V3/Gerber_PCB_V3.zip)
+1. Download the control and power PCB, e.g. [control PCB V3](Wiring/Esp32_V3/Gerber_PCB_V3.zip)
 2. Navigate to https://jlcpcb.com/
-3. Upload the gerber file
-4. Leave the standard settings (2 layers, FR-4, 1.6..), check which delivery options <br>
+3. Upload the gerber files
+4. Leave the standard settings (2 layers, FR-4, 1.6..), check which delivery options is the cheapest <br>
 ![image](https://github.com/user-attachments/assets/f06bf91e-a104-4cd2-86a2-3e808cb25434)
 5. Oder the PCB
+6. Wait for the delivery. Typically 10 days to europe.
 
 
