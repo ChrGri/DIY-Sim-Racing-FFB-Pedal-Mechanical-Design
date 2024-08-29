@@ -3,6 +3,24 @@
 # Disclaimer
 This is a DIY project. Eveything at your own risk!
 
+# License
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+The reason for that license selection is that at some point in time, individuals start
+- to steal the sources and binaries and sell them on the internet
+- mass production of FFB pedals in their living rooms to make money by taking parts from this project and Simucubes design files.
+  
+All that, without contributing anything to this project.
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
 # Related repos
 For the sake of clarity, this project is divided into multiple repositorys:
 | Description           |  Link |
