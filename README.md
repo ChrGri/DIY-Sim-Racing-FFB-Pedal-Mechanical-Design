@@ -124,6 +124,8 @@ A deeper analysis of the reverse current flow and investigation of brake circuit
 The wiring is depicted in the image below <br>
 <img width="824" alt="Wiring" src="https://github.com/user-attachments/assets/4acac8ed-c9c9-4b0d-9047-3788c891cf8c">
 
+Warning: The input voltage must not exceed 39V. Recommended voltage is anything between 32V and 37V. 
+When the supplied Voltage exceeda 39V, the servo coils might be energized all the time, resulting in excessive heat.
 
 
 # BOM
