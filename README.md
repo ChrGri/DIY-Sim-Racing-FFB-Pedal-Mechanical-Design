@@ -138,7 +138,7 @@ Given prices are just indicators. Sellers regularly offer discounted prices, e.g
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | SK12  | | 4 pieces  | 4,50€ | https://amzn.eu/d/074hrmhx | https://a.aliexpress.com/_EHTevax |
 | 608zz bearing  | | 2 pieces  | 5€ | https://amzn.eu/d/0j1mJTMV | https://a.aliexpress.com/_Eyd05UR|
-| Linear guide  | SFU1610, 100mm stroke | 1 piece  | 60€ | |https://a.aliexpress.com/_EJWoX55 |
+| Linear guide  | SFU1610, 100mm stroke | 1 piece  | 60€ | https://a.aliexpress.com/_EJxA4A5 |https://a.aliexpress.com/_EJWoX55 |
 | 2080 profile  | 400mm length | 1 piece  | 15€ | https://amzn.eu/d/08zlueLh | https://a.aliexpress.com/_EwWe0in |
 | M12 ball joint  | All right handed thread | 2 piece  | 11€ | https://amzn.eu/d/02ZegheX | |
 | M8 threades rod  |  |  one piece ca. 110mm length | 2€ | local hardware store | https://a.aliexpress.com/_EHIOY4T |
