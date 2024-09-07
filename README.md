@@ -345,6 +345,12 @@ Loadcell  <br>
 https://grabcad.com/library/m12-threaded-s-type-tension-compression-load-cell-1000kg-1
 
 
+# Options
+
+Instead of the 608zz bearing, one can also buy two KP08 bearing blocks and take the bearings from there. The benefir is, that they have a screw flange to remove any play between bearing and axis. An example assembly is depicted below:
+
+![image](https://github.com/user-attachments/assets/c72b740b-9519-4c30-9dbc-9c240b687ce9).
+
 
 # Issues
 
