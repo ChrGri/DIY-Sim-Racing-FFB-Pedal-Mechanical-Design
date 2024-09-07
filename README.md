@@ -253,7 +253,7 @@ It requires the following screws: <br>
 
 
 # Print settings
-I printed with 5 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature.
+I printed with 10 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature.
 
 
 # Assembly instructions
