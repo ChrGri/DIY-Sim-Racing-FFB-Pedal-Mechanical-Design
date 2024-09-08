@@ -365,6 +365,10 @@ Updates on this issue will be posted here and almost daily on [youtube](https://
 
 A big thank you to Cuttingcorny for reporting the issue and helping to track the issue down.
 
+Status from 8th september 2024:<br>
+The PSU from the BOM is now in use. The V3 power PCB as well. With the old software < release 84, the servos overvoltage protection was triggered. After switching to firmware release 85, the pedal seems to work fine. With release 85, new servo parameterization was introduced to reduce EMF of the servo. 
+The problem was thus solved with hardware changes (mainly switch of PSU) and software changes (parameterization of the servos internal braking resistor mode).
+
 
 # Order PCB
 1. Download the control and power PCB, e.g. [control PCB V3](Wiring/Esp32_V3/Gerber_PCB_V3.zip)
