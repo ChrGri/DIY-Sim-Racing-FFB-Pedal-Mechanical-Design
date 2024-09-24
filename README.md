@@ -381,3 +381,7 @@ The problem was thus solved with hardware changes (mainly switch of PSU) and sof
 7. Solder the electrical compontens onto the PCBs. Refer to the assembled PCB images from above. A good soldering iron makes your life easier. I like [TS80](https://a.aliexpress.com/_EJJYk9f) and [TS101](https://a.aliexpress.com/_EjxNjCp) soldering irons. 
 
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ChrGri/DIY-Sim-Racing-FFB-Pedal,ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&type=Date)](https://star-history.com/#ChrGri/DIY-Sim-Racing-FFB-Pedal&ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&Date)
