@@ -128,8 +128,13 @@ Warning: The input voltage must not exceed 39V. Recommended voltage is anything 
 When the supplied Voltage exceeda 39V, the servo coils might be energized all the time, resulting in excessive heat.
 
 
+The [Stepperonline documentation](https://www.omc-stepperonline.com/index.php?route=product/product/get_file&file=1641/User%20Manual%20Of%20iSV2-57TR-48V400A.pdf) suggests to use AWG16 wiring.
+
+
 # BOM
 Given prices are just indicators. Sellers regularly offer discounted prices, e.g. I paid for the iSV57 60€, for the linear rail 46€.
+
+Disclosure: Some of the links below are affiliate links, which means we may receive a commission at no cost to you if you make a purchase. By using the provided links, you help me buy tools or hardware for further investigations.
 
 ## Mechanical parts
 
@@ -164,8 +169,8 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 ### Generic parts:
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut the motor shaft to appropriate length with a metal handsaw. | 1 piece  | 90€ | https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s | |
-| PSU | 1 PSU can power multiple pedals | 1 piece | 25€ |https://www.omc-stepperonline.com/de/lrs-350-36-mean-well-350w-36vdc-9-7a-115-230vac-geschlossenes-schaltnetzteil-lrs-350-36 | |
+| iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut the motor shaft to appropriate length with a metal handsaw. | 1 piece  | 90€ | [Stepperonline link](https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s?tracking=6721c5865911c) | |
+| PSU | 1 PSU can power multiple pedals | 1 piece | 25€ | [Stepperonline link](https://www.omc-stepperonline.com/de/lrs-350-36-mean-well-350w-36vdc-9-7a-115-230vac-geschlossenes-schaltnetzteil-lrs-350-36?tracking=6721c5865911c) | |
 | Loadcell  | 200kg | 1 piece  | 20€ | https://amzn.eu/d/0erHqGqH | https://a.aliexpress.com/_EJwp9Ht |
 | Servo debug port connector  | Female, 5P | 1 piece  | 1€ | https://pt.aliexpress.com/item/1005005418641238.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60746685474&aff_fcid=1d45d6e48d444964bd22a0f42d53f3c8-1723186511849-07071-_EJ2en8z&tt=MG&aff_fsk=_EJ2en8z&aff_platform=default&sk=_EJ2en8z&aff_trace_key=1d45d6e48d444964bd22a0f42d53f3c8-1723186511849-07071-_EJ2en8z&shareId=60746685474&businessType=ProductDetail&platform=AE&terminal_id=e96ca77e674742f88e254e5a68e4e328&afSmartRedirect=y |  |
 
