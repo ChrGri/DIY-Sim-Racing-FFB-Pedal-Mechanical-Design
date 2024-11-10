@@ -1,5 +1,7 @@
 # DIY-Sim-Racing-FFB-Pedal-Mechanical-Design
 
+
+
 # Disclaimer
 This is a DIY project. Eveything at your own risk!
 
@@ -27,6 +29,16 @@ For the sake of clarity, this project is divided into multiple repositorys:
 :------------------------- | :------------------------- |
 | Mechanical and electrical design | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design |
 | Software (firmware, SimHub plugin, ...) |https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal |
+
+# Support the team
+We love doing research. New hardware (e.g. oscilloscopes, logic analyzers, servos, PCBs) is very expensive. Feel free to support us and thus fasten up the readearch activity.
+
+Dev | captainchris | tcfshcrw | gilphilbert
+--- | --- |--- |--- 
+Buy me a coffee | <a href="https://www.buymeacoffee.com/Captainchris"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20px"></a> | <a href="https://www.buymeacoffee.com/tcfshcrw"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20px"></a> |  | 
+
+
+
 
 
 # Motivation
@@ -393,6 +405,10 @@ The problem was thus solved with hardware changes (mainly switch of PSU) and sof
 [![Star History Chart](https://api.star-history.com/svg?repos=ChrGri/DIY-Sim-Racing-FFB-Pedal,ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&type=Date)](https://star-history.com/#ChrGri/DIY-Sim-Racing-FFB-Pedal&ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&Date)
 
 
-# Support
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/Captainchris)
+
+
+
+
+
+
 
