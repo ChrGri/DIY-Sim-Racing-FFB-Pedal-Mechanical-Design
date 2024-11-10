@@ -31,7 +31,7 @@ For the sake of clarity, this project is divided into multiple repositorys:
 | Software (firmware, SimHub plugin, ...) |https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal |
 
 # Support the team
-We love doing research. New hardware (e.g. oscilloscopes, logic analyzers, servos, PCBs) is very expensive. Feel free to support us and thus fasten up the readearch activity.
+We :heart: doing research. New hardware (e.g. oscilloscopes, logic analyzers, servos, PCBs) is very expensive. Feel free to support us and thus fasten up the research activity.
 
 Dev | captainchris | tcfshcrw | gilphilbert
 --- | --- |--- |--- 
