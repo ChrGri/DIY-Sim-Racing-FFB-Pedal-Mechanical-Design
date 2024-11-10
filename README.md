@@ -270,6 +270,10 @@ It requires the following screws: <br>
 2x M5 t-nut for 4040 profile <br>
 
 
+## Parts for JKK rail
+
+Design files for the [JKK60 rail](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-module-kk60-series#selection-tab) can be found [here](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/tree/main/CAD/JKK_rail).
+
 # Print settings
 I printed with 10 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature.
 
