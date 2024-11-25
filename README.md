@@ -70,7 +70,7 @@ The linked linear guide was selected, since it has 30mm M4 bold pattern, which w
 
 The loadcell joints are from off-the-shelf SK12 shaft supports. They are easy to source, reasonably cheap and therefore a good buyout option. Since they are made from matel, they are likely stronger than your bones.
 
-The beefy loadcell was choosen, as it has a M12 thread, which allows easy connection with the M12 ball joint. [These](https://a.aliexpress.com/_Ez2kYuf) loadcells are nice too, but would require adapters or redesign of the loadcell arm.
+The beefy loadcell was choosen, as it has a M12 thread, which allows easy connection with the M12 ball joint. [These](https://s.click.aliexpress.com/e/_DFQ8bjx) loadcells are nice too, but would require adapters or redesign of the loadcell arm.
 
 
 The pedal arms have a certain width to it, to reduce flex, when pedal force is applied off-centre.
@@ -163,13 +163,13 @@ Disclosure: Some of the links below are affiliate links, which means we may rece
 ### Larger parts
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| SK12  | | 4 pieces  | 4,50€ | https://amzn.eu/d/074hrmhx | https://a.aliexpress.com/_EHTevax |
-| 608zz bearing  | | 2 pieces  | 5€ | https://amzn.eu/d/0j1mJTMV | https://a.aliexpress.com/_Eyd05UR|
-| Linear guide  | SFU1610, 100mm stroke | 1 piece  | 60€ | https://a.aliexpress.com/_EJxA4A5 |https://a.aliexpress.com/_EJWoX55 |
-| 2080 profile  | 400mm length | 1 piece  | 15€ | https://amzn.eu/d/08zlueLh | https://a.aliexpress.com/_EwWe0in |
+| SK12  | | 4 pieces  | 4,50€ | https://amzn.eu/d/074hrmhx | https://s.click.aliexpress.com/e/_DlVHbol |
+| 608zz bearing  | | 2 pieces  | 5€ | https://amzn.eu/d/0j1mJTMV | https://s.click.aliexpress.com/e/_DC5FMbP |
+| Linear guide  | SFU1610, 100mm stroke | 1 piece  | 60€ | https://a.aliexpress.com/_EJWoX55 | |
+| 2080 profile  | 400mm length | 1 piece  | 15€ | https://amzn.eu/d/08zlueLh | https://s.click.aliexpress.com/e/_DEPruwN |
 | M12 ball joint  | All right handed thread | 2 piece  | 11€ | https://amzn.eu/d/02ZegheX | |
-| M8 threades rod  |  |  one piece ca. 110mm length | 2€ | local hardware store | https://a.aliexpress.com/_EHIOY4T |
-| M12 threades rod  |  | two pieces a 45mm + two pieces a 55mm  | 2€ | local hardware store | https://a.aliexpress.com/_EvmkpLN |
+| M8 threades rod  |  |  one piece ca. 110mm length | 2€ | local hardware store | https://s.click.aliexpress.com/e/_Dmk4XgV |
+| M12 threades rod  |  | two pieces a 45mm + two pieces a 55mm  | 2€ | local hardware store | https://s.click.aliexpress.com/e/_DCL5p3L |
 | M8 self locking nut  |  | 2 pieces  | 0,50€ | local hardware store |  |
 | M5 t-nut  |  | 8 pieces  | 3€ | https://amzn.eu/d/0e2KYTZu | https://a.aliexpress.com/_EyKq6Mx |
 | FDM filament  |  | ca. 300g  | 25€ | https://amzn.eu/d/00g90wIk | |
@@ -193,8 +193,8 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut the motor shaft to appropriate length with a metal handsaw. Alternatively the 180s servo is a bit stronger and not selled out that often. | 1 piece  | 90€ | [130s link](https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s?tracking=6721c5865911c) | [180s link](https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-180w-3000rpm-0-6nm-84-98oz-in-20-50vdc-servomotor-kurze-welle-isv57t-180s?tracking=6721c5865911c)|
 | PSU | 1 PSU can power multiple pedals (2 at least) | 1 piece | 25€ | [link](https://www.omc-stepperonline.com/de/lrs-350-36-mean-well-350w-36vdc-9-7a-115-230vac-geschlossenes-schaltnetzteil-lrs-350-36?tracking=6721c5865911c) | |
-| Loadcell  | 200kg | 1 piece  | 20€ | [link](https://amzn.eu/d/0erHqGqH) | [link](https://a.aliexpress.com/_EJwp9Ht) |
-| Servo debug port connector  | Female, 5P | 1 piece  | 1€ | [link](https://pt.aliexpress.com/item/1005005418641238.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60746685474&aff_fcid=1d45d6e48d444964bd22a0f42d53f3c8-1723186511849-07071-_EJ2en8z&tt=MG&aff_fsk=_EJ2en8z&aff_platform=default&sk=_EJ2en8z&aff_trace_key=1d45d6e48d444964bd22a0f42d53f3c8-1723186511849-07071-_EJ2en8z&shareId=60746685474&businessType=ProductDetail&platform=AE&terminal_id=e96ca77e674742f88e254e5a68e4e328&afSmartRedirect=y) | | 
+| Loadcell  | 200kg | 1 piece  | 20€ | [link](https://amzn.eu/d/0erHqGqH) | [link](https://s.click.aliexpress.com/e/_DlBk3oV) |
+| Servo debug port connector  | Female, 5P | 1 piece  | 1€ | [link](https://s.click.aliexpress.com/e/_DC5FMbP) | | 
 
 
 
@@ -223,10 +223,10 @@ Different connectors are listed below (see option #1 & #2) you'll only need one.
 
 | Component | Info |  Link |
 :-------------------------| :---- | :-------------------------
-| SR5100 Schottky diode | 1 diode per pesal | [Aliexpress](https://de.aliexpress.com/item/1005006761992465.html?spm=a2g0o.order_list.order_list_main.16.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| SR5100 Schottky diode | 1 diode per pesal | [Aliexpress](https://s.click.aliexpress.com/e/_DdrrsrJ) |
 | 80V 1mF capacitor| 1 cap per pedal | [Aliexpress](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
-| XT30 connector angled | 1 male connector per pedal | [Aliexpress](https://de.aliexpress.com/item/32919173824.html?spm=a2g0o.order_list.order_list_main.4.67a25c5fWiYucW&gatewayAdapt=glo2deu)|
-|XT30 connector straight| For PSU wire, xt30, female |[Aliexpress](https://a.aliexpress.com/_EzlkTFf)|
+| XT30 connector angled | 1 male connector per pedal | [Aliexpress](https://s.click.aliexpress.com/e/_DCIcYHF)|
+|XT30 connector straight| For PSU wire, xt30, female |[Aliexpress](https://s.click.aliexpress.com/e/_DDpH2qN)|
 | 1mm2 cable  | 1m | local hardware store |
 
 
@@ -379,7 +379,7 @@ https://grabcad.com/library/m12-threaded-s-type-tension-compression-load-cell-10
 
 # Options
 
-Instead of the 608zz bearing, one can also buy two [KP08 bearing blocks](https://a.aliexpress.com/_EzwSNtB)
+Instead of the 608zz bearing, one can also buy two [KP08 bearing blocks](https://s.click.aliexpress.com/e/_Dk7Wokt)
 and take the bearings from there. The benefit is, that they have a screw flange to remove any play between bearing and axis. An example assembly is depicted below:
 
 ![image](https://github.com/user-attachments/assets/c72b740b-9519-4c30-9dbc-9c240b687ce9).
@@ -410,7 +410,7 @@ The problem was thus solved with hardware changes (mainly switch of PSU) and sof
 ![image](https://github.com/user-attachments/assets/f06bf91e-a104-4cd2-86a2-3e808cb25434)
 5. Oder the PCB
 6. Wait for the delivery. Typically 10 days to europe.
-7. Solder the electrical compontens onto the PCBs. Refer to the assembled PCB images from above. A good soldering iron makes your life easier. I like [TS80](https://a.aliexpress.com/_EJJYk9f) and [TS101](https://a.aliexpress.com/_EjxNjCp) soldering irons. 
+7. Solder the electrical compontens onto the PCBs. Refer to the assembled PCB images from above. A good soldering iron makes your life easier. I like [TS80](https://s.click.aliexpress.com/e/_DkivtvJ) and [TS101]https://s.click.aliexpress.com/e/_DkVMKwN) soldering irons. 
 
 
 
