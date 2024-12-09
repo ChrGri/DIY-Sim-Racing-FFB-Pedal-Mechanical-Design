@@ -8,8 +8,8 @@ The CAD model is in [HERE](./CAD/FFB_PEDAL_2060_COMPACT_DESIGN.stp).<br>
 <img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/3D.PNG" width="500"><br>
 some basic parameter for pedal kinemaatics:<br>
 <img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/3D_BASIC_SKETCH.PNG" width="500"><br>
-
-## MANUFACTURE-CNC
+## BOM
+### MANUFACTURE-CNC
 The design is including CNC process to create the pedal, you need separate them from 3D CAD in above.
 Related file can be found here:
 | PART            | DRAWING FILE | MATERIAL| QUANTITY|
@@ -20,7 +20,7 @@ Related file can be found here:
 | 5MM-HOLDER-CAP | NA| AL6061 T6 | 2 |
 | 5MM-HOLDER-THREAD | NA| AL6061 T6 | 2 |
 | LC-LINK-NEW | NA| AL7075 T6 | 2 |
-## MANUFACTURE-LASER CUT
+### MANUFACTURE-LASER CUT
 The design is including laser cut process to create the pedal, you need send the dwg file to laser cut supplier.<br>
 Laser-cut manufacture file: [DWG LINK](./CAD/laser-cut-dwg.dwg), [PDF LINK](./CAD/laser-cut-dwg.pdf)<br>
 Material can be SUS304 or SUS420J2, if you prefer SUS420J2, please apply heat treatment(HRC36-40) after laser cutting.<br>
@@ -34,4 +34,25 @@ Sheet thickness is all 2.3mm.
 | COLLAR-TWIN-5 |  2 |
 | PIVOT-BRKT-SPACER |  2 |
 | PIVOT-PLATE |  2 |
-## BOM
+### PURCHASED PARTS
+| PART            |  QUANTITY| LINK|
+:------------------------- | :------------------------- | :------------------------- |
+| Stainless Steel Internal Thread Round Head Cylindrical Pin M5x8x35 | 5 |[AliExpress](https://www.aliexpress.com/item/1005006507247840.html) |
+| Stainless Steel Internal Thread Round Head Cylindrical Pin M5x8x40 | 1 |[AliExpress](https://www.aliexpress.com/item/1005006507247840.html) |
+| Flange Self Lubricating Bearing 8X10X8-15X1.2 | 4 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
+| Flange Self Lubricating Bearing 6X8X8-12X1 | 2 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
+| T-NUT for 20 series profile |  16 | |
+| M6x20 HEX Screw |  2 | |
+| M5x10 HEX Screw |  8 | |
+| M5x12 HEX Screw |  4 | |
+| M5x25 HEX Screw |  4 | |
+| M5x35 HEX Screw |  4 | |
+| M3x6 HEX Screw |  4 | |
+| M8x25 HEX Screw |  2 | |
+| M5x20 countersunk Screw |  1 | |
+| M5 Nut |  1 | |
+| M5 Spring Washer |  12 | |
+| M5 Washer OD 10 |  12 | |
+| M6 Nut |  2 | |
+| M6 Spring Washer |  2 | |
+| M6 Washer |  2 | |
