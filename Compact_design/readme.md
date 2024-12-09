@@ -18,7 +18,7 @@ Related file can be found here:
 | JKK-2060-ADAPTER | [LINK](./CAD/jkk-adapter-2060.pdf)| AL6061 T6 | 1 |
 | SPACER-2-HOLES | NA| AL6061 T6 | 2 |
 | 5MM-HOLDER-CAP | NA| AL6061 T6 | 2 |
-| 5MM-HOLDER-THREAD | NA| AL6061 T6 | 2 |
+| 5MM-HOLDER-THREAD | [LINK](./CAD/5mm-holder-thread.pdf)| AL6061 T6 | 2 |
 | LC-LINK-NEW | NA| AL7075 T6 | 2 |
 ### MANUFACTURE-LASER CUT
 The design is including laser cut process to create the pedal, you need send the dwg file to laser cut supplier.<br>
@@ -34,14 +34,23 @@ Sheet thickness is all 2.3mm.
 | COLLAR-TWIN-5 |  2 |
 | PIVOT-BRKT-SPACER |  2 |
 | PIVOT-PLATE |  2 |
+Please note after laser cutting, the BRKT-PLATE_WIDE should apply the countersunk by drill.<br>
+<img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/brkt-plate-wide-countersunk.png" width="500"><br>
+Please also note, all the connect holes should remove the burrs on the laser starting and end point.
+<img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/burrs-after-laser-cutting.png" width="300"><br>
 ### PURCHASED PARTS
 | PART            |  QUANTITY| LINK|
 :------------------------- | :------------------------- | :------------------------- |
+| isv57t-130s | 1 |[Stepperonline](https://www.omc-stepperonline.com/nema-23-integrated-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-servo-motor-short-shaft-isv57t-130s) |
+| JKK60-5-C-150-A1-F4 Rail | 1 |[JLC](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-actuators--kk60-series?k=JKK60-5-C-150-A1-F4&productModelNumber=JKK60-5-C-150-A1-F4) |
 | Stainless Steel Internal Thread Round Head Cylindrical Pin M5x8x35 | 5 |[AliExpress](https://www.aliexpress.com/item/1005006507247840.html) |
 | Stainless Steel Internal Thread Round Head Cylindrical Pin M5x8x40 | 1 |[AliExpress](https://www.aliexpress.com/item/1005006507247840.html) |
 | Flange Self Lubricating Bearing 8X10X8-15X1.2 | 4 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
 | Flange Self Lubricating Bearing 6X8X8-12X1 | 2 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
+| Stainless Steel (A2-70) Bushing Washer Round Hollow Unthreaded Stand-off Spacer D10xM8 L9mm | 2 |[AliExpress](https://www.aliexpress.com/item/1005008191841149.html)) |
 | T-NUT for 20 series profile |  16 | |
+| Coupler ID8 OD25 L30 |  1 | |
+| M4x16 HEX Screw |  4 | |
 | M6x20 HEX Screw |  2 | |
 | M5x8 HEX Screw |  4 | |
 | M5x10 HEX Screw |  8 | |
