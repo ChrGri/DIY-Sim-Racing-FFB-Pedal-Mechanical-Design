@@ -14,19 +14,22 @@ some basic parameter for pedal kinemaatics:<br>
 ### MANUFACTURE-CNC
 The design is including CNC process to create the pedal, you need separate them from 3D CAD in above.
 Related file can be found here:
-| PART            | DRAWING FILE | MATERIAL| QUANTITY|
-:------------------------- |  :------------------------- |  :------------------------- | :------------------------- |
-| PIVOT-BRKT-JKK | [LINK](./CAD/pivot-brkt-jkk.pdf)| AL6061 T6 | 1 |
-| JKK-2060-ADAPTER | [LINK](./CAD/jkk-adapter-2060.pdf)| AL6061 T6 | 1 |
-| SPACER-2-HOLES | NA| AL6061 T6 | 2 |
-| 5MM-HOLDER-CAP | NA| AL6061 T6 | 2 |
-| 5MM-HOLDER-THREAD | [LINK](./CAD/5mm-holder-thread.pdf)| AL6061 T6 | 2 |
-| LC-LINK-NEW | NA| AL7075 T6 | 2 |
+| PART            | CAD FILE |DRAWING FILE | MATERIAL| QUANTITY| |
+:------------------------- |  :------------------------- |  :------------------------- | :------------------------- |:------------------------- |:------------------------- |
+| PIVOT-BRKT-JKK |[LINK](./CAD/PIVOT-BRKT-JKK.stp)| [LINK](./CAD/pivot-brkt-jkk.pdf)| AL6061 T6 | 1 ||
+| JKK-2060-ADAPTER | [LINK](./CAD/JKK-2060-ADAPTER.stp)|[LINK](./CAD/jkk-adapter-2060.pdf)| AL6061 T6 | 1 ||
+| SPACER-2-HOLES | [LINK](./CAD/SPACER-2-HOLES.stp)|NA| AL6061 T6 | 2 |For default 2.3mm sheet material|
+| SPACER-2-HOLES-20 | [LINK](./CAD/SPACER-2-HOLES-20.stp)|NA| AL6061 T6 | 2 |For 2.0mm sheet material|
+| SPACER-2-HOLES-25 | [LINK](./CAD/SPACER-2-HOLES-25.stp)|NA| AL6061 T6 | 2 |For 2.5mm sheet material|
+| SPACER-2-HOLES-30 | [LINK](./CAD/SPACER-2-HOLES-30.stp)|NA| AL6061 T6 | 2 |For 3.0mm sheet material|
+| 5MM-HOLDER-CAP | [LINK](./CAD/5MM-HOLDER-CAP.stp)|NA| AL6061 T6 | 2 |
+| 5MM-HOLDER-THREAD | [LINK](./CAD/5MM-HOLDER-THREAD.stp)|[LINK](./CAD/5mm-holder-thread.pdf)| AL6061 T6 | 2 |
+| LC-LINK-NEW | [LINK](./CAD/LC-LINK-NEW.stp)|NA| AL7075 T6 | 2 |
 ### MANUFACTURE-LASER CUT
 The design is including laser cut process to create the pedal, you need send the dwg file to laser cut supplier.<br>
 Laser-cut manufacture file: [DWG LINK](./CAD/laser-cut-dwg.dwg), [PDF LINK](./CAD/laser-cut-dwg.pdf)<br>
 Material can be SUS304 or SUS420J2, if you prefer SUS420J2, please apply heat treatment(HRC36-40) after laser cutting.<br>
-Sheet thickness is all 2.3mm.
+Sheet thickness default is 2.3mm. You can also modify to 2.0/2.5/3.0mm, but should replace SPACER-2-HOLES to the corresponding CAD model.<br>
 | PART            |  QUANTITY|
 :------------------------- | :------------------------- |
 | BRKT-PLATE_WIDE | 1 |
@@ -52,6 +55,7 @@ Please also note, all the connect holes should remove the burrs on the laser sta
 | Flange Self Lubricating Bearing 8X10X8-15X1.2 | 4 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
 | Flange Self Lubricating Bearing 6X8X8-12X1 | 2 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
 | Stainless Steel (A2-70) Bushing Washer Round Hollow Unthreaded Stand-off Spacer D10xM8 L9mm | 2 |[AliExpress](https://www.aliexpress.com/item/1005008191841149.html) |
+| 2060 AL Profiles  Length 400mm|  1 | |
 | T-NUT for 20 series profile |  16 | |
 | Coupler ID8 OD25 L30 |  1 | |
 | M4x16 HEX Screw |  4 | |
