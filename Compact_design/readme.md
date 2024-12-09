@@ -34,9 +34,11 @@ Sheet thickness is all 2.3mm.
 | COLLAR-TWIN-5 |  2 |
 | PIVOT-BRKT-SPACER |  2 |
 | PIVOT-PLATE |  2 |
+
+
 Please note after laser cutting, the BRKT-PLATE_WIDE should apply the countersunk by drill.<br>
 <img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/brkt-plate-wide-countersunk.png" width="500"><br>
-Please also note, all the connect holes should remove the burrs on the laser starting and end point.
+Please also note, all the connect holes should remove the burrs on the laser starting and end point.<br>
 <img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/burrs-after-laser-cutting.png" width="300"><br>
 ### PURCHASED PARTS
 | PART            |  QUANTITY| LINK|
@@ -47,7 +49,7 @@ Please also note, all the connect holes should remove the burrs on the laser sta
 | Stainless Steel Internal Thread Round Head Cylindrical Pin M5x8x40 | 1 |[AliExpress](https://www.aliexpress.com/item/1005006507247840.html) |
 | Flange Self Lubricating Bearing 8X10X8-15X1.2 | 4 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
 | Flange Self Lubricating Bearing 6X8X8-12X1 | 2 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
-| Stainless Steel (A2-70) Bushing Washer Round Hollow Unthreaded Stand-off Spacer D10xM8 L9mm | 2 |[AliExpress](https://www.aliexpress.com/item/1005008191841149.html)) |
+| Stainless Steel (A2-70) Bushing Washer Round Hollow Unthreaded Stand-off Spacer D10xM8 L9mm | 2 |[AliExpress](https://www.aliexpress.com/item/1005008191841149.html) |
 | T-NUT for 20 series profile |  16 | |
 | Coupler ID8 OD25 L30 |  1 | |
 | M4x16 HEX Screw |  4 | |
