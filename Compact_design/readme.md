@@ -43,6 +43,7 @@ Sheet thickness is all 2.3mm.
 | Flange Self Lubricating Bearing 6X8X8-12X1 | 2 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
 | T-NUT for 20 series profile |  16 | |
 | M6x20 HEX Screw |  2 | |
+| M5x8 HEX Screw |  4 | |
 | M5x10 HEX Screw |  8 | |
 | M5x12 HEX Screw |  4 | |
 | M5x25 HEX Screw |  4 | |
@@ -50,6 +51,7 @@ Sheet thickness is all 2.3mm.
 | M3x6 HEX Screw |  4 | |
 | M8x25 HEX Screw |  2 | |
 | M5x20 countersunk Screw |  1 | |
+| M5x12 countersunk Screw |  6 | |
 | M5 Nut |  1 | |
 | M5 Spring Washer |  12 | |
 | M5 Washer OD 10 |  12 | |
