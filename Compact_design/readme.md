@@ -6,6 +6,8 @@ The minimum width of pedal without screw is about 73mm. Total Length is 400mm.<b
 ## CAD MODEL
 The CAD model is in [HERE](./CAD/FFB_PEDAL_2060_COMPACT_DESIGN.stp).<br>
 <img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/3D.PNG" width="500"><br>
+Exploded view.<br>
+<img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/explode.png" width="700"><br>
 some basic parameter for pedal kinemaatics:<br>
 <img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/3D_BASIC_SKETCH.PNG" width="500"><br>
 ## BOM
