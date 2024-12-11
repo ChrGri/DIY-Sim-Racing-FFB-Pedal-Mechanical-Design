@@ -14,17 +14,17 @@ some basic parameter for pedal kinemaatics:<br>
 ### MANUFACTURE-CNC
 The design is including CNC process to create the pedal, you need separate them from 3D CAD in above.
 Related file can be found here:
-| PART            | CAD FILE |DRAWING FILE | MATERIAL| QUANTITY| |
-:------------------------- |  :------------------------- |  :------------------------- | :------------------------- |:------------------------- |:------------------------- |
-| PIVOT-BRKT-JKK |[LINK](./CAD/PIVOT-BRKT-JKK.stp)| [LINK](./CAD/pivot-brkt-jkk.pdf)| AL6061 T6 | 1 ||
-| JKK-2060-ADAPTER | [LINK](./CAD/JKK-2060-ADAPTER.stp)|[LINK](./CAD/jkk-adapter-2060.pdf)| AL6061 T6 | 1 ||
-| SPACER-2-HOLES | [LINK](./CAD/SPACER-2-HOLES.stp)|NA| AL6061 T6 | 2 |For default 2.3mm sheet material|
-| SPACER-2-HOLES-20 | [LINK](./CAD/SPACER-2-HOLES-20.stp)|NA| AL6061 T6 | 2 |For 2.0mm sheet material|
-| SPACER-2-HOLES-25 | [LINK](./CAD/SPACER-2-HOLES-25.stp)|NA| AL6061 T6 | 2 |For 2.5mm sheet material|
-| SPACER-2-HOLES-30 | [LINK](./CAD/SPACER-2-HOLES-30.stp)|NA| AL6061 T6 | 2 |For 3.0mm sheet material|
-| 5MM-HOLDER-CAP | [LINK](./CAD/5MM-HOLDER-CAP.stp)|NA| AL6061 T6 | 2 |
-| 5MM-HOLDER-THREAD | [LINK](./CAD/5MM-HOLDER-THREAD.stp)|[LINK](./CAD/5mm-holder-thread.pdf)| AL6061 T6 | 2 |
-| LC-LINK-NEW | [LINK](./CAD/LC-LINK-NEW.stp)|NA| AL7075 T6 | 2 |
+| PART            | CAD FILE |DRAWING FILE |THREAD | MATERIAL| QUANTITY| |
+:------------------------- |  :------------------------- |  :------------------------- | :------------------------- |:------------------------- |:------------------------- |:------------------------- |
+| PIVOT-BRKT-JKK |[LINK](./CAD/PIVOT-BRKT-JKK.stp)| [LINK](./CAD/pivot-brkt-jkk.pdf)|V |AL6061 T6 | 1 ||
+| JKK-2060-ADAPTER | [LINK](./CAD/JKK-2060-ADAPTER.stp)|[LINK](./CAD/jkk-adapter-2060.pdf)|V |AL6061 T6 | 1 ||
+| SPACER-2-HOLES | [LINK](./CAD/SPACER-2-HOLES.stp)|NA| |AL6061 T6 | 2 |For default 2.3mm sheet material|
+| SPACER-2-HOLES-20 | [LINK](./CAD/SPACER-2-HOLES-20.stp)|NA| |AL6061 T6 | 2 |For 2.0mm sheet material|
+| SPACER-2-HOLES-25 | [LINK](./CAD/SPACER-2-HOLES-25.stp)|NA| |AL6061 T6 | 2 |For 2.5mm sheet material|
+| SPACER-2-HOLES-30 | [LINK](./CAD/SPACER-2-HOLES-30.stp)|NA| |AL6061 T6 | 2 |For 3.0mm sheet material|
+| 5MM-HOLDER-CAP | [LINK](./CAD/5MM-HOLDER-CAP.stp)|NA| |AL6061 T6 | 2 |
+| 5MM-HOLDER-THREAD | [LINK](./CAD/5MM-HOLDER-THREAD.stp)|[LINK](./CAD/5mm-holder-thread.pdf)|V |AL6061 T6 | 2 |
+| LC-LINK-NEW | [LINK](./CAD/LC-LINK-NEW.stp)|NA| |AL7075 T6 | 2 |
 ### MANUFACTURE-LASER CUT
 The design is including laser cut process to create the pedal, you need send the dwg file to laser cut supplier.<br>
 Laser-cut manufacture file: [DWG LINK](./CAD/laser-cut-dwg.dwg), [PDF LINK](./CAD/laser-cut-dwg.pdf)<br>
@@ -75,3 +75,17 @@ Please also note, all the connect holes should remove the burrs on the laser sta
 | M6 Nut |  2 | |
 | M6 Spring Washer |  2 | |
 | M6 Washer |  2 | |
+
+
+## 2080 Design
+<img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/2080-3D.png" width="500"><br>
+If you prefer the design with 2080 base extrusion, please replace the spacer and adapter in below with crossponding sheet thickness.<br>
+Assembly link: [LINK](./CAD/2080-stp/ap-asm-2080_asm.stp)
+| PART            | CAD FILE |DRAWING FILE |THREAD | MATERIAL| QUANTITY| |
+:------------------------- |  :------------------------- |  :------------------------- | :------------------------- |:------------------------- |:------------------------- |:------------------------- |
+| JKK-2080-ADAPTER | [LINK](./CAD/2080-stp/jkk-2080-adapter.stp)|[LINK](./CAD/jkk-2080-adapter.pdf)|V |AL6061 T6 | 1 ||
+| SPACER-2-HOLES | [LINK](./CAD/2080-stp/spacer-2-holes-2080.stp)|NA| |AL6061 T6 | 2 |For default 2.3mm sheet material|
+| SPACER-2-HOLES-20 | [LINK](./CAD/2080-stp/spacer-2-holes-20-2080.stp)|NA| |AL6061 T6 | 2 |For 2.0mm sheet material|
+| SPACER-2-HOLES-25 | [LINK](./CAD/2080-stp/spacer-2-holes-25-2080.stp)|NA| |AL6061 T6 | 2 |For 2.5mm sheet material|
+| SPACER-2-HOLES-30 | [LINK](./CAD/2080-stp/spacer-2-holes-30-2080.stp)|NA| |AL6061 T6 | 2 |For 3.0mm sheet material|
+
