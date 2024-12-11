@@ -83,7 +83,7 @@ If you prefer the design with 2080 base extrusion, please replace the spacer and
 Assembly link: [LINK](./CAD/2080-stp/ap-asm-2080_asm.stp)
 | PART            | CAD FILE |DRAWING FILE |THREAD | MATERIAL| QUANTITY| |
 :------------------------- |  :------------------------- |  :------------------------- | :------------------------- |:------------------------- |:------------------------- |:------------------------- |
-| JKK-2080-ADAPTER | [LINK](./CAD/2080-stp/jkk-2080-adapter.stp)|[LINK](./CAD/2080-stp/jkk-2080-adapter.pdf)|V |AL6061 T6 | 1 ||
+| JKK-2080-ADAPTER | [LINK](./CAD/2080-stp/jkk-2080-adapter.stp)|[LINK](./CAD/2080-stp/jkk-adapter-2080.pdf)|V |AL6061 T6 | 1 ||
 | SPACER-2-HOLES | [LINK](./CAD/2080-stp/spacer-2-holes-2080.stp)|NA| |AL6061 T6 | 2 |For default 2.3mm sheet material|
 | SPACER-2-HOLES-20 | [LINK](./CAD/2080-stp/spacer-2-holes-20-2080.stp)|NA| |AL6061 T6 | 2 |For 2.0mm sheet material|
 | SPACER-2-HOLES-25 | [LINK](./CAD/2080-stp/spacer-2-holes-25-2080.stp)|NA| |AL6061 T6 | 2 |For 2.5mm sheet material|
