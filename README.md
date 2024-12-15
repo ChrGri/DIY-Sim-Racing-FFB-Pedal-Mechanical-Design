@@ -163,16 +163,16 @@ Disclosure: Some of the links below are affiliate links, which means we may rece
 ### Larger parts
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| SK12  | | 4 pieces  | 4,50€ | [link](https://amzn.eu/d/074hrmhx) | [link](https://s.click.aliexpress.com/e/_DlVHbol) |
-| 608zz bearing  | | 2 pieces  | 5€ | [link](https://amzn.eu/d/0j1mJTMV) | [link](https://s.click.aliexpress.com/e/_DC5FMbP) |
+| SK12  | | 4 pieces  | 4,50€ | [link](https://amzn.to/4fibyZe) | [link](https://s.click.aliexpress.com/e/_DlVHbol) |
+| 608zz bearing  | | 2 pieces  | 5€ | [link](https://amzn.to/4grWl92) | [link](https://s.click.aliexpress.com/e/_DC5FMbP) |
 | Linear guide  | SFU1610, 100mm stroke | 1 piece  | 60€ | [link](https://a.aliexpress.com/_EJWoX55) | |
-| 2080 profile  | 400mm length | 1 piece  | 15€ | [link](https://amzn.eu/d/08zlueLh) | [link](https://s.click.aliexpress.com/e/_DEPruwN) |
-| M12 ball joint  | All right handed thread | 2 piece  | 11€ | [link](https://amzn.eu/d/02ZegheX) | |
+| 2080 profile  | 400mm length | 1 piece  | 15€ | [link](https://amzn.to/4glrw63) | [link](https://s.click.aliexpress.com/e/_DEPruwN) |
+| M12 ball joint  | All right handed thread | 2 piece  | 11€ | [link](https://amzn.to/3Dqoyyq) | |
 | M8 threades rod  |  |  one piece ca. 110mm length | 2€ | local hardware store | [link](https://s.click.aliexpress.com/e/_Dmk4XgV) |
 | M12 threades rod  |  | two pieces a 45mm + two pieces a 55mm  | 2€ | local hardware store | [link](https://s.click.aliexpress.com/e/_DCL5p3L) |
 | M8 self locking nut  |  | 2 pieces  | 0,50€ | local hardware store |  |
-| M5 t-nut  |  | 8 pieces  | 3€ | [link](https://amzn.eu/d/0e2KYTZu) | [link](https://a.aliexpress.com/_EyKq6Mx) |
-| FDM filament  |  | ca. 300g  | 25€ | [link](https://amzn.eu/d/00g90wIk) | |
+| M5 t-nut  |  | 8 pieces  | 3€ | [link](https://amzn.to/3DhZ1Yi) | [link](https://a.aliexpress.com/_EyKq6Mx) |
+| FDM filament  |  | ca. 300g  | 25€ | [link](https://amzn.to/4gbUhly) | |
 
 ### Srews/bolds:
 | Size  | Info | Quantity | Price | Link |
@@ -208,11 +208,11 @@ Different connectors are listed below (see option #1 & #2) you'll only need one.
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Wire (AWG 18 - 26)  | to connect the control electronics |  | 5€ | local hardware store | |
-| ADS1256 |  | 1 unit per pedal | 17€ | [link](https://www.amazon.de/DollaTek-ADS1256-8channel-Hochpr%C3%A4zise-Erfassungsdaten/dp/B07DK5GC9H/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3IMTK3BD1INKG&dib=eyJ2IjoiMSJ9.0XcPpbD68w9-qv4_XvkKfSEDVbaFo-FAqVOFUhoX_VM297QTE3OvKVKVJAnub8Kqp605MBjeVHv4ROlxDvomwFd3noH9IXHY2OJEqiGO7vL8JuqmIwOup9c3Z-YMXLtGoo8gKOUM89hVIb_FUZX_9aAQM0bcohMdnl2XF7NA8ZoaVmZE-J-g45piaUHkAiSgDe7eaatEd0bzxo7G42qfRYfPeQPHDssIi5GdiyuQPllMAF1u56WyOvL3Sn_lkRfGpzpzJZDt5pImiX9QFxvH7I6pqCmJflgQ_h9PJbMBFdw.ZSi_dZr3_x8M3hxphOrjP2tR8wX0da2bRuMiUFNte_k&dib_tag=se&keywords=ads1256&qid=1723186683&s=industrial&sprefix=ads1256%2Cindustrial%2C90&sr=1-1) | [link](https://s.click.aliexpress.com/e/_DBYWYLB) |
-| ESP32 |  | 1 unit per pedal | 21€ | [link](https://www.amazon.de/diymore-Entwicklungsplatine-NodeMCU-Module-Bluetooth/dp/B09Z6RLS7R/ref=sr_1_3?keywords=esp32&qid=1691818759&sr=8-3) | |
-| Level shifter |  | 1 unit per pedal | 7€ | [link](https://www.amazon.de/gp/product/B082F6BSB5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | |
-| Option #1: 2.54mm pitch screw terminals ||| 13€| [link](https://amzn.eu/d/5S0YVBn) | |
-| Option #2: JST connector box |  |  | 8€ | [link](https://www.amazon.de/YIXISI-Stecker-Weiblich-Adapter-M%C3%A4nnlich/dp/B082ZLYRRN/ref=sr_1_5?crid=254ZPUWLFHGL6&dib=eyJ2IjoiMSJ9.l39XnEYEV6Ryx1pfoR2sNktKIEQX4EXCXe4ZIRUU3c9TmBn8o_FsiZqQeO49AtcP5eKMo84mj8w2164M9E9YsOqqjtblQWaRYOs0jjAckkvwwZX8sFITdnAvPF2CRgS_wIf4bfagSC1VDW41wNbjtz8H5rm5ehFT53HpMR_EU3DjoL-MqLbQWU9TOo1W1MUmwkpJRhhbCZ4CIX15wu_y9i9Pg_ZTtu9_PJ4M-S3HXa6BqxfyTvmPNLUdGDk-rOdfY6wdY0G_rZKW1zobu9UQzbKL7udM7SEqOUvRwfmqQ_k.XaYzAodgy0_8csPGMh_dJjSo_PNRFgG4959KTJIOZjc&dib_tag=se&keywords=jst+stecker&qid=1723186313&sprefix=jst+%2Caps%2C72&sr=8-5) | |
+| ADS1256 |  | 1 unit per pedal | 17€ | [link](https://amzn.to/4gBVpik) | [link](https://s.click.aliexpress.com/e/_DBYWYLB) |
+| ESP32 |  | 1 unit per pedal | 21€ | [link](https://amzn.to/4gEhyg1) | |
+| Level shifter |  | 1 unit per pedal | 7€ | [link](https://amzn.to/49Cmv6E) | |
+| Option #1: 2.54mm pitch screw terminals ||| 13€| [link](https://amzn.to/4grV01Q) | |
+| Option #2: JST connector box |  |  | 8€ | [link](https://amzn.to/41H3zl0) | |
 | Control PCB | Ordered from JLCPCB | 1 unit per pedal | 5€ | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/blob/develop/Wiring/Esp32_V3/Gerber_PCB_V3.zip | |
 
 
@@ -221,12 +221,12 @@ Different connectors are listed below (see option #1 & #2) you'll only need one.
 
 ### Power PCB: <br>
 
-| Component | Info |  Link |
-:-------------------------| :---- | :-------------------------
-| SR5100 Schottky diode | 1 diode per pesal | [Aliexpress](https://s.click.aliexpress.com/e/_DdrrsrJ) |
-| 80V 1mF capacitor| 1 cap per pedal | [Aliexpress](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
-| XT30 connector angled | 1 male connector per pedal | [Aliexpress](https://s.click.aliexpress.com/e/_DCIcYHF)|
-|XT30 connector straight| For PSU wire, xt30, female |[Aliexpress](https://s.click.aliexpress.com/e/_DDpH2qN)|
+| Component | Info |  Amazon link | Aliexpress link | 
+:-------------------------| :---- | :------------------------- | ------------- |
+| SR5100 Schottky diode | 1 diode per pesal | [link](https://amzn.to/41vIvy3) | [link](https://s.click.aliexpress.com/e/_DdrrsrJ) |
+| 80V 1mF capacitor| 1 cap per pedal | [link](https://amzn.to/4izq95j) | [link](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
+| XT30 connector angled | 1 male connector per pedal | [link](https://amzn.to/4izq95j) | [link](https://s.click.aliexpress.com/e/_DCIcYHF)|
+|XT30 connector straight| For PSU wire, xt30, female | [link](https://amzn.to/49Cpaxc) |[link](https://s.click.aliexpress.com/e/_DDpH2qN)|
 | 1mm2 cable  | 1m | local hardware store |
 
 
