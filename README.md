@@ -384,6 +384,17 @@ and take the bearings from there. The benefit is, that they have a screw flange 
 
 ![image](https://github.com/user-attachments/assets/c72b740b-9519-4c30-9dbc-9c240b687ce9).
 
+# Simhub plugin config
+In the Simhub plugin, you need to parameterize the [kinematic properties](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/wiki/Complete-the-software#parameterize-pedal-kinematic), for the sake of convencience, here are the measurments captured from CAD 
+![image](https://github.com/user-attachments/assets/3b96e94e-9ad4-4393-8d5f-aa7747bcc63d).
+
+OA: 241 <br>
+OC: 167 <br>
+CD: 0 <br>
+CB: 233 <br>
+AB: 66 <br>
+
+
 
 # Issues
 
