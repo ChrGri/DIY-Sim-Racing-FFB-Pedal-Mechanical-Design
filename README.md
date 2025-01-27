@@ -128,7 +128,6 @@ Depending on the load direction, the servo will act as a generator. It will prod
 1) The iSV57 has a "bleeding/braking resistor" method to dissipate the current flow as heat and thus reduce voltage spikes causing overvoltage protection trigger. The method will be activated when a predefined bus voltage is exceeded (currently 40V). A plot of the voltage fluctuations can be found below:<br>
 <img src="Wiring/PowerPcb/V2/voltageFluctuations.png" height="200">
 2) Especially at long pedal strokes, the dissipation capacity of the iSV's "bleeding/braking resistor" can be exceeded. To prevent overvoltage triggers, an additional external brake resistor was introduced. The external brake resistor is automatically triggered by the ESP, whenever the voltage of the bus exceeds a certain threshold, thus dissipating additional electrical energy. The brake resistor circuit is closed with the help of a FR120N mosfet. The mosfet activation is indicated by a red led, as depicted below <br>
-![Alt Text](Wiring/PcbV5/BrakeResistor/BrakeResistor.gif)
 
 ![Alt Text](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Wiring/PcbV5/BrakeResistor/BrakeResistor.gif)
 
