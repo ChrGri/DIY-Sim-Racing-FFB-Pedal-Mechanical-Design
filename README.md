@@ -54,6 +54,8 @@ All that, without contributing anything to this project.
 # Motivation
 Originally, I built my DIY FFB pedal from metal parts. After using it some time, I got curious whether I can come up with a mechanical design that can be mostly 3d printed and is still rigid enough to withstand the heavy loads accuring in simracing. Furthermore, I wanted to reduce the weight of the components, hopefully seeing a positive impact in the pedal response time. This repo documents the journey of doing that.
 
+The 3D printed design is in use since 07/2024 and doesn't show any signs of wear on my side. 
+
 # Problem
 Usually metal is much stronger than plastic and FDM 3d printed parts are weaker than injection molded counterparts. 
 
@@ -95,60 +97,51 @@ The mechanical design is depicted below <br>
 
 
 
+
 ## Electronics
 
 
 ### Control PCB
-The embedded code of this DIY FFB pedal runs on an ESP32 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a level shifter, and connectors. Currently, version 3 of this PCB design is used which introduced sensorless homing of the servo. The PCB design and pinout diagram can be found [here](Wiring/Esp32_V3). When a Simucube wheelbase is used, the D15 accessory port can be used for input. For details see [here](Wiring/PCB_analog_output)
+The embedded code of this DIY FFB pedal runs on an ESP32 S3 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a RS232 transceiver, brake resistor circuit and connectors. Currently, version 5 of this PCB design is used.
 
 Here is an image of the plain PCB:
-![](Wiring/Esp32_V3/PCB_empty.jpeg)
+![](Wiring/PcbV5/PCB_front.jpeg)
+![](Wiring/PcbV5/PCB_back.jpeg)
 
 Here is an image of the assembled PCB:
-![](Wiring/Esp32_V3/PCB_assembled.jpg)
+![](Wiring/PcbV5/PCB_assembled.jpg)
+
+The biggest changes over the previous board generations are listed below.
+
+**Waveshare ESP32 S3:**<br>
+The V3 PCB was designed to hold a regular ESP32 dev board. The V4 PCB was designed to hold a ESP32 S3 dev board, which can output native USB HID reports. The S3 required to use two USB cables for stable serial and USB HID output, [see](https://github.com/espressif/arduino-esp32/issues/10307#issuecomment-2614795934).
+
+Since using two USB cables isn't nice, the switchover to the waveshare ESP32 S3 was taken, since it features a integrated USB hub.
+
+**RS232 communication:** <br>
+In previous board iterations, a simple level shifter was used to transform the RS232 voltage to the TTL voltrage levels of the ESP. This selection requires to follow a specific boot order sequence (first servo, second ESP) to not trigger servo alarms. It was later found, that using a proper RS232 tranceiver is the better choice. Changing to the tranceiver removed the servo alarms. No specific boot sequence is necessary. 
+
+The interested reader can find additional information about the iSV RS232 communication [here](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/wiki/iSV57-servo-communication).
+
+**Brake resisor design:**<br>
+Depending on the load direction, the servo will act as a generator. It will produce an additional (reverse) current flow from the servo to the PSU, which could trigger the over-voltage protection of the PSU and the servo. To prevent this, a two stage brake resistor design was developed
+1) The iSV57 has a "bleeding/braking resistor" method to dissipate the current flow as heat and thus reduce voltage spikes causing overvoltage protection trigger. The method will be activated when a predefined bus voltage is exceeded (currently 40V). A plot of the voltage fluctuations can be found below:<br>
+<img src="Wiring/PowerPcb/V2/voltageFluctuations.png" height="200">
+2) Especially at long pedal strokes, the dissipation capacity of the iSV's "bleeding/braking resistor" can be exceeded. To prevent overvoltage triggers, an additional external brake resistor was introduced. The external brake resistor is automatically triggered by the ESP, whenever the voltage of the bus exceeds a certain threshold, thus dissipating additional electrical energy. The brake resistor circuit is closed with the help of a FR120N mosfet. The mosfet activation is indicated by a red led, as depicted in the following gif <br>
+![](Wiring/PcbV5/BrakeResistor/BrakeResistor.gif)
+
+
 
 To order the PCB, follow the [instructions](README.md#order-pcb).
-
 
 HINT:
 The proposed PCB is easy to source, but requires manual soldering. The awesome user [gilphilbert](https://github.com/gilphilbert) designed a PCB assembly of the control board which can be found [here](https://github.com/gilphilbert/DIY-Sim-Racing-FFB-Pedal-PCBs). It's currently beeing tested. The current status is published on the discord channel.
 
 
-### Optional but recommended: Power PCB
-
-
-Depending on the load direction, the servo will act as a generator. It will produce an additional (reverse) current flow from the servo to the PSU which could trigger the over-voltage protection of the PSU and the servo. The iSV57 has a "bleeding/braking resistor" method to dissipate the current flow as heat and thus reduce voltage spikes causing overvoltage protection trigger. The method will be activated when a predefined bus voltage is exceeded (currently 40V). A plot of the voltage fluctuations can be found below:
-<img src="Wiring/PowerPcb/V2/voltageFluctuations.png" height="200">
-
-The trigger voltage was varied in the test (blue: 62V; red: 42V; green: 40V). The horizontal axis shows the time, the vertical axis shows the bus voltage. The pedal was activated a few times, resultig in voltage spikes due to EMF. It can be seen, that the height of the voltage spikes correlate with the trigger voltage. Since the trigger voltage is set to 40V, it is strongly recommended to use a PSU with less than 40V output, otherwise the method will be always active, resulting in an overheating servo. 
-
-Although the iSV57s internal braking resistor method is reliably and mostly sufficient, a power PCB was developed to prevent reverse current flow to the PSU and thus prevent triggering the over-voltage protection of the PSU, by adding a Schottky diode to the power line. To prevent the trigger of the over/under-voltage protection of the servo, a small capacitor was added in the power-line. 
-
-
-To hold the components in a small package, a [power PCB](Wiring/PowerPcb/V3) was developed, which also featured a port to hold XT30 connectors. 
-
-Photos of the assembled PCB are depicted below: <br>
-<img src="Wiring/PowerPcb/V3/assem_front.jpg" height="200"> 
-<img src="Wiring/PowerPcb/V3/assem_back.jpg" height="200"> 
-<img src="Wiring/PowerPcb/V3/assem_attached.jpg" height="200">
-
-A 3d printable housing for the power PCB be found [here](STL/PowerPcbV3Guard.stl). It's depicted in the image below. <br>
-
-<img src="https://github.com/user-attachments/assets/ad277cf1-be3f-4023-b66b-a0515bda9734" height="200">
-
-
-A deeper analysis of the reverse current flow and investigation of brake circuits can be found [here](https://github.com/tcfshcrw/Brake_resistor_Control_Circuit).
-
-
-
 
 ### Wiring
 The wiring is depicted in the image below <br>
-<img width="824" alt="Wiring" src="https://github.com/user-attachments/assets/4acac8ed-c9c9-4b0d-9047-3788c891cf8c">
-
-Warning: The input voltage must not exceed 39V. Recommended voltage is anything between 32V and 37V. 
-When the supplied Voltage exceeda 39V, the servo coils might be energized all the time, resulting in excessive heat.
-
+<img width="824" alt="Wiring" src="Wiring/PowerPcb/V5/WiringDiagram.png">
 
 The [Stepperonline documentation](https://www.omc-stepperonline.com/index.php?route=product/product/get_file&file=1641/User%20Manual%20Of%20iSV2-57TR-48V400A.pdf) suggests to use AWG16 wiring.
 
@@ -174,7 +167,7 @@ Disclosure: Some of the links below are affiliate links, which means we may rece
 | M5 t-nut  |  | 8 pieces  | 3€ | [link](https://amzn.to/3DhZ1Yi) | [link](https://a.aliexpress.com/_EyKq6Mx) |
 | FDM filament  |  | ca. 300g  | 25€ | [link](https://amzn.to/4gbUhly) | |
 
-### Srews/bolds:
+### Srews/bolts:
 | Size  | Info | Quantity | Price | Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | M4x10mm  | | 8 pieces  | 0,50€ |
@@ -188,6 +181,7 @@ Disclosure: Some of the links below are affiliate links, which means we may rece
 ## Electronics:
 
 Apart from the mechanical parts, more electronical parts have to be ordered. Please conduct the [software/electronics](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal) repo and the discord for help first, to see if electronic parts are still up to date. 
+
 ### Generic parts:
 | Part  | Info | Quantity | Price | Primary link | Secondary link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -198,48 +192,53 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 
 
 
-
-
-
-
 ### Control PCB: <br>
-Different connectors are listed below (see option #1 & #2) you'll only need one. The screw terminals are prefered, as (a) they don't require a crimped wire connection and (b) aren't as sensitive to force appied on the wires as JST connectors.
+The components for the V5 PCB are listed below. 
 
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Wire (AWG 18 - 26)  | to connect the control electronics |  | 5€ | local hardware store | |
-| ADS1256 |  | 1 unit per pedal | 17€ | [link](https://amzn.to/4gBVpik) | [link](https://s.click.aliexpress.com/e/_DBYWYLB) |
-| ESP32 |  | 1 unit per pedal | 21€ | [link](https://amzn.to/4gEhyg1) | |
-| Level shifter |  | 1 unit per pedal | 7€ | [link](https://amzn.to/49Cmv6E) | |
-| Option #1: 2.54mm pitch screw terminals ||| 13€| [link](https://amzn.to/4grV01Q) | |
-| Option #2: JST connector box |  |  | 8€ | [link](https://amzn.to/41H3zl0) | |
-| Control PCB | Ordered from JLCPCB | 1 unit per pedal | 5€ | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/blob/develop/Wiring/Esp32_V3/Gerber_PCB_V3.zip | |
-
-
-
-
-
-### Power PCB: <br>
-
-| Component | Info |  Amazon link | Aliexpress link | 
-:-------------------------| :---- | :------------------------- | ------------- |
-| SR5100 Schottky diode | 1 diode per pesal | [link](https://amzn.to/41vIvy3) | [link](https://s.click.aliexpress.com/e/_DdrrsrJ) |
-| 80V 1mF capacitor| 1 cap per pedal | [link](https://amzn.to/4izq95j) | [link](https://de.aliexpress.com/item/1005005355860881.html?spm=a2g0o.order_list.order_list_main.10.67a25c5fWiYucW&gatewayAdapt=glo2deu) |
-| XT30 connector angled | 1 male connector per pedal | [link](https://amzn.to/4izq95j) | [link](https://s.click.aliexpress.com/e/_DCIcYHF)|
-|XT30 connector straight| For PSU wire, xt30, female | [link](https://amzn.to/49Cpaxc) |[link](https://s.click.aliexpress.com/e/_DDpH2qN)|
-| 1mm2 cable  | 1m | local hardware store |
+| Control PCB | Ordered from JLCPCB | 1 unit per pedal | 18€ | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/blob/develop/Wiring/PcbV5/DiyFfbPedalPcbV5.zip | |
+| ESP32 S3 waveshare  | 8MB-Not Soldered | 1 | 13€ | [link](https://amzn.to/3CbEBAg) | [link](https://s.click.aliexpress.com/e/_oEhAfE9) |
+| ADS1256 |  | 1 unit per pedal | 4€ | [link](https://amzn.to/4jwApM4) | [link](https://s.click.aliexpress.com/e/_DBYWYLB) |
+| SP2323  |  Single channel 20x16 | 1 | 1€ | [link](https://amzn.to/3CkFxlP) | [link](https://s.click.aliexpress.com/e/_onolG33) |
+| SR5100 Schottky diode | |  1 diode per pedal | 1€ | [link](https://amzn.to/3CmN8jR)| [link](https://s.click.aliexpress.com/e/_DdrrsrJ) |
+| FR120N mosfet | 100V | 1 per pedal | 1€ |[link](https://amzn.to/40MX27z) | [link](https://s.click.aliexpress.com/e/_oEP6IpR)|
+| 5 Ohm 5W resistor | select 5R | 1 per pedal | 1€ | [link](https://amzn.to/40Nt4jQ)| [link](https://s.click.aliexpress.com/e/_okeL0HJ)|
+| Wire (AWG 18)  | power wire | 0.2m | 5€ | [link](https://amzn.to/4htGLtR) | [link](https://s.click.aliexpress.com/e/_oke6LFx) |
+| Wire (AWG 30)  | to connect the control electronics | 0.2m | 5€ | [link](https://amzn.to/4geYNz0) | [link](https://s.click.aliexpress.com/e/_olWGFI1) |
+| 2.54mm pitch screw terminals | 5 pin (2pin + 3pin) for loadcell to board | 1 per pedal | 6€| [link](https://amzn.eu/d/5S0YVBn) | [link](https://s.click.aliexpress.com/e/_opeMwmZ) |
+| XT30 connector angled | | 1 male connector per pedal | | [link](https://amzn.to/4jvW86S) | [link](https://s.click.aliexpress.com/e/_DCIcYHF)|
+| Pin header | optionally, select female | | 1€| [link](https://amzn.to/4hySFCT) | [link](https://s.click.aliexpress.com/e/_ooJnkBP)|
 
 
 
 
 
 
+## Alterations
+Here are some nice upgrades.
+
+### 608zz to KP08 bearing
+
+Instead of the 608zz bearing, one can also buy two [KP08 bearing blocks](https://s.click.aliexpress.com/e/_Dk7Wokt)
+and take the bearings from there. The benefit is, that they have a screw flange to remove any play between bearing and axis. An example assembly is depicted below:
+
+![image](https://github.com/user-attachments/assets/c72b740b-9519-4c30-9dbc-9c240b687ce9).
 
 
+### JKK rail
 
+I'm currently using a [JKK60-10-P-150-A1-F4-C-M](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-module-kk60-series#selection-tab) on my trottle. It's noticeably quieter than the Aliexpress guide. However, it was almost 5 times as expensive inlcuding shipping and taxes. To hold the JKK rail, a 3d printable adapter is used, which can be found [here](CAD/JKK_rail_chris/Jkk_to_2080_adapter v1.stl). 
 
+### DYLY-107 loadcell
+Instead of the beefy loacell, smaller ones can be found [here](https://s.click.aliexpress.com/e/_DFQ8bjx). No immediate performance upgrade was observed. 
 
+The thread of the DYLY-107 loadcell is M8. The beefy loadcell has a M12 thread. 
 
+Needed changes:<br>
+- Instead of using a SK12, a SK8 block fits well, e.g. [link](https://s.click.aliexpress.com/e/_okuBOQ9)
+- balljoints: switch to M8 type balljoints, e.g. [link](https://s.click.aliexpress.com/e/_opZom53)
+- The remaining M12 rods have to be exchanged by M8 versions.
 
 
 
@@ -279,10 +278,6 @@ It requires the following screws: <br>
 2x M5x15mm <br> 
 2x M5 t-nut for 4040 profile <br>
 
-
-## Parts for JKK rail
-
-Design files for the [JKK60 rail](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-module-kk60-series#selection-tab) can be found [here](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/tree/main/CAD/JKK_rail).
 
 # Print settings
 I printed with 10 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature.
@@ -377,40 +372,6 @@ Loadcell  <br>
 https://grabcad.com/library/m12-threaded-s-type-tension-compression-load-cell-1000kg-1
 
 
-# Options
-
-Instead of the 608zz bearing, one can also buy two [KP08 bearing blocks](https://s.click.aliexpress.com/e/_Dk7Wokt)
-and take the bearings from there. The benefit is, that they have a screw flange to remove any play between bearing and axis. An example assembly is depicted below:
-
-![image](https://github.com/user-attachments/assets/c72b740b-9519-4c30-9dbc-9c240b687ce9).
-
-# Simhub plugin config
-In the Simhub plugin, you need to parameterize the [kinematic properties](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/wiki/Complete-the-software#parameterize-pedal-kinematic), for the sake of convencience, here are the measurments captured from CAD 
-![image](https://github.com/user-attachments/assets/3b96e94e-9ad4-4393-8d5f-aa7747bcc63d).
-
-OA: 241 <br>
-OC: 167 <br>
-CD: 0 <br>
-CB: 233 <br>
-AB: 66 <br>
-
-
-
-# Issues
-
-## Issue 1: servo slips away
-It was observed, that the servo slipped away under braking, see [video](https://www.youtube.com/live/HW_phDLIBcU?si=4mNCj0IyTrodPuNm&t=2854).
-
-A different [PSU](https://amzn.eu/d/3srstaF) was used as the one linked in the BOM. It is assumed that due to heavy braking the PSU wasn't able to deliver the necessary power output and the servo went into undervoltage protection, this slipping away. 
-Its currently beeing tested, whether that is issue is solved by switching the the PSU from the BOM and what software chnages can mitigate the symptoms in the future.
-
-Updates on this issue will be posted here and almost daily on [youtube](https://youtube.com/@cuttingcorny?si=7AVNgqsLwYK21lRO).
-
-A big thank you to Cuttingcorny for reporting the issue and helping to track the issue down.
-
-Status from 8th september 2024:<br>
-The PSU from the BOM is now in use. The V3 power PCB as well. With the old software < release 84, the servos overvoltage protection was triggered. After switching to firmware release 85, the pedal seems to work fine. With release 85, new servo parameterization was introduced to reduce EMF of the servo. 
-The problem was thus solved with hardware changes (mainly switch of PSU) and software changes (parameterization of the servos internal braking resistor mode).
 
 
 # Order PCB
@@ -422,12 +383,18 @@ The problem was thus solved with hardware changes (mainly switch of PSU) and sof
 5. Oder the PCB
 6. Wait for the delivery. Typically 10 days to europe.
 7. Solder the electrical compontens onto the PCBs. Refer to the assembled PCB images from above. A good soldering iron makes your life easier. I like [TS80](https://s.click.aliexpress.com/e/_DkivtvJ) and [TS101]https://s.click.aliexpress.com/e/_DkVMKwN) soldering irons. 
+8. Soldering tips can be found [here](https://www.youtube.com/watch?v=DfC5FBsud7o).
 
 
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ChrGri/DIY-Sim-Racing-FFB-Pedal,ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&type=Date)](https://star-history.com/#ChrGri/DIY-Sim-Racing-FFB-Pedal&ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&Date)
+
+
+
+
+
 
 
 
