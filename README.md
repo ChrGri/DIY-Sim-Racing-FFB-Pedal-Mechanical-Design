@@ -104,9 +104,9 @@ The mechanical design is depicted below <br>
 ### Control PCB
 The embedded code of this DIY FFB pedal runs on an ESP32 S3 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a RS232 transceiver, brake resistor circuit and connectors. Currently, version 5 of this PCB design is used.
 
-Here is an image of the plain PCB:
-![](Wiring/PcbV5/PCB_front.jpeg)
-![](Wiring/PcbV5/PCB_back.jpeg)
+Here are images of the plain PCB:
+![](Wiring/PcbV5/PCB_front.jpg)
+![](Wiring/PcbV5/PCB_back.jpg)
 
 Here is an image of the assembled PCB:
 ![](Wiring/PcbV5/PCB_assembled.jpg)
@@ -127,8 +127,10 @@ The interested reader can find additional information about the iSV RS232 commun
 Depending on the load direction, the servo will act as a generator. It will produce an additional (reverse) current flow from the servo to the PSU, which could trigger the over-voltage protection of the PSU and the servo. To prevent this, a two stage brake resistor design was developed
 1) The iSV57 has a "bleeding/braking resistor" method to dissipate the current flow as heat and thus reduce voltage spikes causing overvoltage protection trigger. The method will be activated when a predefined bus voltage is exceeded (currently 40V). A plot of the voltage fluctuations can be found below:<br>
 <img src="Wiring/PowerPcb/V2/voltageFluctuations.png" height="200">
-2) Especially at long pedal strokes, the dissipation capacity of the iSV's "bleeding/braking resistor" can be exceeded. To prevent overvoltage triggers, an additional external brake resistor was introduced. The external brake resistor is automatically triggered by the ESP, whenever the voltage of the bus exceeds a certain threshold, thus dissipating additional electrical energy. The brake resistor circuit is closed with the help of a FR120N mosfet. The mosfet activation is indicated by a red led, as depicted in the following gif <br>
-![](Wiring/PcbV5/BrakeResistor/BrakeResistor.gif)
+2) Especially at long pedal strokes, the dissipation capacity of the iSV's "bleeding/braking resistor" can be exceeded. To prevent overvoltage triggers, an additional external brake resistor was introduced. The external brake resistor is automatically triggered by the ESP, whenever the voltage of the bus exceeds a certain threshold, thus dissipating additional electrical energy. The brake resistor circuit is closed with the help of a FR120N mosfet. The mosfet activation is indicated by a red led, as depicted below <br>
+![Alt Text](Wiring/PcbV5/BrakeResistor/BrakeResistor.gif)
+
+
 
 
 
@@ -141,7 +143,7 @@ The proposed PCB is easy to source, but requires manual soldering. The awesome u
 
 ### Wiring
 The wiring is depicted in the image below <br>
-<img width="824" alt="Wiring" src="Wiring/PowerPcb/V5/WiringDiagram.png">
+<img width="824" alt="Wiring" src="Wiring/PcbV5/WiringDiagram.png">
 
 The [Stepperonline documentation](https://www.omc-stepperonline.com/index.php?route=product/product/get_file&file=1641/User%20Manual%20Of%20iSV2-57TR-48V400A.pdf) suggests to use AWG16 wiring.
 
@@ -197,7 +199,7 @@ The components for the V5 PCB are listed below.
 
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Control PCB | Ordered from JLCPCB | 1 unit per pedal | 18€ | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/blob/develop/Wiring/PcbV5/DiyFfbPedalPcbV5.zip | |
+| Control PCB | Ordered from JLCPCB | 1 unit per pedal | 18€ | [link](Wiring/PcbV5/DiyFfbPedalPcbV5.zip) | |
 | ESP32 S3 waveshare  | 8MB-Not Soldered | 1 | 13€ | [link](https://amzn.to/3CbEBAg) | [link](https://s.click.aliexpress.com/e/_oEhAfE9) |
 | ADS1256 |  | 1 unit per pedal | 4€ | [link](https://amzn.to/4jwApM4) | [link](https://s.click.aliexpress.com/e/_DBYWYLB) |
 | SP2323  |  Single channel 20x16 | 1 | 1€ | [link](https://amzn.to/3CkFxlP) | [link](https://s.click.aliexpress.com/e/_onolG33) |
