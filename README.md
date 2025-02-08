@@ -191,11 +191,6 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 | Part  | Info | Quantity | Price | Primary link | Secondary link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut the motor shaft to appropriate length with a metal handsaw. Alternatively the 180s servo is a bit stronger and not selled out that often. | 1 piece  | 90€ | [130s link](https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s?tracking=6721c5865911c) | [180s link](https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-180w-3000rpm-0-6nm-84-98oz-in-20-50vdc-servomotor-kurze-welle-isv57t-180s?tracking=6721c5865911c)|
-
-
-
-
-
 | PSU | 1 PSU can power multiple pedals (2 at least) | 1 piece | 25€ | [link](https://www.omc-stepperonline.com/de/lrs-350-36-mean-well-350w-36vdc-9-7a-115-230vac-geschlossenes-schaltnetzteil-lrs-350-36?tracking=6721c5865911c) | |
 | Loadcell  | 200kg | 1 piece  | 20€ | [link](https://amzn.eu/d/0erHqGqH) | [link](https://s.click.aliexpress.com/e/_DlBk3oV) |
 | Servo debug port connector  | Female, 5P | 1 piece  | 1€ | [link](https://s.click.aliexpress.com/e/_oCbioHZ) | | 
