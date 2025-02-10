@@ -392,6 +392,12 @@ https://grabcad.com/library/m12-threaded-s-type-tension-compression-load-cell-10
 
 
 
+## Simhub plugin configuration
+
+Working settings with V5 PCB for CDC and DTR/RTS are depicted below <br> 
+![image](https://github.com/user-attachments/assets/7736c68e-6b4b-4472-8f7a-f8caafe29bf0)
+
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ChrGri/DIY-Sim-Racing-FFB-Pedal,ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&type=Date)](https://star-history.com/#ChrGri/DIY-Sim-Racing-FFB-Pedal&ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&Date)
