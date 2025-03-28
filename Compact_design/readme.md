@@ -50,8 +50,8 @@ Please also note, all the connect holes should remove the burrs on the laser sta
 :------------------------- | :------------------------- | :------------------------- |
 | isv57t-130s | 1 |[Stepperonline](https://www.omc-stepperonline.com/nema-23-integrated-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-servo-motor-short-shaft-isv57t-130s) |
 | JKK60-5-C-150-A1-F4 Rail | 1 |[JLC](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-actuators--kk60-series?k=JKK60-5-C-150-A1-F4&productModelNumber=JKK60-5-C-150-A1-F4) |
-| Stainless Steel Internal Thread Round Head Cylindrical Pin M5x8x35 | 5 |[AliExpress](https://www.aliexpress.com/item/1005006507247840.html) |
-| Stainless Steel Internal Thread Round Head Cylindrical Pin M5x8x40 | 1 |[AliExpress](https://www.aliexpress.com/item/1005006507247840.html) |
+| Stainless Steel Internal Thread Round Head Cylindrical Pin M5x8x35 | 5 |[AliExpress](https://www.aliexpress.com/item/3256805881962694.html) |
+| Stainless Steel Internal Thread Round Head Cylindrical Pin M5x8x40 | 1 |[AliExpress](https://www.aliexpress.com/item/3256805881962694.html) |
 | Flange Self Lubricating Bearing 8X10X8-15X1.2 | 4 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
 | Flange Self Lubricating Bearing 6X8X8-12X1 | 2 |[AliExpress](https://www.aliexpress.com/item/1005007192252292.html) |
 | Stainless Steel (A2-70) Bushing Washer Round Hollow Unthreaded Stand-off Spacer D10xM8 L9mm | 2 |[AliExpress](https://www.aliexpress.com/item/1005008191841149.html) |
