@@ -410,6 +410,8 @@ C to B = 233<br>
 
 ![image](https://github.com/user-attachments/assets/76edaffb-0a6f-41bf-88c6-68cf352516ae)
 
+The controller will automatically measure the travel distance. If you want it not to hit the max endstop, reduce the travel distance below the acctual travel distance of the sled.
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ChrGri/DIY-Sim-Racing-FFB-Pedal,ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&type=Date)](https://star-history.com/#ChrGri/DIY-Sim-Racing-FFB-Pedal&ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&Date)
