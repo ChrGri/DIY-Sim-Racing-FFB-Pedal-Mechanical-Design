@@ -268,6 +268,8 @@ The print orientation was choosen manually. Support was activated only for the p
 | [PedalArmLowerBar](STL/PedalArmLowerBar.stl)  | 1  | yes |
 | [PedalArmUpperAdapter](STL/PedalArmUpperAdapter.stl)  | 1  | yes |
 | [PedalSideGuard](STL/PedalSideGuard.stl)  | 1  | no |
+| [V5 PCB case lower part](CAD/PcbV5case/V5PcbCaseLowerPart.stl)  | 1  | no |
+| [V5 PCB case upper part](CAD/PcbV5case/V5PcbCaseUpperPart.stl)  | 1  | no |
 
 
 To close the 2080 extrusion front/back, the following part was printed twice: <br>
