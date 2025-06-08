@@ -111,6 +111,9 @@ Here are images of the plain PCB:
 Here is an image of the assembled PCB:
 ![](Wiring/PcbV5/PCB_assembled.jpg)
 
+To ensure that the brake resistor control pin isn't floating, a 10kOhm resisor was added between the FR120Ns PWM and GND port, see:
+![](https://github.com/user-attachments/assets/c33ab85f-0448-445e-966c-38a2c4db72d4)
+
 The biggest changes over the previous board generations are listed below.
 
 **Waveshare ESP32 S3:**<br>
@@ -208,13 +211,13 @@ The components for the V5 PCB are listed below.
 | SP2323  |  Single channel 20x16 | 1 | 1€ | [link](https://amzn.to/3CkFxlP) | [link](https://s.click.aliexpress.com/e/_onolG33) |
 | SR5100 Schottky diode | |  1 diode per pedal | 1€ | [link](https://amzn.to/3CmN8jR)| [link](https://s.click.aliexpress.com/e/_DdrrsrJ) |
 | FR120N mosfet | 100V | 1 per pedal | 1€ |[link](https://amzn.to/40MX27z) | [link](https://s.click.aliexpress.com/e/_oEP6IpR)|
-| 5 Ohm 5W resistor | select 5R | 1 per pedal | 1€ | [link](https://amzn.to/40Nt4jQ)| [link](https://s.click.aliexpress.com/e/_okeL0HJ)|
+| 10|33 Ohm 5W resistor | select 10R or 33R | 1 per pedal | 1€ | [link](https://amzn.to/43ZmYgW)| [link](https://s.click.aliexpress.com/e/_okeL0HJ)|
 | Wire (AWG 18)  | power wire | 0.2m | 5€ | [link](https://amzn.to/4htGLtR) | [link](https://s.click.aliexpress.com/e/_oke6LFx) |
 | Wire (AWG 30)  | to connect the control electronics | 0.2m | 5€ | [link](https://amzn.to/4geYNz0) | [link](https://s.click.aliexpress.com/e/_olWGFI1) |
 | 2.54mm pitch screw terminals | 5 pin (2pin + 3pin) for loadcell to board | 1 per pedal | 6€| [link](https://amzn.eu/d/5S0YVBn) | [link](https://s.click.aliexpress.com/e/_opeMwmZ) |
 | XT30 connector angled | | 1 male connector per pedal | | [link](https://amzn.to/4jvW86S) | [link](https://s.click.aliexpress.com/e/_DCIcYHF)|
 | Pin header | optionally, select female | | 1€| [link](https://amzn.to/4hySFCT) | [link](https://s.click.aliexpress.com/e/_ooJnkBP)|
-
+| 10k Ohm resistor|  | | 1€| [link](https://amzn.to/3Tb946a) | [link](https://s.click.aliexpress.com/e/_oEAx23i)|
 
 
 
