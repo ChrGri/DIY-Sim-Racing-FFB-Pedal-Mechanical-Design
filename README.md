@@ -106,9 +106,6 @@ The embedded code of this DIY FFB pedal runs on an ESP32 S3 microcontroller. The
 
 The pictured documentation of the soldering and assembly can be found [here](Soldering).
 
-A good soldering iron makes your life easier. I like [TS80](https://s.click.aliexpress.com/e/_DkivtvJ) and [TS101]https://s.click.aliexpress.com/e/_DkVMKwN) soldering irons. 
-
-Soldering tips can be found [here](https://www.youtube.com/watch?v=DfC5FBsud7o).
 
 ### Hardware features
 For the interessted reader, some deeper analysis can be found [here](Features)
@@ -173,11 +170,11 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 
 
 ### Control PCB: <br>
-The components for the V5 PCB are listed below. 
+The components for the V6 PCB are listed below. 
 
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Control PCB | Ordered from JLCPCB | 1 unit per pedal | 18€ | [link](Wiring/PcbV5/DiyFfbPedalPcbV5.zip) | |
+| Control PCB | Ordered from JLCPCB | 1 unit per pedal | 8€ | [link](Wiring/PcbV6/DiyFfbPedalPcbV6.zip) | |
 | ESP32 S3 waveshare  | 8MB-Not Soldered | 1 | 13€ | [link](https://amzn.to/3CbEBAg) | [link](https://s.click.aliexpress.com/e/_oEhAfE9) |
 | ADS1220 |  | 1 unit per pedal | 1€ | [link](https://amzn.to/4eMUyLL) | [link](https://s.click.aliexpress.com/e/_ooJvpag) |
 | SP2323  |  Single channel 20x16 | 1 | 1€ | [link](https://amzn.to/3CkFxlP) | [link](https://s.click.aliexpress.com/e/_onolG33) |
@@ -238,6 +235,7 @@ The print orientation was choosen manually. Support was activated only for the p
 | [PedalArmRight](STL/PedalArmRight.stl)  | 1  | yes |
 | [PedalArmLowerBar](STL/PedalArmLowerBar.stl)  | 1  | yes |
 | [PedalArmUpperAdapter](STL/PedalArmUpperAdapter.stl)  | 1  | yes |
+| [PCB Spacer](STL/PcbSpacer_v1.stl)  | 2  | yes |
 | [PedalSideGuard](STL/PedalSideGuard.stl)  | 1  | no |
 | [V5 PCB case lower part](CAD/PcbV5case/V5PcbCaseLowerPart.stl)  | 1  | no |
 | [V5 PCB case upper part](CAD/PcbV5case/V5PcbCaseUpperPart.stl)  | 1  | no |
@@ -356,7 +354,7 @@ https://grabcad.com/library/m12-threaded-s-type-tension-compression-load-cell-10
 
 
 # Order PCB
-1. Download the control and power PCB, e.g. [control PCB V3](Wiring/Esp32_V3/Gerber_PCB_V3.zip)
+1. Download the control and power PCB, e.g. [control PCB V6](Wiring/PcbV6/DiyFfbPedalPcbV6.zip)
 2. Navigate to https://jlcpcb.com/
 3. Upload the gerber files
 4. Leave the standard settings (2 layers, FR-4, 1.6mm, PCB color of your choice, see image below), check which delivery options is the cheapest <br>
