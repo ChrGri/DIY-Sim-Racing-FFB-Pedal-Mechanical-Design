@@ -100,46 +100,20 @@ The mechanical design is depicted below <br>
 
 ## Electronics
 
+### Documentation of soldering and assembly
+The embedded code of this DIY FFB pedal runs on an ESP32 S3 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a RS232 transceiver, brake resistor circuit and connectors. Currently, version 6 of this PCB design is being used, see <br>
+<img src="Soldering/7-Connection/DSC00211.JPG" width="400">.
 
-### Control PCB
-The embedded code of this DIY FFB pedal runs on an ESP32 S3 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a RS232 transceiver, brake resistor circuit and connectors. Currently, version 5 of this PCB design is used.
+The pictured documentation of the soldering and assembly can be found [here](Soldering).
 
-Here are images of the plain PCB:
-![](Wiring/PcbV5/PCB_front.jpg)
-![](Wiring/PcbV5/PCB_back.jpg)
+A good soldering iron makes your life easier. I like [TS80](https://s.click.aliexpress.com/e/_DkivtvJ) and [TS101]https://s.click.aliexpress.com/e/_DkVMKwN) soldering irons. 
 
-Here is an image of the assembled PCB:
-![](Wiring/PcbV5/PCB_assembled.jpg)
+Soldering tips can be found [here](https://www.youtube.com/watch?v=DfC5FBsud7o).
 
-To ensure that the brake resistor control pin isn't floating, a 10kOhm resisor was added between the FR120Ns PWM and GND port, see:
-![](https://github.com/user-attachments/assets/c33ab85f-0448-445e-966c-38a2c4db72d4)
+### Hardware features
+For the interessted reader, some deeper analysis can be found [here](Features)
 
-The biggest changes over the previous board generations are listed below.
-
-**Waveshare ESP32 S3:**<br>
-The V3 PCB was designed to hold a regular ESP32 dev board. The V4 PCB was designed to hold a ESP32 S3 dev board, which can output native USB HID reports. The S3 required to use two USB cables for stable serial and USB HID output, [see](https://github.com/espressif/arduino-esp32/issues/10307#issuecomment-2614795934).
-
-Since using two USB cables isn't nice, the switchover to the waveshare ESP32 S3 was taken, since it features a integrated USB hub.
-
-**RS232 communication:** <br>
-In previous board iterations, a simple level shifter was used to transform the RS232 voltage to the TTL voltrage levels of the ESP. This selection requires to follow a specific boot order sequence (first servo, second ESP) to not trigger servo alarms. It was later found, that using a proper RS232 tranceiver is the better choice. Changing to the tranceiver removed the servo alarms. No specific boot sequence is necessary. 
-
-The interested reader can find additional information about the iSV RS232 communication [here](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/wiki/iSV57-servo-communication).
-
-**Brake resisor design:**<br>
-Depending on the load direction, the servo will act as a generator. It will produce an additional (reverse) current flow from the servo to the PSU, which could trigger the over-voltage protection of the PSU and the servo. To prevent this, a two stage brake resistor design was developed
-1) The iSV57 has a "bleeding/braking resistor" method to dissipate the current flow as heat and thus reduce voltage spikes causing overvoltage protection trigger. The method will be activated when a predefined bus voltage is exceeded (currently 40V). A plot of the voltage fluctuations can be found below:<br>
-<img src="Wiring/PowerPcb/V2/voltageFluctuations.png" height="200">
-2) Especially at long pedal strokes, the dissipation capacity of the iSV's "bleeding/braking resistor" can be exceeded. To prevent overvoltage triggers, an additional external brake resistor was introduced. The external brake resistor is automatically triggered by the ESP, whenever the voltage of the bus exceeds a certain threshold, thus dissipating additional electrical energy. The brake resistor circuit is closed with the help of a FR120N mosfet. The mosfet activation is indicated by a red led, as depicted below <br>
-
-![Alt Text](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Wiring/PcbV5/BrakeResistor/BrakeResistor.gif)
-
-
-
-
-
-
-
+### Ordering
 To order the PCB, follow the [instructions](README.md#order-pcb).
 
 HINT:
@@ -147,11 +121,9 @@ The proposed PCB is easy to source, but requires manual soldering. The awesome u
 
 
 
-### Wiring
-The wiring is depicted in the image below <br>
-<img width="824" alt="Wiring" src="Wiring/PcbV5/WiringDiagram.png">
 
-The [Stepperonline documentation](https://www.omc-stepperonline.com/index.php?route=product/product/get_file&file=1641/User%20Manual%20Of%20iSV2-57TR-48V400A.pdf) suggests to use AWG16 wiring.
+
+
 
 
 # BOM

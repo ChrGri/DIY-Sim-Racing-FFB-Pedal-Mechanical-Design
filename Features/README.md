@@ -1,0 +1,2 @@
+# Brake resistor investigations
+In previous version only a condensator was used to store the servos EMF. Since V5 PCB, a brake resistor circuit was implemented to dissipate the electrical energy, see the dedicated section [here](BrakeResistor). 

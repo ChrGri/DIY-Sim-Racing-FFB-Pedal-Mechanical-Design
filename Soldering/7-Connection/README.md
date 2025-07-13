@@ -16,3 +16,11 @@ To finalize the electronics, all connectors have been connected to the servo.
 
 
 
+
+### Wiring
+The wiring is depicted in the image below <br>
+<img width="824" alt="Wiring" src="Wiring/PcbV5/WiringDiagram.png">
+
+The [Stepperonline documentation](https://www.omc-stepperonline.com/index.php?route=product/product/get_file&file=1641/User%20Manual%20Of%20iSV2-57TR-48V400A.pdf) suggests to use AWG16 wiring.
+
+
