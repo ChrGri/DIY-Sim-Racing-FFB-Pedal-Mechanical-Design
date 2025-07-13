@@ -1,12 +1,12 @@
 # Soldering
 
-[Power ciruit](Soldering/1-PowerCircuit)
+[Power ciruit](1-PowerCircuit)
 
-[Power ciruit](Soldering/2-Wiring)
+[Power ciruit](2-Wiring)
 
-[Power ciruit](Soldering/3-SP3232)
+[Power ciruit](3-SP3232)
 
-[Power ciruit](Soldering/4-ADS1220)
+[Power ciruit](4-ADS1220)
 
 [Power ciruit](5-ESP32)
 
