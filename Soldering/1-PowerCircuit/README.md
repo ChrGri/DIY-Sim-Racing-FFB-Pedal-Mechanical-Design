@@ -31,6 +31,7 @@ and the leads of the Schottky diode have been shortened <br>
 
 # Brake resistor
 Similary, the brake resistor has been soldered to the board, see <br>
-<img src="BrakeResistor/DSC00183.JPG" width="400">.
+<img src="BrakeResistor/DSC00183.JPG" width="400">
+<img src="BrakeResistor/DSC00186.JPG" width="400">.
 
-It has no special polarity.
+It has no special polarity. After each step, the solder joints have been inspected visualy. 
