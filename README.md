@@ -167,7 +167,7 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut the motor shaft to appropriate length with a metal handsaw. Alternatively the 180s servo is a bit stronger and not selled out that often. | 1 piece  | 90€ | [130s link](https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s?tracking=6721c5865911c) | [180s link](https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-180w-3000rpm-0-6nm-84-98oz-in-20-50vdc-servomotor-kurze-welle-isv57t-180s?tracking=6721c5865911c)|
 | PSU | 1 PSU can power multiple pedals (2 at least) | 1 piece | 25€ | [link](https://www.omc-stepperonline.com/de/lrs-350-36-mean-well-350w-36vdc-9-7a-115-230vac-geschlossenes-schaltnetzteil-lrs-350-36?tracking=6721c5865911c) | |
-| Loadcell  | 200kg | 1 piece  | 20€ | [link](https://amzn.eu/d/0erHqGqH) | [link](https://s.click.aliexpress.com/e/_DlBk3oV) |
+| Loadcell  | 50kg or 100kg | 1 piece  | 20€ | [link](https://amzn.eu/d/0erHqGqH) | [link](https://s.click.aliexpress.com/e/_DlBk3oV) |
 | Servo debug port connector  | Female, 5P | 1 piece  | 1€ | [link](https://s.click.aliexpress.com/e/_oCbioHZ) | | 
 
 
@@ -179,7 +179,7 @@ The components for the V5 PCB are listed below.
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Control PCB | Ordered from JLCPCB | 1 unit per pedal | 18€ | [link](Wiring/PcbV5/DiyFfbPedalPcbV5.zip) | |
 | ESP32 S3 waveshare  | 8MB-Not Soldered | 1 | 13€ | [link](https://amzn.to/3CbEBAg) | [link](https://s.click.aliexpress.com/e/_oEhAfE9) |
-| ADS1256 |  | 1 unit per pedal | 4€ | [link](https://amzn.to/4jwApM4) | [link](https://s.click.aliexpress.com/e/_DBYWYLB) |
+| ADS1220 |  | 1 unit per pedal | 1€ | [link](https://amzn.to/4eMUyLL) | [link](https://s.click.aliexpress.com/e/_ooJvpag) |
 | SP2323  |  Single channel 20x16 | 1 | 1€ | [link](https://amzn.to/3CkFxlP) | [link](https://s.click.aliexpress.com/e/_onolG33) |
 | SR5100 Schottky diode | |  1 diode per pedal | 1€ | [link](https://amzn.to/3CmN8jR)| [link](https://s.click.aliexpress.com/e/_DdrrsrJ) |
 | FR120N mosfet | 100V | 1 per pedal | 1€ |[link](https://amzn.to/40MX27z) | [link](https://s.click.aliexpress.com/e/_oEP6IpR)|
@@ -189,7 +189,6 @@ The components for the V5 PCB are listed below.
 | 2.54mm pitch screw terminals | 5 pin (2pin + 3pin) for loadcell to board | 1 per pedal | 6€| [link](https://amzn.eu/d/5S0YVBn) | [link](https://s.click.aliexpress.com/e/_opeMwmZ) |
 | XT30 connector angled | | 1 male connector per pedal | | [link](https://amzn.to/4jvW86S) | [link](https://s.click.aliexpress.com/e/_DCIcYHF)|
 | Pin header | optionally, select female | | 1€| [link](https://amzn.to/4hySFCT) | [link](https://s.click.aliexpress.com/e/_ooJnkBP)|
-| 10k Ohm resistor|  | | 1€| [link](https://amzn.to/3Tb946a) | [link](https://s.click.aliexpress.com/e/_oEAx23i)|
 
 
 
