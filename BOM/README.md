@@ -49,7 +49,7 @@ The components for the V6 PCB are listed below.
 
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Control PCB | Ordered from JLCPCB | 1 unit per pedal | 8€ | [link](Wiring/PcbV6/DiyFfbPedalPcbV6.zip) | |
+| Control PCB | Ordered from JLCPCB | 1 unit per pedal | 8€ | [link](../Wiring/PcbV6/DiyFfbPedalPcbV6.zip) | |
 | ESP32 S3 waveshare  | 8MB-Not Soldered | 1 | 13€ | [link](https://amzn.to/3CbEBAg) | [link](https://s.click.aliexpress.com/e/_oEhAfE9) |
 | ADS1220 |  | 1 unit per pedal | 1€ | [link](https://amzn.to/4eMUyLL) | [link](https://s.click.aliexpress.com/e/_ooJvpag) |
 | SP2323  |  Single channel 20x16 | 1 | 1€ | [link](https://amzn.to/3CkFxlP) | [link](https://s.click.aliexpress.com/e/_onolG33) |

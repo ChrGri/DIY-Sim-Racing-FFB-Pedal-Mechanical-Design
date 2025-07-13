@@ -57,7 +57,7 @@ All that, without contributing anything to this project.
 4. Software finalization --> [here](FinalizingSoftware).
 
 # Hardware features
-For the interessted reader, some deeper analysis can be found [here](Features)
+For the interessted reader, some deeper analysis can be found [here](Features).
 
 # BOM
 The price of one pedal was about 250€. The BOM can be found [here](BOM).
