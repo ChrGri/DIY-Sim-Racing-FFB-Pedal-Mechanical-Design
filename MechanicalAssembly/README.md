@@ -82,18 +82,18 @@ The print orientation was choosen manually. Support was activated only for the p
 
 | Part  | Quantity | Required |
 | ------------- | ------------- | ------------- |
-| [608zzHolder](STL/608zzHolder.stl)  | 2  | yes |
-| [CncModuleHolder](STL/CncModuleHolder.stl)  | 2  | yes |
-| [CncModuleHolderLeft](STL/CncModuleHolderLeft.stl)  | 2  | yes |
-| [Faceplate](STL/Faceplate.stl)  | 1  | yes |
-| [PedalArmLeft](STL/PedalArmLeft.stl)  | 1  | yes |
-| [PedalArmRight](STL/PedalArmRight.stl)  | 1  | yes |
-| [PedalArmLowerBar](STL/PedalArmLowerBar.stl)  | 1  | yes |
-| [PedalArmUpperAdapter](STL/PedalArmUpperAdapter.stl)  | 1  | yes |
-| [PCB Spacer](STL/PcbSpacer_v1.stl)  | 2  | yes |
-| [PedalSideGuard](STL/PedalSideGuard.stl)  | 1  | no |
-| [V5 PCB case lower part](CAD/PcbV5case/V5PcbCaseLowerPart.stl)  | 1  | no |
-| [V5 PCB case upper part](CAD/PcbV5case/V5PcbCaseUpperPart.stl)  | 1  | no |
+| [608zzHolder](../STL/608zzHolder.stl)  | 2  | yes |
+| [CncModuleHolder](../STL/CncModuleHolder.stl)  | 2  | yes |
+| [CncModuleHolderLeft](../STL/CncModuleHolderLeft.stl)  | 2  | yes |
+| [Faceplate](../STL/Faceplate.stl)  | 1  | yes |
+| [PedalArmLeft](../STL/PedalArmLeft.stl)  | 1  | yes |
+| [PedalArmRight](../STL/PedalArmRight.stl)  | 1  | yes |
+| [PedalArmLowerBar](../STL/PedalArmLowerBar.stl)  | 1  | yes |
+| [PedalArmUpperAdapter](../STL/PedalArmUpperAdapter.stl)  | 1  | yes |
+| [PCB Spacer](../STL/PcbSpacer_v1.stl)  | 2  | yes |
+| [PedalSideGuard](../STL/PedalSideGuard.stl)  | 1  | no |
+| [V5 PCB case lower part](../CAD/PcbV5case/V5PcbCaseLowerPart.stl)  | 1  | no |
+| [V5 PCB case upper part](../CAD/PcbV5case/V5PcbCaseUpperPart.stl)  | 1  | no |
 
 
 To close the 2080 extrusion front/back, the following part was printed twice: <br>
@@ -104,8 +104,8 @@ To cover the PSU channels, thr following thing was used (recommended to print at
 https://www.thingiverse.com/thing:5158578
 
 An adapter to mount the PSU to 4040/4080 aluminium extrusions can be found here: <br>
-[STL](STL/PSU/LRS_Holder.stl) <br>
-[CAD](CAD/PSU/LRS_Holder.f3d)
+[STL](../STL/PSU/LRS_Holder.stl) <br>
+[CAD](../CAD/PSU/LRS_Holder.f3d)
 
 It requires the following screws: <br>
 4x M4x8mm <br>

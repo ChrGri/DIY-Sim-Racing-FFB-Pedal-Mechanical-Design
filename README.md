@@ -95,10 +95,6 @@ The price of one pedal was about 250€. The BOM can be found [here](BOM).
 <img src="https://github.com/user-attachments/assets/f06bf91e-a104-4cd2-86a2-3e808cb25434" width="400"> <br>
 5. Oder the PCB
 6. Wait for the delivery. Typically 10 days to europe.
-7. Solder the electrical compontens onto the PCBs. Refer to the assembled PCB images from above. A good soldering iron makes your life easier. I like [TS80](https://s.click.aliexpress.com/e/_DkivtvJ) and [TS101]https://s.click.aliexpress.com/e/_DkVMKwN) soldering irons. 
-8. Soldering tips can be found [here](https://www.youtube.com/watch?v=DfC5FBsud7o).
-
-
 
 
 # Finalizing the software
