@@ -1,0 +1,2 @@
+# ADC improvements
+In previous versions of the PCB, a ADS1256 was used to read the loadcell. Since V6 board, an ADS1220 is used, since it allows ratiometric loadcell measurment, mitigating external interference. A deeper analysis can be found [here](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/wiki/Improving-the-loadcell-reading).
