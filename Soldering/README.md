@@ -1,6 +1,6 @@
 # Soldering tips
 
-A good soldering iron makes your life easier. I like [TS80](https://s.click.aliexpress.com/e/_DkivtvJ) and [TS101]https://s.click.aliexpress.com/e/_DkVMKwN) soldering irons. 
+A good soldering iron makes your life easier. I like [TS80](https://s.click.aliexpress.com/e/_olD6hiU) and [TS101](https://s.click.aliexpress.com/e/_opJpOtW) soldering irons. 
 
 Soldering tips can be found [here](https://www.youtube.com/watch?v=DfC5FBsud7o).
 

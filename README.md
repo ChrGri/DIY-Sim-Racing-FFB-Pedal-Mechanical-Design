@@ -1,7 +1,9 @@
 # DIY-Sim-Racing-FFB-Pedal-Mechanical-Design
 If you're used to standard spring or damper-based pedals with rumble motors attached, a force-feedback pedal is the next step. It uses a high power servo attached to a linear rail to control the motion of the pedal. This allows you to change how the pedal feels with a few changes on your PC, whether that's braking pressure, response or travel or the thottle weight or stiffness. You can even use profiles to build different "feels" for different cars, switching profiles between cars to give each vehicle a different driving experience. Additionally, since the pedal movement is controlled, the feedback it can produce is totally different - imaging feeling ABS feedback moving the pedal, the kick of the gear change through the throttle or feedback from road bumps through the pedals. It's an experience like no other! If that sounds like something you want to build for yourself, then read on! This project documents people who want to design and/or build their own force-feedback pedal. 
 
-<img src="https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7" width="400">
+<img src="https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7" width="400"> <br>
+<img src="Soldering/7-Connection/DSC00211.JPG" width="400">
+
 
 > [!TIP]
 > **Disclaimer** This repository documents my research progress. I wanted to understand the necessary signal processing and control theory algorithms behind such a device. 
@@ -48,46 +50,23 @@ All that, without contributing anything to this project.
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 
-
-# Overview
-
-## Mechanical design
-The mechanical design is depicted below <br>
-<img src="https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7" width="400"> <br>
-<img src="https://github.com/user-attachments/assets/be6eea49-dc3b-4902-b109-a31bb7455d06" width="400">
-
-The mechanical assembly is documented [here](MechanicalAssembly).
+# Assembly steps
+1. Mechanical assembly can be found [here](MechanicalAssembly)
+2. Electronical assembly can be found [here](Soldering)
+3. Software finalization can be found [here](FinalizingSoftware).
 
 
-
-
-## Electronics
-
-### Documentation of soldering and assembly
-The embedded code of this DIY FFB pedal runs on an ESP32 S3 microcontroller. The PCB design was developed to prove the concept. It holds the ESP32, the ADC, a RS232 transceiver, brake resistor circuit and connectors. Currently, version 6 of this PCB design is being used, see <br>
-<img src="Soldering/7-Connection/DSC00211.JPG" width="400">.
-
-The pictured documentation of the soldering and assembly can be found [here](Soldering).
-
-
-### Hardware features
+# Hardware features
 For the interessted reader, some deeper analysis can be found [here](Features)
-
-### Ordering
-To order the PCB, follow the [instructions](README.md#order-pcb).
-
-HINT:
-The proposed PCB is easy to source, but requires manual soldering. The awesome user [gilphilbert](https://github.com/gilphilbert) designed a PCB assembly of the control board which can be found [here](https://github.com/gilphilbert/DIY-Sim-Racing-FFB-Pedal-PCBs). It's currently beeing tested. The current status is published on the discord channel.
-
-
 
 # BOM
 The price of one pedal was about 250€. The BOM can be found [here](BOM).
 
-
-
-
 # Order PCB
+HINT:
+The proposed PCB is easy to source, but requires manual soldering. The awesome user [gilphilbert](https://github.com/gilphilbert) designed a PCB assembly of the control board which can be found [here](https://github.com/gilphilbert/DIY-Sim-Racing-FFB-Pedal-PCBs) and features the same features as the V6 PCB. It's currently beeing tested. The current status is published on the discord channel.
+
+
 1. Download the control and power PCB, e.g. [control PCB V6](Wiring/PcbV6/DiyFfbPedalPcbV6.zip)
 2. Navigate to https://jlcpcb.com/
 3. Upload the gerber files
