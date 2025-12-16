@@ -5,23 +5,23 @@
 
 # Introduction 
 ## Motivation
-Originally, I built my DIY FFB pedal from metal parts. After using it some time, I got curious whether I can come up with a mechanical design that can be mostly 3d printed and is still rigid enough to withstand the heavy loads accuring in simracing. Furthermore, I wanted to reduce the weight of the components, hopefully seeing a positive impact in the pedal response time. This repo documents the journey of doing that.
+Originally, I built my DIY FFB pedal from metal parts. After using it for some time, I became curious whether I could create a mechanical design that is mostly 3D‑printed while remaining rigid enough to withstand the heavy loads occurring in sim racing. Furthermore, I wanted to reduce the component weight, aiming for a positive impact on pedal response time. This repository documents that journey.
 
-The 3D printed design is in use since 07/2024 and doesn't show any signs of wear on my side.
+The 3D‑printed design has been in use since 07/2024 and shows no signs of wear in my setup.
 
 ## Problem
-Usually metal is much stronger than plastic and FDM 3d printed parts are weaker than injection molded counterparts.
+Metal is typically much stronger than plastic, and FDM 3D‑printed parts are generally weaker than injection‑molded counterparts.
 
 ## Solution
-Create a mechanical design, which takes into account the weaknesses of using FDM 3d printed pedal parts and make them strong at weak spots.
+Create a mechanical design that takes into account the weaknesses of FDM 3D‑printed pedal parts and reinforces typical weak points.
 
-To minimize torsional force on the vertical pedal arms arising through pedal activation, the upper loadcell joint is placed at similar height as the pedal face plate centrum. A deeper analysis of the pedal kinematics can be found [here](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/wiki/Pedal-kinematic).
+To minimize torsional forces on the vertical pedal arms during activation, the upper load cell joint is positioned at a similar height as the center of the pedal faceplate. A deeper analysis of the pedal kinematics can be found [here](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal/wiki/Pedal-kinematic).
 
-The pedal arm has a certain width to it, to reduce flex, when pedal force is applied off-centre.
+The pedal arm has additional width to reduce flex when force is applied off‑center.
 
-As a base-plate a 3060 aluminium extrusion was chooses as it allows direct screw on attachment of the used linear rail guide and flexible attachmenrt to the simrig.
+As a base plate, a 3060 aluminum extrusion was chosen, as it allows direct screw‑on attachment of the linear rail guide and flexible mounting to the sim rig.
 
-The 3D printed adapters 
+The 3D‑printed adapters
 
 
 # Table of Contents
@@ -56,10 +56,10 @@ The CAD model of the design can be found
 TBD.
 
 # Print settings
-As a FDM material I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the carbon fibre particales make the parts supper stiff and the PETG gives good layer bonding while having a better heat resistance than PLA.
-The PETG parts have been printed with 10 perimeters, 10 top/bottom layers, 20% infill. 270°C hotend temperature, 70°C heated bed temperature. 
+For FDM printing, I chose [PETG‑CF](https://amzn.eu/d/00g90wIk), since the carbon fiber particles make the parts very stiff, and PETG provides good layer bonding while offering better heat resistance than PLA.
+The PETG parts were printed with 10 perimeters, 10 top/bottom layers, and 20% infill at 270 °C hotend temperature and 70 °C bed temperature.
 
-The 3D printed loadcell arm adapters have been printed from [83A-TPE](https://amzn.to/4oZeoHs), thus they'll absorb system noise and vibration. The TPE parts have been printed with 4 perimeters, 0 top/bottom layers, 90% infill. 250°C hotend temperature, 70°C heated bed temperature. 
+The 3D‑printed load cell arm adapters were printed from [83A‑TPE](https://amzn.to/4oZeoHs), which helps absorb system noise and vibration. The TPE parts were printed with 4 perimeters, 0 top/bottom layers, and 90% infill at 250 °C hotend temperature and 70 °C bed temperature.
 
 
 
@@ -72,11 +72,11 @@ The 3D printed loadcell arm adapters have been printed from [83A-TPE](https://am
 |--|--|--|--|--|--|
 | Loadcell arm (back) | 3D print | 1 |  [Loadcell arm back](STL/Loacell-Arm-Back.stl) | | |
 | Loadcell arm (front) | 3D print | 1 | [Loadcell arm back](STL/Loadcell-Arm-Front.stl) |||
-| DYLY-107 loadcell | 50 kg has good signal-to-noise ratio | 1| || [link](https://s.click.aliexpress.com/e/_c4c2i6k5)|
-| M8x16mm cyclinder head screw | | 2 | |[link](https://amzn.to/4j2gTaD) | [link](https://s.click.aliexpress.com/e/_c30VmPrT) |
-| 608 zz bearing | | 2 || [link](https://amzn.to/4pH0pak) | [link](https://s.click.aliexpress.com/e/_c4nGMZR7) |
-| M8x45mm threaded rod | | 2 || [link](https://amzn.to/48Iyq48) | [link](https://s.click.aliexpress.com/e/_c35xCCtj) |
-| teflon tape | To reduce play between rod and bearing | 1 || [link](https://amzn.to/3KzmUPj) | [link](https://s.click.aliexpress.com/e/_c3bH4vVB) |
+| DYLY‑107 load cell | 50 kg, good signal‑to‑noise ratio | 1| || [link](https://s.click.aliexpress.com/e/_c4c2i6k5)|
+| M8×16 mm cylinder head screw | | 2 | |[link](https://amzn.to/4j2gTaD) | [link](https://s.click.aliexpress.com/e/_c30VmPrT) |
+| 608‑ZZ bearing | | 2 || [link](https://amzn.to/4pH0pak) | [link](https://s.click.aliexpress.com/e/_c4nGMZR7) |
+| M8×45 mm threaded rod | | 2 || [link](https://amzn.to/48Iyq48) | [link](https://s.click.aliexpress.com/e/_c35xCCtj) |
+| PTFE (Teflon) tape | To reduce play between rod and bearing | 1 || [link](https://amzn.to/3KzmUPj) | [link](https://s.click.aliexpress.com/e/_c3bH4vVB) |
 
 
 
@@ -88,7 +88,7 @@ The 3D printed loadcell arm adapters have been printed from [83A-TPE](https://am
 |--|--|--|--|--|--|
 |8mm to 8mm coupler||1||[link](https://amzn.to/4qbL1CH)|[link](https://s.click.aliexpress.com/e/_c3kPwW8h)|
 
-It was aimed to get roughly 5.5mm space between the motor flange and the coupler.
+Target spacing between the motor flange and the coupler is approximately 5.5 mm.
 
 ### Attach Servo to Rail
 
@@ -97,7 +97,7 @@ It was aimed to get roughly 5.5mm space between the motor flange and the coupler
 | Design  | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|--|
 |KK 60 rail|JKK60-5-C-150-A1-F4-M|1|| [link](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-actuators--kk60-series) |[link](https://www.omc-stepperonline.com/de/lkn60-kk-serie-kugelgewindetrieb-linearmodul-maximale-horizontale-vertikale-nutzlast-30kg-10kg-hub-60mm-lkn60-23dl050-060?tracking=6721c5865911c)|
-| M4x16mm cyclinder head screw ||4||[link](https://amzn.to/4q5GSQA)|[link](https://s.click.aliexpress.com/e/_c3bxyxud)|
+| M4×16 mm cylinder head screw ||4||[link](https://amzn.to/4q5GSQA)|[link](https://s.click.aliexpress.com/e/_c3bxyxud)|
 
 
 
@@ -108,9 +108,9 @@ It was aimed to get roughly 5.5mm space between the motor flange and the coupler
 | Design  | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|--|
 |3060 adapter plate| |1| [3060 adapter](STL\3060_adapter\JKK60_to_3060_adapter.stl)|
-| 3060 rail 400mm | | 1 | | [link](https://amzn.to/4aPx3Sj)| [link](https://s.click.aliexpress.com/e/_c39XbifP) |
-|M5x20mm cylinder head screws ||4| | [link](https://amzn.to/4j8jHD6)|[link](https://s.click.aliexpress.com/e/_c41gbyuD)|
-|3030 M5 spring ball nut ||4||[link](https://amzn.to/4qffsbd)| [link](https://s.click.aliexpress.com/e/_c38nyFEZ)|
+| 3060 extrusion, 400 mm | | 1 | | [link](https://amzn.to/4aPx3Sj)| [link](https://s.click.aliexpress.com/e/_c39XbifP) |
+| M5×20 mm cylinder head screws ||4| | [link](https://amzn.to/4j8jHD6)|[link](https://s.click.aliexpress.com/e/_c41gbyuD)|
+| 3030 M5 spring ball nut ||4||[link](https://amzn.to/4qffsbd)| [link](https://s.click.aliexpress.com/e/_c38nyFEZ)|
 
 
 
@@ -123,7 +123,7 @@ In order to increase layer strength, screws have been added across the layers. <
 |--|--|--|--|--|
 |Screw 3.5mm x 30mm | To increase layer bonding | 6 | [link](https://amzn.to/3Xv7Wwl) |[link](https://s.click.aliexpress.com/e/_c4py0Uu1)|
 |Screw 3.5mm x 20mm | To increase layer bonding | 2 | [link](https://amzn.to/4nTd0p1) |[link](https://s.click.aliexpress.com/e/_c4py0Uu1)|
-|Countersink set| To remove material to for the sink screws | 1 |  [link](https://amzn.to/43wEfi0) |[link](https://s.click.aliexpress.com/e/_c3yAJXfL)|
+| Countersink set | To remove material for countersunk screws | 1 |  [link](https://amzn.to/43wEfi0) |[link](https://s.click.aliexpress.com/e/_c3yAJXfL)|
 
 
 
@@ -134,7 +134,7 @@ In order to increase layer strength, screws have been added across the layers. <
 | Product  | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|--|
 | Faceplate ||1|[Faceplate](STL/Faceplate/Faceplate.stl)||
-| Sideguards ||2|[Faceplate](STL/Faceplate/SideGuard.stl)||
+| Side guards ||2|[Side Guards](STL/Faceplate/SideGuard.stl)||
 |M5 x 20mm cylinder head screws ||6| | [link](https://amzn.to/4j8jHD6)|[link](https://s.click.aliexpress.com/e/_c41gbyuD)|
 
 
@@ -159,7 +159,7 @@ In order to increase layer strength, screws have been added across the layers. <
 
 
 
-## Attach pedal arm to 3060 extrusion
+## Attach Pedal Arm to 3060 Extrusion
 <img src="Images/DSC00233.JPG" width="400"> <br>
 <img src="Images/DSC00234.JPG" width="400"> <br>
 <img src="Images/DSC00237.JPG" width="400"> <br>
@@ -168,7 +168,7 @@ In order to increase layer strength, screws have been added across the layers. <
 |--|--|--|--|--|--|
 | Screw bearing | JS695-13-5C3L8M6 | 2 | || [link](https://s.click.aliexpress.com/e/_c41E25K1) |
 | M6 x 12 x 1.6mm flat washer |  | 2 | | [link](https://amzn.to/3MFFq98)| [link](https://s.click.aliexpress.com/e/_c3Yqn9LL) |
-|3030 M6 spring ball nut ||2||[link](https://amzn.to/4pPvLeT)| [link](https://s.click.aliexpress.com/e/_c38nyFEZ)|
+| 3030 M6 spring ball nut ||2||[link](https://amzn.to/4pPvLeT)| [link](https://s.click.aliexpress.com/e/_c38nyFEZ)|
 
 
 
@@ -178,7 +178,7 @@ In order to increase layer strength, screws have been added across the layers. <
 
 | Product  | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|--|
-|Lower loadcell arm adapter | Print from TPE|2|[link](STL/LowerLoadcellArmAdapter/8mmLowerAdapter_v3.stl)||
+| Lower load cell arm adapter | Print from TPE | 2 | [link](STL/LowerLoadcellArmAdapter/8mmLowerAdapter_v3.stl) ||
 |M5 x 25mm cylinder head screws ||4| | [link](https://amzn.to/4s0sBpY)|[link](https://s.click.aliexpress.com/e/_c41gbyuD)|
 
 
