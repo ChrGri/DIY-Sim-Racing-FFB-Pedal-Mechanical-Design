@@ -3,10 +3,8 @@ If you're used to standard spring or damper-based pedals with rumble motors atta
 
 Currently two revisions of the pedal are available. 
 
-1. The original design, using cheaper components, such as SFU1610 linear rail, YZC-516C lodcell and 2080 aluminium profile.<img src="https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7" width="400"> <br>
-<img src="Soldering/7-Connection/DSC00211.JPG" width="400">
-
-2. Improved design, using more expensive components, such as JKK60 linear rails, DYLY-107 loadcell, 3080 aluminium profile. <img src="MechanicalDesign_11_20215/Build/Images/DiyPedalAssemblyV3_dilatation_v19.png" width="400"> <br>
+1. The original design, using cheaper components, such as SFU1610 linear rail, YZC-516C lodcell and 2080 aluminium profile <br> <img src="https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7" width="400">
+2. Improved design, using more expensive components, such as JKK60 linear rails, DYLY-107 loadcell, 3080 aluminium profile <br> <img src="MechanicalDesign_11_20215/Build/Images/DiyPedalAssemblyV3_dilatation_v19.png" width="400"> <br>
 
 
 
