@@ -115,7 +115,7 @@ It was aimed to get roughly 5.5mm space between the motor flange and the coupler
 
 
 ## Prepare Pedal Arm
-In order to increase layer strength, screws have been added across the layers.
+In order to increase layer strength, screws have been added across the layers. <br>
 <img src="Images/DSC00221.JPG" width="400"> <br>
 <img src="Images/DSC00223.JPG" width="400"> <br>
 
