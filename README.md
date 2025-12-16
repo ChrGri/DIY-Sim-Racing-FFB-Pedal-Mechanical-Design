@@ -1,8 +1,13 @@
 # DIY-Sim-Racing-FFB-Pedal-Mechanical-Design
 If you're used to standard spring or damper-based pedals with rumble motors attached, a force-feedback pedal is the next step. It uses a high power servo attached to a linear rail to control the motion of the pedal. This allows you to change how the pedal feels with a few changes on your PC, whether that's braking pressure, response or travel or the thottle weight or stiffness. You can even use profiles to build different "feels" for different cars, switching profiles between cars to give each vehicle a different driving experience. Additionally, since the pedal movement is controlled, the feedback it can produce is totally different - imaging feeling ABS feedback moving the pedal, the kick of the gear change through the throttle or feedback from road bumps through the pedals. It's an experience like no other! If that sounds like something you want to build for yourself, then read on! This project documents people who want to design and/or build their own force-feedback pedal. 
 
-<img src="https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7" width="400"> <br>
+Currently two revisions of the pedal are available. 
+
+1. The original design, using cheaper components, such as SFU1610 linear rail, YZC-516C lodcell and 2080 aluminium profile.<img src="https://github.com/user-attachments/assets/f1a54fd9-5949-4dc0-b573-b34a77b52dd7" width="400"> <br>
 <img src="Soldering/7-Connection/DSC00211.JPG" width="400">
+
+2. Improved design, using more expensive components, such as JKK60 linear rails, DYLY-107 loadcell, 3080 aluminium profile. <img src="MechanicalDesign_11_20215/Build/Images/DiyPedalAssemblyV3_dilatation_v19.png" width="400"> <br>
+
 
 
 > [!TIP]
@@ -52,7 +57,9 @@ All that, without contributing anything to this project.
 
 # Assembly steps
 1. Order of PCB --> [here](PcbOrder)
-2. Mechanical assembly --> [here](MechanicalAssembly)
+2. Mechanical assembly
+- Legacy Mechanical assembly --> [here](MechanicalAssembly)
+- New Mechanical assembly --> [here](MechanicalDesign_11_20215/Build/Assemlby_PedalArm.md)
 3. Electronical assembly --> [here](Soldering)
 4. Software finalization --> [here](FinalizingSoftware).
 
