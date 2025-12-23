@@ -70,8 +70,8 @@ The 3D‑printed load cell arm adapters were printed from [83A‑TPE](https://am
 
 | Design  | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|--|
-| Loadcell arm (back) | 3D print | 1 |  [Loadcell arm back](STL/Loacell-Arm-Back.stl) | | |
-| Loadcell arm (front) | 3D print | 1 | [Loadcell arm back](STL/Loadcell-Arm-Front.stl) |||
+| Loadcell arm (back) | 3D print | 1 |  [Loadcell arm back](STL/LoadcellArm/Loacell-Arm-Back.stl) | | |
+| Loadcell arm (front) | 3D print | 1 | [Loadcell arm back](STL/LoadcellArm/Loadcell-Arm-Front.stl) |||
 | DYLY‑107 load cell | 50 kg, good signal‑to‑noise ratio | 1| || [link](https://s.click.aliexpress.com/e/_c4c2i6k5)|
 | M8×16 mm cylinder head screw | | 2 | |[link](https://amzn.to/4j2gTaD) | [link](https://s.click.aliexpress.com/e/_c30VmPrT) |
 | 608‑ZZ bearing | | 2 || [link](https://amzn.to/4pH0pak) | [link](https://s.click.aliexpress.com/e/_c4nGMZR7) |
@@ -121,6 +121,7 @@ In order to increase layer strength, screws have been added across the layers. <
 
 | Product | Info | Quantity | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|
+| Pedal arm | 3D print | 1 |  [Pedal arm](STL/PedalArm/PedalArm.stl) | | |
 |Screw 3.5mm x 30mm | To increase layer bonding | 6 | [link](https://amzn.to/3Xv7Wwl) |[link](https://s.click.aliexpress.com/e/_c4py0Uu1)|
 |Screw 3.5mm x 20mm | To increase layer bonding | 2 | [link](https://amzn.to/4nTd0p1) |[link](https://s.click.aliexpress.com/e/_c4py0Uu1)|
 | Countersink set | To remove material for countersunk screws | 1 |  [link](https://amzn.to/43wEfi0) |[link](https://s.click.aliexpress.com/e/_c3yAJXfL)|
@@ -189,6 +190,8 @@ In order to increase layer strength, screws have been added across the layers. <
 
 | Product  | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|--|
+|Side cover left| |1|[link](STL/RailCover/Cover_left.stl)||
+|Side cover right | |1|[link](STL/RailCover/Cover_right.stl)||
 | M2.5 x 6mm countersunk screws||4| | [link](https://amzn.to/3MEZUyP)|[link](https://s.click.aliexpress.com/e/_c3uZ3z3F)|
 
 
