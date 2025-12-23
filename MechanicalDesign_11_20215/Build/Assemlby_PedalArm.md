@@ -70,7 +70,7 @@ The 3D‑printed load cell arm adapters were printed from [83A‑TPE](https://am
 
 | Design  | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|--|
-| Loadcell arm (back) | 3D print | 1 |  [Loadcell arm back](STL/LoadcellArm/Loacell-Arm-Back.stl) | | |
+| Loadcell arm (back) | 3D print | 1 |  [Loadcell arm back](STL/LoadcellArm/Loadcell-Arm-Back.stl) | | |
 | Loadcell arm (front) | 3D print | 1 | [Loadcell arm back](STL/LoadcellArm/Loadcell-Arm-Front.stl) |||
 | DYLY‑107 load cell | 50 kg, good signal‑to‑noise ratio | 1| || [link](https://s.click.aliexpress.com/e/_c4c2i6k5)|
 | M8×16 mm cylinder head screw | | 2 | |[link](https://amzn.to/4j2gTaD) | [link](https://s.click.aliexpress.com/e/_c30VmPrT) |
@@ -107,7 +107,7 @@ Target spacing between the motor flange and the coupler is approximately 5.5 m
 
 | Design  | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|--|
-|3060 adapter plate| |1| [3060 adapter](STL\3060_adapter\JKK60_to_3060_adapter.stl)|
+|3060 adapter plate| |1| [3060 adapter](STL/3060_adapter/JKK60_to_3060_adapter.stl)|
 | 3060 extrusion, 400 mm | | 1 | | [link](https://amzn.to/4aPx3Sj)| [link](https://s.click.aliexpress.com/e/_c39XbifP) |
 | M5×20 mm cylinder head screws ||4| | [link](https://amzn.to/4j8jHD6)|[link](https://s.click.aliexpress.com/e/_c41gbyuD)|
 | 3030 M5 spring ball nut ||4||[link](https://amzn.to/4qffsbd)| [link](https://s.click.aliexpress.com/e/_c38nyFEZ)|
@@ -119,12 +119,12 @@ In order to increase layer strength, screws have been added across the layers. <
 <img src="Images/DSC00221.JPG" width="400"> <br>
 <img src="Images/DSC00223.JPG" width="400"> <br>
 
-| Product | Info | Quantity | Amazon (affiliate) link | Aliexpress (affiliate) link |
-|--|--|--|--|--|
+| Product | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
+|--|--|--|--|--|--|
 | Pedal arm | 3D print | 1 |  [Pedal arm](STL/PedalArm/PedalArm.stl) | | |
-|Screw 3.5mm x 30mm | To increase layer bonding | 6 | [link](https://amzn.to/3Xv7Wwl) |[link](https://s.click.aliexpress.com/e/_c4py0Uu1)|
-|Screw 3.5mm x 20mm | To increase layer bonding | 2 | [link](https://amzn.to/4nTd0p1) |[link](https://s.click.aliexpress.com/e/_c4py0Uu1)|
-| Countersink set | To remove material for countersunk screws | 1 |  [link](https://amzn.to/43wEfi0) |[link](https://s.click.aliexpress.com/e/_c3yAJXfL)|
+|Screw 3.5mm x 30mm | To increase layer bonding | 6 | | [link](https://amzn.to/3Xv7Wwl) |[link](https://s.click.aliexpress.com/e/_c4py0Uu1)|
+|Screw 3.5mm x 20mm | To increase layer bonding | 2 |  |[link](https://amzn.to/4nTd0p1) |[link](https://s.click.aliexpress.com/e/_c4py0Uu1)|
+| Countersink set | To remove material for countersunk screws | 1 |  | [link](https://amzn.to/43wEfi0) |[link](https://s.click.aliexpress.com/e/_c3yAJXfL)|
 
 
 
