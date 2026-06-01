@@ -18,6 +18,7 @@ Working settings with V5 PCB for CDC and DTR/RTS are depicted below <br>
 ### Pedal  kinematic
 To accurately estimate the pedal force, the controller needs information of the geometric design. Open the **PEDAL-KINEMATIC** tab and adjust the values accordingly. 
 
+#### V1 design
 O to A = 215<br>
 A to B = 66<br>
 O to C = 167<br>
@@ -25,6 +26,15 @@ C to D = 0<br>
 C to B = 233<br>
 
 ![image](https://github.com/user-attachments/assets/76edaffb-0a6f-41bf-88c6-68cf352516ae)
+
+#### V2 design
+O to A = 225<br>
+A to B = 72<br>
+O to C = 187<br>
+C to D = 0<br>
+C to B = 266<br>
+<img width="1352" height="872" alt="image" src="https://github.com/user-attachments/assets/464d4a10-d5e0-4f54-91a3-51573b5d7ae0" />
+
 
 The controller will automatically measure the travel distance. If you want it not to hit the max endstop, reduce the travel distance below the acctual travel distance of the sled.
 
