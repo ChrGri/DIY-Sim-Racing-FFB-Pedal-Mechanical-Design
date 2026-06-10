@@ -55,8 +55,8 @@ All that, without contributing anything to this project.
 
 # BOM
 The price of one pedal is about 250€-400€. <br>
-The electronics BOM can be found [here](BOM\Electronics\README.md). <br>
-The mechanical design BOM can be found [here](BOM\Mechanics\README.md).
+The electronics BOM can be found [here](BOM/Electronics/README.md). <br>
+The mechanical design BOM can be found [here](BOM/Mechanics/README.md).
 
 # Assembly steps
 1. Order of PCB --> [here](PcbOrder)
