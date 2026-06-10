@@ -55,7 +55,7 @@ The components for the V6 PCB are listed below.
 | SP2323  |  Single channel 20x16 | 1 | 1€ | [link](https://amzn.to/4e1xEBK) | [link](https://s.click.aliexpress.com/e/_c3BQLhi9) |
 | SR5100 Schottky diode | |  1 diode per pedal | 1€ | [link](https://amzn.to/3CmN8jR)| [link](https://s.click.aliexpress.com/e/_DdrrsrJ) |
 | FR120N mosfet | 100V | 1 per pedal | 1€ |[link](https://amzn.to/40MX27z) | [link](https://s.click.aliexpress.com/e/_oEP6IpR)|
-| 10 or 33 Ohm 5W resistor | select 10R or 33R | 1 per pedal | 1€ | [link](https://amzn.to/43ZmYgW)| [link](https://s.click.aliexpress.com/e/_c3Zg1NXJ)|
+| 8 or 10 5W resistor | select 10R or 8R | 1 per pedal | 1€ | [link](https://amzn.to/4ujXg1v)| [link](https://s.click.aliexpress.com/e/_c3Zg1NXJ)|
 | Wire (AWG 18)  | power wire | 0.2m | 5€ | [link](https://amzn.to/4htGLtR) | [link](https://s.click.aliexpress.com/e/_oke6LFx) |
 | Wire (AWG 30)  | to connect the control electronics | 0.2m | 5€ | [link](https://amzn.to/4geYNz0) | [link](https://s.click.aliexpress.com/e/_olWGFI1) |
 | 2.54mm pitch screw terminals | 5 pin (2pin + 3pin) for loadcell to board | 1 per pedal | 6€| [link](https://amzn.eu/d/5S0YVBn) | [link](https://s.click.aliexpress.com/e/_c3qY4kDr) |
