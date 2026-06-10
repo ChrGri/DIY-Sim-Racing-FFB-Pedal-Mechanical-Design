@@ -3,33 +3,6 @@ Given prices are just indicators. Sellers regularly offer discounted prices, e.g
 
 Disclosure: Some of the links below are affiliate links, which means we may receive a commission at no cost to you if you make a purchase. By using the provided links, you help me buy tools or hardware for further investigations.
 
-## Mechanical parts
-
-### Larger parts
-| Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| SK12  | | 4 pieces  | 4,50€ | [link](https://amzn.to/4fibyZe) | [link](https://s.click.aliexpress.com/e/_DlVHbol) |
-| 608zz bearing  | | 2 pieces  | 5€ | [link](https://amzn.to/4grWl92) | [link](https://s.click.aliexpress.com/e/_DC5FMbP) |
-| Linear guide  | SFU1610, 100mm stroke | 1 piece  | 60€ | [link](https://a.aliexpress.com/_EJWoX55) | |
-| 2080 profile  | 400mm length | 1 piece  | 15€ | [link](https://amzn.to/4glrw63) | [link](https://s.click.aliexpress.com/e/_DEPruwN) |
-| M12 ball joint  | All right handed thread | 2 piece  | 11€ | [link](https://amzn.to/3Dqoyyq) | |
-| M8 threades rod  |  |  one piece ca. 110mm length | 2€ | local hardware store | [link](https://s.click.aliexpress.com/e/_Dmk4XgV) |
-| M12 threades rod  |  | two pieces a 45mm + two pieces a 55mm  | 2€ | local hardware store | [link](https://s.click.aliexpress.com/e/_DCL5p3L) |
-| M8 self locking nut  |  | 2 pieces  | 0,50€ | local hardware store |  |
-| M5 t-nut  |  | 8 pieces  | 3€ | [link](https://amzn.to/3DhZ1Yi) | [link](https://a.aliexpress.com/_EyKq6Mx) |
-| FDM filament  |  | ca. 300g  | 25€ | [link](https://amzn.to/4gbUhly) | |
-
-### Srews/bolts:
-| Size  | Info | Quantity | Price | Link |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| M4x10mm  | | 8 pieces  | 0,50€ |
-| M4x15mm  | | 8 pieces  | 0,50€  |
-| M5x10mm  | | 4 pieces  | 0,50€ |
-| M5x25mm  | | 4 pieces  | 0,50€ |
-| M5x30mm  | | 10 pieces  | 0,50€ |
-| M4 washer  | | 4 pieces  | 0,50€ |
-
-
 ## Electronics:
 
 Apart from the mechanical parts, more electronical parts have to be ordered. Please conduct the [software/electronics](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal) repo and the discord for help first, to see if electronic parts are still up to date. 
@@ -39,8 +12,9 @@ Apart from the mechanical parts, more electronical parts have to be ordered. Ple
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | iSV57T-130S  | shorter version ("130s") is prefered. If the longer version ("130") is cheaper, buy this and cut the motor shaft to appropriate length with a metal handsaw. Alternatively the 180s servo is a bit stronger and not selled out that often. | 1 piece  | 90€ | [130s link](https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-130w-3000rpm-0-45nm-63-73oz-in-20-50vdc-buerstenloser-dc-servomotor-kurze-welle-isv57t-130s?tracking=6721c5865911c) | [180s link](https://www.omc-stepperonline.com/de/nema-23-integrierter-easy-servo-motor-180w-3000rpm-0-6nm-84-98oz-in-20-50vdc-servomotor-kurze-welle-isv57t-180s?tracking=6721c5865911c)|
 | PSU | 1 PSU can power multiple pedals (2 at least) | 1 piece | 25€ | [link](https://www.omc-stepperonline.com/de/lrs-350-36-mean-well-350w-36vdc-9-7a-115-230vac-geschlossenes-schaltnetzteil-lrs-350-36?tracking=6721c5865911c) | |
-| Loadcell  | 50kg or 100kg | 1 piece  | 20€ | [link](https://amzn.eu/d/0erHqGqH) | [link](https://s.click.aliexpress.com/e/_DlBk3oV) |
-| Servo debug port connector  | Female, 5P | 1 piece  | 1€ | [link](https://s.click.aliexpress.com/e/_oCbioHZ) | | 
+| DYLY‑107 load cell | 50 kg, good signal‑to‑noise ratio | 1 | 50€| [link](https://amzn.to/4ayAk7B) | [link](https://s.click.aliexpress.com/e/_c4c2i6k5)|
+| Servo debug port connector  | Female, 5P | 1 piece  | 1€ | [link](https://amzn.to/4uXvVTZ) | [link](https://s.click.aliexpress.com/e/_oCbioHZ) | 
+
 
 
 
