@@ -5,7 +5,16 @@
 # DIY-Sim-Racing-FFB-Pedal-Mechanical-Design
 If you're used to standard spring or damper-based pedals with rumble motors attached, a force-feedback pedal is the next step. It uses a high power servo attached to a linear rail to control the motion of the pedal. This allows you to change how the pedal feels with a few changes on your PC, whether that's braking pressure, response or travel or the thottle weight or stiffness. You can even use profiles to build different "feels" for different cars, switching profiles between cars to give each vehicle a different driving experience. Additionally, since the pedal movement is controlled, the feedback it can produce is totally different - imaging feeling ABS feedback moving the pedal, the kick of the gear change through the throttle or feedback from road bumps through the pedals. It's an experience like no other! If that sounds like something you want to build for yourself, then read on! This project documents people who want to design and/or build their own force-feedback pedal. 
 
-Current iteration of pedal design, using more expensive components, such as JKK60 linear rails, DYLY-107 loadcell, 3080 aluminium profile <br> <img src="MechanicalDesign_11_20215/Build/Images/DiyPedalAssemblyV3_dilatation_v19.png" width="400"> <br>
+Current iteration of pedal design, using more expensive components, such as JKK60 linear rails, DYLY-107 loadcell, 3080 aluminium profile <br> <img src="MechanicalDesign_11_20215/Build/Images/DiyPedalAssemblyV3_dilatation_v19.png" width="50%">.
+
+The current iteration of the electronics are depicted below <br>
+<img src="Soldering_V7/img/DSC00291.JPG" width="50%">.
+
+This is V7 of the PCB design and compared to previous versions, it offers
+- better loadcell reading signal-to-noise-ratio (SNR) due to RC-filter design and better wire routing
+- smaller form factor
+- lower costs (since ESP32 S3 zero/mini is cheaper)
+- better wire management.
 
 
 
