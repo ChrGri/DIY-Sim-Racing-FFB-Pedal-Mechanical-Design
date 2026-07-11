@@ -15,10 +15,3 @@ All steps of the electronics assembly have been documented in sequence below: <b
 [5. ESP32 assembly](5-ESP32) <br>
 [6. Loadcell connection](6-Loadcell) <br>
 [7. Finalizing the electronics](7-Connection) <br>
-
-
-
-
-
-
-

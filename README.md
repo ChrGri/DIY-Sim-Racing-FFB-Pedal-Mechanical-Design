@@ -61,7 +61,7 @@ The mechanical design BOM can be found [here](BOM/Mechanics/README.md).
 # Assembly steps
 1. Order of PCB --> [here](PcbOrder)
 2. Mechanical assembly --> [here](MechanicalDesign_11_20215/Build/Assemlby_PedalArm.md)
-3. Electronical assembly --> [here](Soldering)
+3. Electronical assembly --> [here](Soldering_V7)
 4. Software finalization --> [here](FinalizingSoftware).
 
 # Hardware features

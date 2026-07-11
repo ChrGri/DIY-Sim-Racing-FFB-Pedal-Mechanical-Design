@@ -1,5 +1,5 @@
 # Order PCB
-1. Download the control and power PCB, e.g. [control PCB V6](../Wiring/PcbV6/DiyFfbPedalPcbV6.zip)
+1. Download the control and power PCB, e.g. [control PCB V7](../Wiring/PcbV7/DiyFfbPedalPcbV7.zip)
 2. Navigate to https://jlcpcb.com/
 3. Upload the gerber files
 4. Leave the standard settings (2 layers, FR-4, 1.6mm, PCB color of your choice, see image below), check which delivery options is the cheapest <br>

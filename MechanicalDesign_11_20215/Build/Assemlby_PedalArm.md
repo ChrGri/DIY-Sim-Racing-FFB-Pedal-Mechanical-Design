@@ -72,7 +72,6 @@ The 3D‑printed load cell arm adapters were printed from [83A‑TPE](https://am
 |--|--|--|--|--|--|
 | Loadcell arm (back) | 3D print | 1 |  [Loadcell arm back](STL/LoadcellArm/Loadcell-Arm-Back.stl) | | |
 | Loadcell arm (front) | 3D print | 1 | [Loadcell arm back](STL/LoadcellArm/Loadcell-Arm-Front.stl) |||
-| DYLY‑107 load cell | 50 kg, good signal‑to‑noise ratio | 1| || [link](https://s.click.aliexpress.com/e/_c4c2i6k5)|
 | M8×16 mm cylinder head screw | | 2 | |[link](https://amzn.to/4j2gTaD) | [link](https://s.click.aliexpress.com/e/_c30VmPrT) |
 | 608‑ZZ bearing | | 2 || [link](https://amzn.to/4pH0pak) | [link](https://s.click.aliexpress.com/e/_c4nGMZR7) |
 | M8×45 mm threaded rod | | 2 || [link](https://amzn.to/48Iyq48) | [link](https://s.click.aliexpress.com/e/_c35xCCtj) |
