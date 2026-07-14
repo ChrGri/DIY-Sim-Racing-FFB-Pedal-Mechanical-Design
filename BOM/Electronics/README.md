@@ -24,7 +24,7 @@ The components for the V6 PCB are listed below.
 | Part  | Info | Quantity | Price | Amazon link | Aliexpress link | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Control PCB | Ordered from JLCPCB | 1 unit per pedal | 8€ | [link](../Wiring/PcbV6/DiyFfbPedalPcbV6.zip) | |
-| ESP32 S3 waveshare  | 8MB-Not Soldered | 1 | 13€ | [link](https://amzn.to/3CbEBAg) | [link](https://s.click.aliexpress.com/e/_c3Dl2Mwt) |
+| ESP32 S3  |  | 1 | 13€ | [link](https://amzn.to/4pjNnjq) | [link](https://s.click.aliexpress.com/e/_c3IpHQ4P) |
 | ADS1220 |  | 1 unit per pedal | 1€ | [link](https://amzn.to/4eMUyLL) | [link](https://s.click.aliexpress.com/e/_c3NqYwqv) |
 | SP2323  |  Single channel 20x16 | 1 | 1€ | [link](https://amzn.to/4e1xEBK) | [link](https://s.click.aliexpress.com/e/_c3BQLhi9) |
 | SR5100 Schottky diode | |  1 diode per pedal | 1€ | [link](https://amzn.to/3CmN8jR)| [link](https://s.click.aliexpress.com/e/_DdrrsrJ) |
@@ -35,4 +35,5 @@ The components for the V6 PCB are listed below.
 | 2.54mm pitch screw terminals | 5 pin (2pin + 3pin) for loadcell to board | 1 per pedal | 6€| [link](https://amzn.eu/d/5S0YVBn) | [link](https://s.click.aliexpress.com/e/_c3qY4kDr) |
 | XT30 connector angled | | 1 male connector per pedal | | [link](https://amzn.to/4xkNmQ4) | [link](https://s.click.aliexpress.com/e/_c4a68ig9)|
 | Pin header | optionally, select female | | 1€| [link](https://amzn.to/4hySFCT) | [link](https://s.click.aliexpress.com/e/_ooJnkBP)|
-
+| 100uF capacitor | Select 104 (0.1uF) | 1 per pedal| 1.35€ per 100PC| [link](https://amzn.to/4fiyDwU) | [link](https://s.click.aliexpress.com/e/_c2yY8p15)|
+| 100Ohm resistor | Select 100 Ohm or 100R 1/4 W| 2 per pedal | 1€| [link](https://amzn.to/4yAbtLk) | [link](https://s.click.aliexpress.com/e/_c3TUM20f)|
