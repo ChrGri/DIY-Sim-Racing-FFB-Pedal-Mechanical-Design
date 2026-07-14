@@ -8,7 +8,7 @@ Soldering tips can be found [here](https://www.youtube.com/watch?v=DfC5FBsud7o).
 
 # Soldering
 
-Please see [BOM](BOM/Electronics/README.md) for required parts. Some photos from the below assembly have been taken from the old V6 PCB design but apply similarly to V7 PCB design. The final assembly will look like this <br>
+Please see [BOM](../BOM/Electronics/README.md) for required parts. Some photos from the below assembly have been taken from the old V6 PCB design but apply similarly to V7 PCB design. The final assembly will look like this <br>
 <img src="img/DSC00291.JPG" width="50%">. <br>
 Feel free to inspect this image whenever beeing unsure. Furthermore, there is a silk screen on the PCB to assist you finding the correct parts orientation.
 
