@@ -95,7 +95,7 @@ Target spacing between the motor flange and the coupler is approximately 5.5 m
 
 | Design  | Info | Quantity | STL link | Amazon (affiliate) link | Aliexpress (affiliate) link |
 |--|--|--|--|--|--|
-|KK 60 rail|JKK60-5-C-150-A1-F4-M|1|| [JLC link](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-actuators--kk60-series) |[Stepperonline link](https://www.omc-stepperonline.com/de/lkn60-kk-serie-kugelgewindetrieb-linearmodul-maximale-horizontale-vertikale-nutzlast-30kg-10kg-hub-60mm-lkn60-23dl050-060?tracking=6721c5865911c)|
+|KK 60 rail|JKK60-5-C-150-A1-F4-M. You can also find a servo, rail and coupler kit [here](https://www.omc-stepperonline.com/de/hardware-paket-fuer-diy-aktivpedal-von-chris-empfohlen-von-l-atelier-mit-isv57t-130s-lkn60-23dl060-060-st-rc07-act-pdl?tracking=6721c5865911c).|1|| [JLC link](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-actuators--kk60-series) |[Stepperonline link](https://www.omc-stepperonline.com/de/lkn60-kk-serie-kugelgewindetrieb-linearmodul-maximale-horizontale-vertikale-nutzlast-30kg-10kg-hub-60mm-lkn60-23dl050-060?tracking=6721c5865911c)|
 | M4×16 mm cylinder head screw ||4||[link](https://amzn.to/4q5GSQA)|[link](https://s.click.aliexpress.com/e/_c3bxyxud)|
 
 
