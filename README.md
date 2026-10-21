@@ -65,6 +65,9 @@ The price of one pedal is about 250€-400€.
 
 ## 🛠️ Assembly Steps
 
+> [!TIP]
+> All steps are also available as one PDF: [📄 Download the build guide](https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/releases/download/build-guide-latest/DIY_FFB_Pedal_Build_Guide.pdf). It is updated automatically with every change of the guides.
+
 1. [Order the PCB](PcbOrder)
 2. [Assemble the mechanics](MechanicalDesign_11_20215/Build/Assembly_PedalArm.md)
 3. [Assemble the electronics (PCB V8)](Soldering_V8)

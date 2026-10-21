@@ -1,0 +1,71 @@
+# Builds the PDF build guide with tools/build_pdf.ps1 and publishes it as a release asset.
+#
+# - Push to main: updates the rolling release "build-guide-latest".
+# - Push of a tag "pcb-v*": creates a release for that tag with the PDF attached.
+
+name: Build guide PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.md"
+      - "Images/**"
+      - "**/img/**"
+      - "MechanicalDesign_11_20215/Build/Images/**"
+      - "Wiring/PcbV8/**"
+      - "tools/**"
+      - ".github/workflows/build-guide.yml"
+    tags: ["pcb-v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-guide-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build PDF
+        shell: powershell
+        run: |
+          $ref = "main"
+          if ("${{ github.ref_type }}" -eq "tag") { $ref = "${{ github.ref_name }}" }
+          powershell -NoProfile -ExecutionPolicy Bypass -File tools\build_pdf.ps1 -Branch $ref -Out "tools\output\DIY_FFB_Pedal_Build_Guide.pdf"
+          if (-not (Test-Path "tools\output\DIY_FFB_Pedal_Build_Guide.pdf")) { throw "PDF was not created" }
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-guide
+          path: tools/output/DIY_FFB_Pedal_Build_Guide.pdf
+
+      - name: Publish release for tag
+        if: github.ref_type == 'tag'
+        shell: bash
+        run: |
+          pdf="tools/output/DIY_FFB_Pedal_Build_Guide.pdf"
+          if gh release view "$GITHUB_REF_NAME" > /dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" "$pdf" --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" "$pdf" --title "$GITHUB_REF_NAME" --notes "Build guide for $GITHUB_REF_NAME."
+          fi
+
+      - name: Publish latest build guide
+        if: github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          pdf="tools/output/DIY_FFB_Pedal_Build_Guide.pdf"
+          gh release delete build-guide-latest --yes --cleanup-tag > /dev/null 2>&1 || true
+          gh release create build-guide-latest "$pdf" --target "$GITHUB_SHA" --prerelease \
+            --title "Build Guide (latest)" \
+            --notes "PDF build guide of the current main branch (commit ${GITHUB_SHA::7}). Updated automatically on every change of the guides."

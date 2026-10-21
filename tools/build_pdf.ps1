@@ -71,9 +71,11 @@ function Resolve-Link([string]$target, [string]$dir, [int]$chapter) {
 
 function Convert-Markdown([string]$markdown) {
   $body = @{ text = $markdown; mode = "markdown"; context = $Repo } | ConvertTo-Json
+  $headers = @{ Accept = "application/vnd.github+json"; "User-Agent" = "build-pdf" }
+  # in GitHub Actions the token avoids the rate limit for anonymous requests
+  if ($env:GITHUB_TOKEN) { $headers["Authorization"] = "Bearer $env:GITHUB_TOKEN" }
   $r = Invoke-WebRequest -UseBasicParsing -Method Post -Uri "https://api.github.com/markdown" `
-    -Body ([Text.Encoding]::UTF8.GetBytes($body)) -ContentType "application/json; charset=utf-8" `
-    -Headers @{ Accept = "application/vnd.github+json"; "User-Agent" = "build-pdf" }
+    -Body ([Text.Encoding]::UTF8.GetBytes($body)) -ContentType "application/json; charset=utf-8" -Headers $headers
   $ms = New-Object IO.MemoryStream
   $r.RawContentStream.CopyTo($ms)
   return [Text.Encoding]::UTF8.GetString($ms.ToArray())
