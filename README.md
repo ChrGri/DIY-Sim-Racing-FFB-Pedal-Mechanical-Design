@@ -1,54 +1,113 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6828f954-1b4f-4f7d-a388-92cbb616dd6a" alt="DIY Sim Racing FFB Pedal Banner" width="100%">
+  <img src="Images/banner.png" alt="DIY Sim Racing FFB Pedal Mechanical Design Banner" width="100%">
 </p>
 
 # DIY-Sim-Racing-FFB-Pedal-Mechanical-Design
-If you're used to standard spring or damper-based pedals with rumble motors attached, a force-feedback pedal is the next step. It uses a high power servo attached to a linear rail to control the motion of the pedal. This allows you to change how the pedal feels with a few changes on your PC, whether that's braking pressure, response or travel or the thottle weight or stiffness. You can even use profiles to build different "feels" for different cars, switching profiles between cars to give each vehicle a different driving experience. Additionally, since the pedal movement is controlled, the feedback it can produce is totally different - imaging feeling ABS feedback moving the pedal, the kick of the gear change through the throttle or feedback from road bumps through the pedals. It's an experience like no other! If that sounds like something you want to build for yourself, then read on! This project documents people who want to design and/or build their own force-feedback pedal. 
 
-Current iteration of pedal design, using more expensive components, such as JKK60 linear rails, DYLY-107 loadcell, 3080 aluminium profile <br> <img src="MechanicalDesign_11_20215/Build/Images/DiyPedalAssemblyV3_dilatation_v19.png" width="50%">.
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![SimHub Compatible](https://img.shields.io/badge/SimHub-Plugin%20Compatible-blue.svg)](https://www.simhubdash.com/)
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Donate-ff5e5b.svg?logo=kofi&logoColor=white)](https://ko-fi.com/captainchris88)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg?logo=buy-me-a-coffee)](https://buymeacoffee.com/captainchris)
 
-The current iteration of the electronics are depicted below <br>
-<img src="Soldering_V7/img/DSC00291.JPG" width="50%">.
+A force-feedback pedal is the next step after spring or damper based pedals. A high power servo on a linear rail moves the pedal, so you can change how it feels from your PC. This repository describes the mechanical design and the electronics of ChrGri's pedal.
 
-This is V7 of the PCB design and compared to previous versions, it offers
-- better loadcell reading signal-to-noise-ratio (SNR) due to RC-filter design and better wire routing
-- smaller form factor
-- lower costs (since ESP32 S3 zero/mini is cheaper)
-- better wire management.
+> [!WARNING]
+> The FFB pedal is a robot and can be dangerous. Read the [Disclaimer & Safety](#disclaimer-safety) section before you start.
 
+---
 
+## 🚀 Key Highlights
+
+* **Adjustable feel:** Change braking pressure, response, travel, throttle weight or stiffness with a few clicks on your PC.
+* **Profiles per car:** Switch profiles between cars to give each vehicle its own pedal feel.
+* **Active effects:** Feel ABS, the kick of a gear change through the throttle or road bumps through the pedal.
+* **Proven mechanics:** JKK60 linear rail, DYLY-107 load cell and 3080 aluminium profile.
+* **Simple electronics:** A small control PCB per pedal and one hardware brake resistor module for the whole rig.
+
+| Mechanical design | Electronics (PCB V8) |
+| :---: | :---: |
+| <img src="MechanicalDesign_11_20215/Build/Images/DiyPedalAssemblyV3_dilatation_v19.png" width="100%"> | <img src="Soldering_V8/img/pcb_v8_mounted_top.jpg" width="100%"> |
+
+---
+
+## 🔌 Electronics
+
+The control PCB V8 holds the ESP32-S3 mini, the ADS1220 load cell ADC and the RS232 module for the servo communication. It offers
+* **No high voltage on the PCB:** The servo is supplied directly from the external [hardware brake resistor module](https://github.com/ChrGri/Diy_Hardware_BrakeResistor). The PCB is powered via USB-C.
+* **Low noise load cell reading:** RC filter and separated analog ground give a good signal-to-noise ratio (SNR).
+* **Small and cheap:** Small form factor and low costs thanks to the ESP32-S3 mini.
+* **Clean wiring:** All connections use screw terminals with the signal names printed on the PCB.
+
+The wiring diagram and the gerber files can be found [here](Wiring/PcbV8).
+
+---
+
+## 🔗 Project Repositories
+
+The project is divided into multiple repositories. This repository describes how to build the mechanics and the electronics of ChrGri's pedal. It's not the only design, but it's strong and reliable. There are more options on the Wiki, and you can find even more designs on the Discord server.
+
+| Description | Link |
+| :--- | :--- |
+| Mechanical and electrical design (this repo) | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design |
+| Software (firmware, SimHub plugin, ...) | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal |
+| Hardware brake resistor (servo power supply) | https://github.com/ChrGri/Diy_Hardware_BrakeResistor |
+| Alternative control board with SMD assembly by gilphilbert | https://github.com/gilphilbert/DIY-Sim-Racing-FFB-Pedal-PCBs |
+
+---
+
+## 📦 Bill of Materials (BOM)
+
+The price of one pedal is about 250€-400€.
+* [Electronics BOM](BOM/Electronics/README.md)
+* [Mechanical BOM](BOM/Mechanics/README.md)
+
+---
+
+## 🛠️ Assembly Steps
+
+1. [Order the PCB](PcbOrder)
+2. [Assemble the mechanics](MechanicalDesign_11_20215/Build/Assembly_PedalArm.md)
+3. [Assemble the electronics (PCB V8)](Soldering_V8)
+4. [Build the hardware brake resistor](https://github.com/ChrGri/Diy_Hardware_BrakeResistor)
+5. [Finalize the software](FinalizingSoftware)
+
+---
+
+## 🔬 Hardware Features
+
+For the interested reader, some deeper analysis can be found [here](Features).
+
+---
+
+<a id="disclaimer-safety"></a>
+## ⚠️ Disclaimer & Safety
 
 > [!TIP]
-> **Disclaimer** This repository documents my research progress. I wanted to understand the necessary signal processing and control theory algorithms behind such a device. 
+> This repository documents my research progress. I wanted to understand the necessary signal processing and control theory algorithms behind such a device.
 
 > [!WARNING]
 > The FFB pedal is a robot and can be dangerous. Please watch [The Terminator](https://en.wikipedia.org/wiki/The_Terminator) before continuing. If not interacted with care, it may cause harm. I'm not responsible for any harm caused by this design suggestion. Use responsibly and at your own risk.
 
-# Project repositories
-This project has been divided into multiple repositories, each with differt purposes. The mechanical design repository provides the information you need to build the mechanics of ChrGri's pedal. It's not the only design, but it's strong and reliable. There are more options on the Wiki, and you can find even more designs on the Discord server. The Software repo (this repo) discusses how to select, order and connect the electronics, flash the firmware and get the pedal up and running. The final repo, contains designs for the recommended circuit boards that control the pedal.
-| Description           |  Link |
-:------------------------- | :------------------------- |
-| ChrGri's mechanical and electrical design | https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design |
-| Software (firmware, SimHub plugin, ...) |https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal |
-| Control Board and Power Board design | https://github.com/gilphilbert/DIY-Sim-Racing-FFB-Pedal-PCBs |
+---
 
+## 💖 Support the Team
 
-# Support the team
-We :heart: doing research. New hardware (e.g. oscilloscopes, logic analyzers, servos, PCBs) is very expensive. Feel free to support us and thus fasten up the research activity.
+We :heart: doing research. New hardware (e.g. oscilloscopes, logic analyzers, servos, PCBs) is very expensive. Feel free to support us and thus speed up the research activity.
 
 Dev | captainchris | tcfshcrw | gilphilbert
 --- | --- |--- |-- 
 Buy me a coffee | <a href="https://www.buymeacoffee.com/Captainchris"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20px"></a> | <a href="https://www.buymeacoffee.com/tcfshcrw"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20px"></a> |  <a href="https://www.buymeacoffee.com/gilphilbert"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20px"></a>  | 
 Ko-fi | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/captainchris88) | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/tcfshcrw)|  [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/gilphilbert) |
 
+### 🛒 Affiliate Disclosure
 
+Some of the links in the BOMs are affiliate links. As an Amazon Associate I earn from qualifying purchases. The price stays the same for you, and you support the further development of the project. Thank you!
 
+---
 
-# License
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+## 📄 License
 
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -62,35 +121,10 @@ All that, without contributing anything to this project.
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-# BOM
-The price of one pedal is about 250€-400€. <br>
-The electronics BOM can be found [here](BOM/Electronics/README.md). <br>
-The mechanical design BOM can be found [here](BOM/Mechanics/README.md).
+---
 
-# Assembly steps
-1. Order of PCB --> [here](PcbOrder)
-2. Mechanical assembly --> [here](MechanicalDesign_11_20215/Build/Assemlby_PedalArm.md)
-3. Electronical assembly --> [here](Soldering_V7)
-4. Software finalization --> [here](FinalizingSoftware).
+## ⭐ Star History
 
-# Hardware features
-For the interessted reader, some deeper analysis can be found [here](Features).
-
-## Star History
 <a href="https://star-history.com/#ChrGri/DIY-Sim-Racing-FFB-Pedal&ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&Date">
   <img src="https://api.star-history.com/svg?repos=ChrGri/DIY-Sim-Racing-FFB-Pedal,ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design&type=Date" alt="Star History Chart" width="400">
 </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-

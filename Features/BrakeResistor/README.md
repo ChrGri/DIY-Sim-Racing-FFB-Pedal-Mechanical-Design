@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This page describes the brake resistor circuit on the PCB V5 to V7. Since PCB V8, the external [hardware brake resistor module](https://github.com/ChrGri/Diy_Hardware_BrakeResistor) is used instead.
+
 **Brake resisor design:**<br>
 Depending on the load direction, the servo will act as a generator. It will produce an additional (reverse) current flow from the servo to the PSU, which could trigger the over-voltage protection of the PSU and the servo. To prevent this, a two stage brake resistor design was developed
 1) The iSV57 has a "bleeding/braking resistor" method to dissipate the current flow as heat and thus reduce voltage spikes causing overvoltage protection trigger. The method will be activated when a predefined bus voltage is exceeded (currently 40V). A plot of the voltage fluctuations can be found below:<br>

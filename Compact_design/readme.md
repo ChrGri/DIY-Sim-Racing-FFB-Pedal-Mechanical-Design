@@ -1,3 +1,6 @@
+> [!NOTE]
+> This is an alternative, compact design with a 2060 profile. The reference design is described in the [mechanical assembly guide](../MechanicalDesign_11_20215/Build/Assembly_PedalArm.md).
+
 # COMPACT PEDAL DESIGN
 <img src="https://github.com/ChrGri/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/blob/main/Compact_design/image/sideview.png" width="500"><br>
 This is the design minimizing the pedal width with 2060 profile.<br>

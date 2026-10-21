@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This guide is for an older PCB version with the power circuit on the board. The current PCB V8 guide can be found [here](../Soldering_V8).
+
 # Soldering tips
 
 A good soldering iron makes your life easier. I like [TS80](https://s.click.aliexpress.com/e/_olD6hiU) and [TS101](https://s.click.aliexpress.com/e/_opJpOtW) soldering irons. 
