@@ -52,7 +52,7 @@ At first, the top pins have been soldered, afterwards the bottom pins were solde
 
 #### Removing the SMD Resistors
 In order to allow proper function, both onboard 0 Ohm SMD resistors of the ADS1220 module have to be removed <br>
-<img src="img/ads1220.png" width="400">.
+<img src="img/ads1220.png" width="400">
 
 It was easily done by heating up the sides of the resistor quickly.
 
@@ -64,7 +64,7 @@ Put the two 100 Ohm resistors through the holes R1 and R2 and solder them. After
 
 Put the 104 (100 nF) ceramic capacitor through the holes of C1 and solder it. After soldering, remove excessive wire from the PCB. The capacitor doesn't have a polarity, therefore orientation is arbitrary.
 
-<img src="img/rc_filter.JPG" width="400">.
+<img src="img/rc_filter.JPG" width="400">
 
 ### 4️⃣ ESP32-S3 Mini
 Solder two rows of pin headers to the PCB and place the ESP32-S3 mini on top of them. The USB-C port has to face the outer edge of the PCB, as shown on the silkscreen and in the images above, so the USB cable can be plugged in after mounting.
@@ -88,7 +88,7 @@ If you don't have 5 or 6 pin terminals, combine 2 and 3 pin blocks.
 
 ### 6️⃣ Wiring
 The complete wiring is shown below <br>
-<img src="../Wiring/PcbV8/wiring_diagram.svg" width="100%">.
+<img src="../Wiring/PcbV8/wiring_diagram.svg" width="100%">
 
 #### Load Cell
 Connect the DYLY-107 load cell to the load cell terminal:
