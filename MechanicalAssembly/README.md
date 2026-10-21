@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This is an older version of the 3D printed design. The current design is described in the [mechanical assembly guide](../MechanicalDesign_11_20215/Build/Assembly_PedalArm.md).
+
 # Motivation
 Originally, I built my DIY FFB pedal from metal parts. After using it some time, I got curious whether I can come up with a mechanical design that can be mostly 3d printed and is still rigid enough to withstand the heavy loads accuring in simracing. Furthermore, I wanted to reduce the weight of the components, hopefully seeing a positive impact in the pedal response time. This repo documents the journey of doing that.
 
@@ -59,7 +62,7 @@ and take the bearings from there. The benefit is, that they have a screw flange 
 
 ### JKK rail
 
-I'm currently using a [JKK60-10-P-150-A1-F4-C-M](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-module-kk60-series#selection-tab) on my trottle. It's noticeably quieter than the Aliexpress guide. However, it was almost 5 times as expensive inlcuding shipping and taxes. To hold the JKK rail, a 3d printable adapter is used, which can be found [here](CAD/JKK_rail_chris/Jkk_to_2080_adapter v1.stl). 
+I'm currently using a [JKK60-10-P-150-A1-F4-C-M](https://jlcmc.com/product/s/B16/BQD-JKK60/steel-linear-module-kk60-series#selection-tab) on my trottle. It's noticeably quieter than the Aliexpress guide. However, it was almost 5 times as expensive inlcuding shipping and taxes. To hold the JKK rail, a 3d printable adapter is used, which can be found [here](../CAD/JKK_rail_chris/Jkk_to_2080_adapter%20v1.stl). 
 
 ### DYLY-107 loadcell
 Instead of the beefy loacell, smaller ones can be found [here](https://s.click.aliexpress.com/e/_DFQ8bjx). No immediate performance upgrade was observed. 
