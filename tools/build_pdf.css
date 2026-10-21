@@ -1,0 +1,85 @@
+/* Print stylesheet for tools/build_pdf.ps1 */
+
+@page {
+  size: A4;
+  margin: 18mm 16mm 20mm 16mm;
+  @bottom-left { content: "DIY Sim Racing FFB Pedal · Build Guide"; font: 8pt "Segoe UI", sans-serif; color: #777; }
+  @bottom-right { content: counter(page) " / " counter(pages); font: 8pt "Segoe UI", sans-serif; color: #777; }
+}
+@page :first {
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+
+:root {
+  --accent: #eefe00;
+  --text: #1f2328;
+  --muted: #59636e;
+  --border: #d1d9e0;
+  --code-bg: #f6f8fa;
+}
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  margin: 0;
+  font: 10pt/1.5 "Segoe UI", "Segoe UI Emoji", Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: #fff;
+}
+
+/* cover */
+.cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; break-after: page; }
+.cover .banner { width: 100%; }
+.cover h1 { font-size: 34pt; margin: 18mm 0 2mm; border: none; }
+.cover .subtitle { font-size: 14pt; color: var(--muted); margin: 0; }
+.cover .meta { margin-top: 30mm; font-size: 9pt; color: var(--muted); }
+
+/* chapters */
+.toc, .chapter { break-before: page; }
+.chapter-title {
+  font-size: 22pt;
+  margin: 0 0 2mm;
+  padding: 2mm 0 2mm 4mm;
+  border-left: 3mm solid var(--accent);
+  background: #fafbe6;
+}
+.source { font-size: 8pt; color: var(--muted); margin: 0 0 6mm; word-break: break-all; }
+
+.toc ol { padding-left: 6mm; font-size: 11pt; }
+.toc ol > li { margin: 2mm 0; font-weight: 600; }
+.toc ul { font-weight: 400; font-size: 9.5pt; margin: 1mm 0 0; padding-left: 6mm; }
+.toc a { color: var(--text); text-decoration: none; }
+
+/* typography */
+h1, h2, h3, h4 { line-height: 1.25; break-after: avoid; }
+h2 { font-size: 15pt; margin: 8mm 0 3mm; padding-bottom: 1mm; border-bottom: 1px solid var(--border); }
+h3 { font-size: 12pt; margin: 6mm 0 2mm; }
+h4 { font-size: 10.5pt; margin: 4mm 0 2mm; }
+p, ul, ol { margin: 0 0 3mm; }
+a { color: #0969da; text-decoration: none; }
+hr { border: none; border-top: 1px solid var(--border); margin: 6mm 0; }
+code { font: 8.5pt Consolas, monospace; background: var(--code-bg); padding: 0.2em 0.4em; border-radius: 4px; }
+pre { background: var(--code-bg); padding: 3mm; border-radius: 6px; overflow: hidden; white-space: pre-wrap; }
+
+/* images */
+img { max-width: 100%; break-inside: avoid; }
+p > img { display: block; margin: 2mm 0; max-height: 120mm; width: auto; }
+p > img[src$=".svg"] { max-height: none; width: 100%; }
+
+/* tables */
+table { border-collapse: collapse; width: 100%; margin: 0 0 4mm; font-size: 8.5pt; }
+th, td { border: 1px solid var(--border); padding: 1.2mm 2mm; vertical-align: top; }
+th { background: var(--code-bg); text-align: left; }
+tr { break-inside: avoid; }
+td img { display: block; margin: 0 auto; }
+
+/* GitHub alerts */
+.markdown-alert { border-left: 1mm solid; padding: 1mm 4mm; margin: 0 0 4mm; break-inside: avoid; }
+.markdown-alert > :last-child { margin-bottom: 1mm; }
+.markdown-alert-title { font-weight: 600; display: flex; align-items: center; margin-bottom: 1mm; }
+.markdown-alert-title svg { margin-right: 2mm; fill: currentColor; }
+.markdown-alert-note { border-color: #0969da; } .markdown-alert-note .markdown-alert-title { color: #0969da; }
+.markdown-alert-tip { border-color: #1a7f37; } .markdown-alert-tip .markdown-alert-title { color: #1a7f37; }
+.markdown-alert-important { border-color: #8250df; } .markdown-alert-important .markdown-alert-title { color: #8250df; }
+.markdown-alert-warning { border-color: #9a6700; } .markdown-alert-warning .markdown-alert-title { color: #9a6700; }
+.markdown-alert-caution { border-color: #d1242f; } .markdown-alert-caution .markdown-alert-title { color: #d1242f; }

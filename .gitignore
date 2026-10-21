@@ -4,3 +4,6 @@
 # Windows
 Thumbs.db
 desktop.ini
+
+# PDF build output
+tools/output/
