@@ -1,8 +1,11 @@
+> [!IMPORTANT]
+> This is an older PCB version. The current PCB can be found [here](../PcbV8).
+
 # Remark
 Due to a kernel bug, its not recommended to use a V4 (ESP32-S3) without the bridge. The tinyusb kernel bug can make the USB CDC and HID interfere, resulting in pedal output stall.
 
 # PCB file
-[here](Wiring/Esp32S3_V4/Gerber_DIY_FFB_Pedal_PCB_V4_PCB.zip)
+[here](Gerber_DIY_FFB_Pedal_PCB_V4_PCB.zip)
 
 # ESP32 S3 dev board
 The one which has 25.4mm/1" spacing between the pins, see<br>
