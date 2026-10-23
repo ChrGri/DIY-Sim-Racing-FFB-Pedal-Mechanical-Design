@@ -42,6 +42,8 @@ Create a mechanical design that takes into account the weaknesses of FDM 3D‑pr
 * **Wide pedal arm:** The pedal arm has additional width to reduce flex when force is applied off‑center.
 * **3060 base plate:** A 3060 aluminum extrusion allows direct screw‑on attachment of the linear rail guide and flexible mounting to the sim rig.
 
+A statics and FEA analysis of the pedal arm (support forces, bending moment, stress plots and safety factors) is available [here](https://chrgri.github.io/DIY-Sim-Racing-FFB-Pedal-Mechanical-Design/pedal-arm-analysis.html). The source file is [docs/pedal-arm-analysis.html](../../docs/pedal-arm-analysis.html).
+
 ---
 
 <a id="cad-stl-files"></a>
