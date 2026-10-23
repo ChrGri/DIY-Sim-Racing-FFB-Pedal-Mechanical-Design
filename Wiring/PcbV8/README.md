@@ -11,6 +11,7 @@ The control PCB of one pedal. It holds the ESP32-S3 mini, the ADS1220 load cell 
 | [DiyFfbPedalPcbV8.zip](DiyFfbPedalPcbV8.zip) | Gerber files, see [PCB order](../../PcbOrder) |
 | [wiring_diagram.svg](wiring_diagram.svg) | Wiring diagram |
 | [PCB_V8_3D.png](PCB_V8_3D.png) | 3D render |
+| [DiyFfbPedalPcbV8.step](DiyFfbPedalPcbV8.step) | 3D model (STEP) of the assembled PCB, e.g. for enclosure design |
 
 ## 🔌 Screw Terminals
 

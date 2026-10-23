@@ -211,7 +211,14 @@ The PCB V8 is mounted on the rail side cover with the PCB spacer. The electronic
 
 <img src="../../Soldering_V8/img/pcb_v8_mounted_top.jpg" width="400"> <br>
 
+The PCB V8 case covers the PCB on the rail. It has slots for screwdriver access to the screw terminals, an opening for the USB port and a hole for the status LED. The CAD model can be found [here](../../CAD/JKK_rail_chris/KK60_Cover_PCB_V8.solidcraft) ([STEP](../../CAD/JKK_rail_chris/PCB_Case_V8.step)).
+
+| | |
+| :---: | :---: |
+| <img src="Images/PCB_Case_V8_render_rail.png" width="100%"> | <img src="Images/PCB_Case_V8_render_closeup.png" width="100%"> |
+
 | Part | Info | Quantity | STL | Primary link | Secondary link |
 |--|--|--|--|--|--|
 | PCB spacer | 3D print | 1 | [PCB spacer](STL/RailCover/PCBSpacer.stl) | | |
+| PCB V8 case | 3D print | 1 | [PCB case V8](../../CAD/JKK_rail_chris/PCB_Case_V8.stl) | | |
 | M3×15 mm cylinder head screw | | 2 | | | |

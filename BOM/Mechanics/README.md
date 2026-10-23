@@ -24,6 +24,7 @@ Print settings can be found [here](../../MechanicalDesign_11_20215/Build/Assembl
 | Rail side cover (right) | PETG‑CF | 1 | [STL](../../MechanicalDesign_11_20215/Build/STL/RailCover/Cover_right.stl) | [Rail side covers](../../MechanicalDesign_11_20215/Build/Assembly_PedalArm.md#rail-side-covers) |
 | 3060 end cover | PETG‑CF | 2 | [STL](../../MechanicalDesign_11_20215/Build/STL/3060EndCover/3060_cover.stl) | [Attach 3060 cover](../../MechanicalDesign_11_20215/Build/Assembly_PedalArm.md#attach-3060-cover) |
 | PCB spacer | PETG‑CF | 1 | [STL](../../MechanicalDesign_11_20215/Build/STL/RailCover/PCBSpacer.stl) | [Attach PCB](../../MechanicalDesign_11_20215/Build/Assembly_PedalArm.md#attach-pcb) |
+| PCB V8 case | PETG‑CF | 1 | [STL](../../CAD/JKK_rail_chris/PCB_Case_V8.stl) | [Attach PCB](../../MechanicalDesign_11_20215/Build/Assembly_PedalArm.md#attach-pcb) |
 
 <a id="servo-rail-profile-and-bearings"></a>
 ### ⚙️ Servo, Rail, Profile and Bearings

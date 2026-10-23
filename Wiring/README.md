@@ -3,7 +3,7 @@
 ## ✅ Current PCB
 | Folder | Content |
 | :--- | :--- |
-| [PcbV8](PcbV8) | Control PCB V8: gerber files, wiring diagram and terminal pinout. Use it together with the [hardware brake resistor module](https://github.com/ChrGri/Diy_Hardware_BrakeResistor). |
+| [PcbV8](PcbV8) | Control PCB V8: gerber files, 3D model (STEP), wiring diagram and terminal pinout. Use it together with the [hardware brake resistor module](https://github.com/ChrGri/Diy_Hardware_BrakeResistor). |
 
 ## 🧩 Accessories
 | Folder | Content |
