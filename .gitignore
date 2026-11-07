@@ -7,3 +7,7 @@ desktop.ini
 
 # PDF build output
 tools/output/
+
+# CAD backup and lock files
+*.bak
+.~*.lock
