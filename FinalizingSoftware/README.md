@@ -38,7 +38,7 @@ Ready-to-use configs for the brake and the throttle of this design are provided:
 > The configs already contain the pedal kinematic, the Regen handling setting and the spindle pitch. If your rail has a different spindle pitch, adjust it in the plugin.
 
 ### Pedal Kinematic
-To accurately estimate the pedal force, the controller needs information about the geometric design. The values of the [current mechanical design](../MechanicalDesign_11_20215/Build/Assembly_PedalArm.md) are already included in the configs above. To check them, open the **PEDAL-KINEMATIC** tab:
+To accurately estimate the pedal force, the controller needs information about the geometric design. The values of the [current mechanical design](../MechanicalDesign_11_20215/Build/Build_Instructions.md) are already included in the configs above. To check them, open the **PEDAL-KINEMATIC** tab:
 
 | Parameter | Value |
 | :--- | :--- |

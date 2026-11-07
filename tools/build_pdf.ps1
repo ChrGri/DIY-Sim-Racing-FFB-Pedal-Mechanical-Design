@@ -24,7 +24,7 @@ $chapters = @(
   @{ File = "BOM\Mechanics\README.md";                           Title = "📦 Mechanical BOM" },
   @{ File = "BOM\Electronics\README.md";                         Title = "📦 Electronics BOM" },
   @{ File = "PcbOrder\README.md";                                Title = "🧾 Order PCB" },
-  @{ File = "MechanicalDesign_11_20215\Build\Assembly_PedalArm.md"; Title = "🦶 Mechanical Assembly" },
+  @{ File = "MechanicalDesign_11_20215\Build\Build_Instructions.md"; Title = "🦶 Mechanical Assembly" },
   @{ File = "Soldering_V8\README.md";                            Title = "🔌 Electronics Assembly (PCB V8)" },
   @{ File = $null;                                               Title = "🔥 Hardware Brake Resistor" },
   @{ File = "FinalizingSoftware\README.md";                      Title = "💻 Software Finalization" }

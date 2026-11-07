@@ -129,7 +129,7 @@ Connect 3 AWG 30 wires to the RS232 terminal and to the servo debug port connect
 The servo is powered directly from the [hardware brake resistor module](https://github.com/ChrGri/Diy_Hardware_BrakeResistor): PSU → SR5100 → DC IN of the MOSFET board → servo +Vdc / GND. Further pedals are connected in parallel to the same DC IN terminals. Follow the build guide in that repository.
 
 ### 7️⃣ Mounting and Power Up
-Mount the PCB to the pedal as described in the [mechanical assembly](../MechanicalDesign_11_20215/Build/Assembly_PedalArm.md#attach-pcb).
+Mount the PCB to the pedal as described in the [mechanical assembly](../MechanicalDesign_11_20215/Build/Build_Instructions.md#attach-pcb).
 
 Then power up the pedal in this order:
 1. **Flash the firmware:** Connect only the USB-C cable to the PC and flash the firmware. The servo supply stays switched off.

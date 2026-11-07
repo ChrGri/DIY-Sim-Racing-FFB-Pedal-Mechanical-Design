@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> This is an older version of the 3D printed design. The current design is described in the [mechanical assembly guide](../MechanicalDesign_11_20215/Build/Assembly_PedalArm.md).
+> This is an older version of the 3D printed design. The current design is described in the [mechanical assembly guide](../MechanicalDesign_11_20215/Build/Build_Instructions.md).
 
 # Motivation
 Originally, I built my DIY FFB pedal from metal parts. After using it some time, I got curious whether I can come up with a mechanical design that can be mostly 3d printed and is still rigid enough to withstand the heavy loads accuring in simracing. Furthermore, I wanted to reduce the weight of the components, hopefully seeing a positive impact in the pedal response time. This repo documents the journey of doing that.
@@ -31,7 +31,7 @@ The pedal arms have a certain width to it, to reduce flex, when pedal force is a
 As a base-plate a 2080 aluminium extrusion was chooses as it allows easy screw on of attachments as well as easy and flexible attachment to the simrig.
 
 
-As a FDM material I choosed [PETG-CF](https://amzn.eu/d/00g90wIk), since the carbon fibre particales make the parts supper stiff and the PETG gives good layer bonding while having a better heat resistance than PLA.
+As a FDM material I choosed [PETG-CF](https://link.amazon/B04hdXFsW), since the carbon fibre particales make the parts supper stiff and the PETG gives good layer bonding while having a better heat resistance than PLA.
 
 
 
