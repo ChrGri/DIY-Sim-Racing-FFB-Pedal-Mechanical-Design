@@ -25,6 +25,7 @@ The PCB gerber files can be found [here](../Wiring/PcbV8/DiyFfbPedalPcbV8.zip), 
 | ADS1220 | load cell ADC | 1 per pedal |
 | SP3232 / MAX3232 module | TTL ↔ RS232, for servo communication | 1 per pedal |
 | 100 Ohm resistor | R1 and R2 of the RC filter | 2 per pedal |
+| 10 kOhm resistor | R3, pull-up on the SP3232 input, see [why](SP3232_PullUp.md) | 1 per pedal |
 | Ceramic capacitor 104 (100 nF) | C1 of the RC filter | 1 per pedal |
 | 2.54 mm pitch screw terminals | 5 pin load cell, 3 pin RS232, 6 pin PUL/DIR/ALM (can be combined from 2 and 3 pin blocks) | 1 set per pedal |
 | Pin header | for the modules | |
@@ -36,12 +37,29 @@ See the [electronics BOM](../BOM/Electronics/README.md) for links.
 
 ## 🛠️ Build Guide
 
+> [!NOTE]
+> New: a 10 kOhm pull-up resistor (R3) on the SP3232 module, see [step 1](#pull-up-resistor-r3) and [why it is needed](SP3232_PullUp.md).
+
 ### 1️⃣ SP3232 Assembly
 Slice off a 3 and a 4 pin header from the header row and put them on the PCB.
 
 Place the SP3232 module on the header pins next.
 
 At first, the top pins have been soldered, afterwards the bottom pins were soldered.
+
+#### Pull-Up Resistor (R3)
+Solder a 10 kOhm resistor between the outer pins of the 4 pin row (TTL side) of the SP3232 module:
+* **Left pin:** `VCC` (3.3 V)
+* **Right pin:** `RXD` (ESP32 TX)
+
+Bend the leads so that the resistor lies flat on the module, above the two middle pins. The leads must not touch the two middle pins (`GND`, `TXD`). The resistor has no polarity.
+
+| Render (R3) | Soldered |
+| :---: | :---: |
+| <img src="img/sp3232_pullup/render_r3_detail.png" width="100%"> | <img src="img/sp3232_pullup/sp3232_pullup_soldered.jpg" width="100%"> |
+
+> [!IMPORTANT]
+> Without this resistor, the servo can start with its red ALM LED on (permanent alarm) when it is switched on at the same time as the ESP32. See [SP3232 pull-up: motivation and measurements](SP3232_PullUp.md).
 
 ### 2️⃣ ADS1220 Assembly
 Correct length pin headers came with the ADS1220. Place them on the PCB.

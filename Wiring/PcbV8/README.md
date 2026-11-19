@@ -4,6 +4,9 @@ The control PCB of one pedal. It holds the ESP32-S3 mini, the ADS1220 load cell 
 
 <img src="PCB_V8_3D.png" width="100%">
 
+> [!IMPORTANT]
+> Solder a 10 kOhm pull-up resistor (R3) between `VCC` and `RXD` of the SP3232 module (TTL side). It is not part of the Gerber files. See [SP3232 pull-up](../../Soldering_V8/SP3232_PullUp.md).
+
 ## 📁 Files
 
 | File | Content |
